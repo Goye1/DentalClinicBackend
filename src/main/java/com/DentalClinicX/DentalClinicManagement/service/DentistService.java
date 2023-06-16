@@ -1,9 +1,9 @@
 package com.DentalClinicX.DentalClinicManagement.service;
 
+import com.DentalClinicX.DentalClinicManagement.model.dto.AppointmentDTO;
 import com.DentalClinicX.DentalClinicManagement.model.dto.DentistDTO;
+import com.DentalClinicX.DentalClinicManagement.persistance.entity.Appointment;
 import com.DentalClinicX.DentalClinicManagement.persistance.entity.Dentist;
-import com.DentalClinicX.DentalClinicManagement.persistance.entity.Patient;
-import com.DentalClinicX.DentalClinicManagement.persistance.repository.IAppointmentRepository;
 import com.DentalClinicX.DentalClinicManagement.persistance.repository.IDentistRepository;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -15,6 +15,7 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
+import java.util.Set;
 
 @Service
 public class DentistService {
@@ -23,12 +24,10 @@ public class DentistService {
     @Autowired
     private Logger logger;
     private final IDentistRepository dentistRepository;
-    private final IAppointmentRepository appointmentRepository;
 
     @Autowired
-    public DentistService(IDentistRepository dentistRepository,IAppointmentRepository appointmentRepository) {
+    public DentistService(IDentistRepository dentistRepository) {
         this.dentistRepository = dentistRepository;
-        this.appointmentRepository = appointmentRepository;
     }
 
     public List<DentistDTO> listDentists() {
@@ -48,18 +47,15 @@ public class DentistService {
     public Dentist addDentist(Dentist dentist) {
         Dentist d = null;
         try {
-            for (Dentist p:dentistRepository.findAll()) {
-                assert !Objects.equals(p.getLicenseNumber(), dentist.getLicenseNumber());
-            }
-            dentistRepository.save(dentist);
-            if (dentistRepository.existsById(dentist.getId())) {
-                d = dentist;
-                logger.info("A new dentist named: " + dentist.getName() + " " + dentist.getSurname() + " has been added.");
+            if (!dentistRepository.existsBylicenseNumber(dentist.getLicenseNumber())) {
+                dentistRepository.save(dentist);
+                if (dentistRepository.existsById(dentist.getId())) {
+                    d = dentist;
+                    logger.info("A new dentist named: " + dentist.getName() + " " + dentist.getSurname() + " has been added.");
+                }
             }
         } catch (DataAccessException e) {
             logger.fatal("Error attempting to add the dentist: " + dentist.getName() + " " + dentist.getSurname(), e.getCause());
-        }catch (AssertionError e){
-            logger.fatal("A dentist with that Id card already exists",e.getCause());
         }
         return d;
     }
@@ -68,17 +64,15 @@ public class DentistService {
         Dentist existingDentist = null;
         try {
             existingDentist = dentistRepository.findById(modifiedDentist.getId()).orElse(null);
-            assert existingDentist != null;
-            objectMapper.updateValue(existingDentist, modifiedDentist);
-            for (Dentist p:dentistRepository.findAll()) {
-                assert !Objects.equals(p.getLicenseNumber(), modifiedDentist.getLicenseNumber());
+            if (existingDentist != null) {
+                if (!dentistRepository.existsBylicenseNumber(modifiedDentist.getLicenseNumber()) || Objects.equals(modifiedDentist.getLicenseNumber(), existingDentist.getLicenseNumber())) {
+                    objectMapper.updateValue(existingDentist, modifiedDentist);
+                    dentistRepository.save(existingDentist);
+                    logger.info("The dentist " + existingDentist.getName() + " " + existingDentist.getSurname() + " has been modified");
+                }
             }
-            dentistRepository.save(existingDentist);
-            logger.info("The dentist " + existingDentist.getName() + " " + existingDentist.getSurname() + " has been modified");
         } catch (DataAccessException e) {
             logger.fatal("Error attempting to modify a dentist", e.getCause());
-        } catch (AssertionError e) {
-            logger.fatal("A dentist with that Id card already exists",e.getCause());
         } catch (JsonMappingException e) {
             logger.error(e.getCause());
             throw new RuntimeException(e);
@@ -90,12 +84,11 @@ public class DentistService {
         Dentist d = null;
         try {
             d = dentistRepository.findById(id).orElse(null);
-            assert d != null;
-            dentistRepository.delete(d);
-            logger.info("The dentist " + d.getName() + " " + d.getSurname() + " has been deleted");
-        }catch (AssertionError e){
-            logger.error("Dentist not found", e.getCause());
-        }catch (DataAccessException e){
+            if (d != null) {
+                dentistRepository.delete(d);
+                logger.info("The dentist " + d.getName() + " " + d.getSurname() + " has been deleted");
+            }
+        } catch (DataAccessException e) {
             logger.fatal("Error attempting to modify a dentist", e.getCause());
         }
         return d;
@@ -113,13 +106,32 @@ public class DentistService {
         return dentists;
     }
 
-    public Dentist findById(Long id){
+    public Dentist findById(Long id) {
         Dentist dentist = null;
         try {
             dentist = dentistRepository.findById(id).orElse(null);
-        }catch (DataAccessException e){
+        } catch (DataAccessException e) {
             logger.fatal("Error trying to find a patient by id", e.getCause());
         }
         return dentist;
+    }
+
+    public List<AppointmentDTO> listAppointments(Long id) {
+        List<AppointmentDTO> appointmentDTOList = null;
+        Dentist foundDentist = null;
+        try {
+            foundDentist = this.findById(id);
+            if (foundDentist != null) {
+                Set<Appointment> appointmentHashSet = foundDentist.getAppointments();
+                appointmentDTOList = new ArrayList<>();
+                for (Appointment a : appointmentHashSet) {
+                    appointmentDTOList.add(objectMapper.convertValue(a, AppointmentDTO.class));
+                }
+            }
+        } catch (DataAccessException e) {
+            assert foundDentist != null;
+            logger.fatal("Error trying to list all the appointments for the dentist: " + foundDentist.getName() + " " + foundDentist.getSurname(), e.getCause());
+        }
+        return appointmentDTOList;
     }
 }

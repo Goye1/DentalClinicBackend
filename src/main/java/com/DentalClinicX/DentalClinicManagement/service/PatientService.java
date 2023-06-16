@@ -8,7 +8,6 @@ import com.DentalClinicX.DentalClinicManagement.persistance.entity.Dentist;
 import com.DentalClinicX.DentalClinicManagement.persistance.entity.Patient;
 import com.DentalClinicX.DentalClinicManagement.persistance.repository.IAddressRepository;
 import com.DentalClinicX.DentalClinicManagement.persistance.repository.IAppointmentRepository;
-import com.DentalClinicX.DentalClinicManagement.persistance.repository.IDentistRepository;
 import com.DentalClinicX.DentalClinicManagement.persistance.repository.IPatientRepository;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -58,8 +57,8 @@ public class PatientService {
     public Patient addPatient(Patient patient, Address address) {
         Patient p = null;
         try {
-            for (Patient d:patientRepository.findAll()) {
-                assert d.getIdCard() != patient.getIdCard();
+            if (patientRepository.existsByidCard(patient.getIdCard())) {
+                return null;
             }
             patient.setAddress(address);
             addressRepository.save(address);
@@ -70,8 +69,8 @@ public class PatientService {
             }
         } catch (DataAccessException e) {
             logger.fatal("Error attempting to add the patient: " + patient.getName() + " " + patient.getSurname(), e.getCause());
-        }catch (AssertionError e){
-            logger.fatal("A patient with that Id card already exists",e.getCause());
+        } catch (AssertionError e) {
+            logger.fatal("A patient with that Id card already exists", e.getCause());
         }
         return p;
     }
@@ -91,21 +90,17 @@ public class PatientService {
     public Patient modifyPatient(Patient modifiedPatient) {
         Patient existingPatient = null;
         try {
-            for (Patient d:patientRepository.findAll()) {
-                assert d.getIdCard() != modifiedPatient.getIdCard();
-            }
             existingPatient = patientRepository.findById(modifiedPatient.getId()).orElse(null);
-            assert existingPatient != null;
-            objectMapper.updateValue(existingPatient, modifiedPatient);
-            patientRepository.save(existingPatient);
-            logger.info("The patient " + existingPatient.getName() + " " + existingPatient.getSurname() + " has been modified");
+            if(existingPatient != null){
+            if (!patientRepository.existsByidCard(modifiedPatient.getIdCard()) || existingPatient.getIdCard() == modifiedPatient.getIdCard()) {
+                objectMapper.updateValue(existingPatient, modifiedPatient);
+                patientRepository.save(existingPatient);
+                logger.info("The patient " + existingPatient.getName() + " " + existingPatient.getSurname() + " has been modified");
+            }}
         } catch (DataAccessException e) {
             logger.fatal("Error attempting to modify a patient", e.getCause());
-        } catch (AssertionError e) {
-            logger.fatal("A dentist with that Id card already exists",e.getCause());
         } catch (JsonMappingException e) {
             logger.error(e.getCause());
-            throw new RuntimeException(e);
         }
         return existingPatient;
     }
@@ -114,22 +109,20 @@ public class PatientService {
         Patient p = null;
         try {
             p = patientRepository.findById(id).orElse(null);
-            assert p != null;
+            if(p != null){
             patientRepository.delete(p);
-            logger.info("The patient " + p.getName() + " " + p.getSurname() + " has been deleted");
-        } catch (AssertionError e) {
-            logger.error("Patient not found", e.getCause());
+            logger.info("The patient " + p.getName() + " " + p.getSurname() + " has been deleted");}
         } catch (DataAccessException e) {
             logger.fatal("Error trying to modify a patient", e.getCause());
         }
         return p;
     }
 
-    public Patient findById(Long id){
+    public Patient findById(Long id) {
         Patient patient = null;
         try {
-           patient = patientRepository.findById(id).orElse(null);
-        }catch (DataAccessException e){
+            patient = patientRepository.findById(id).orElse(null);
+        } catch (DataAccessException e) {
             logger.fatal("Error trying to find a patient by id", e.getCause());
         }
         return patient;
@@ -140,16 +133,16 @@ public class PatientService {
         try {
             Dentist dentist = dentistService.findById(appointment.getDentist_id());
             Patient patient = this.findById(appointment.getPatient_id());
-        if(dentist != null && patient != null) {
-            realAppointment = new Appointment();
-            realAppointment.setDentist(dentist);
-            realAppointment.setPatient(patient);
-            realAppointment.setAppointmentDate(appointment.getAppointmentDate());
-            patient.getAppointments().add(realAppointment);
-            dentist.getAppointments().add(realAppointment);
-            appointmentRepository.save(realAppointment);
-        }
-        }catch (DataAccessException e){
+            if (dentist != null && patient != null) {
+                realAppointment = new Appointment();
+                realAppointment.setDentist(dentist);
+                realAppointment.setPatient(patient);
+                realAppointment.setAppointmentDate(appointment.getAppointmentDate());
+                patient.getAppointments().add(realAppointment);
+                dentist.getAppointments().add(realAppointment);
+                appointmentRepository.save(realAppointment);
+            }
+        } catch (DataAccessException e) {
             logger.fatal("Error trying to add an appointment", e.getCause());
         }
         return realAppointment;

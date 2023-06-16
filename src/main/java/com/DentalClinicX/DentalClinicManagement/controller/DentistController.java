@@ -1,5 +1,6 @@
 package com.DentalClinicX.DentalClinicManagement.controller;
 
+import com.DentalClinicX.DentalClinicManagement.model.dto.AppointmentDTO;
 import com.DentalClinicX.DentalClinicManagement.model.dto.DentistDTO;
 import com.DentalClinicX.DentalClinicManagement.persistance.entity.Dentist;
 import com.DentalClinicX.DentalClinicManagement.service.DentistService;
@@ -70,4 +71,13 @@ public class DentistController {
         }
     }
 
+    @GetMapping("dentists/listAppointments")
+    public ResponseEntity<List<AppointmentDTO>> listAppointments(@RequestParam Long id) {
+        List<AppointmentDTO> serviceResponse = dentistService.listAppointments(id);
+        if (serviceResponse == null) {
+            return new ResponseEntity<>(null, HttpStatus.BAD_REQUEST);
+        } else {
+            return new ResponseEntity<>(serviceResponse, HttpStatus.OK);
+        }
+    }
 }

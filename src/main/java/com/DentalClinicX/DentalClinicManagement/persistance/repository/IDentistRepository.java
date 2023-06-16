@@ -8,6 +8,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface IDentistRepository  extends JpaRepository<Dentist,Long> {
-
+    boolean existsBylicenseNumber(Integer licenseNumber);
 
 }

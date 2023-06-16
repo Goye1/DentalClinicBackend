@@ -1,26 +1,26 @@
 package com.DentalClinicX.DentalClinicManagement.model.wrapper;
 
-import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 public class AppointmentWrapper {
-    private LocalDate appointmentDate;
+    private LocalDateTime appointmentDate;
     private Long patient_id;
     private Long dentist_id;
 
     public AppointmentWrapper() {
     }
 
-    public AppointmentWrapper(LocalDate appointmentDate, long patient_id, long dentist_id) {
+    public AppointmentWrapper(LocalDateTime appointmentDate, long patient_id, long dentist_id) {
         this.appointmentDate = appointmentDate;
         this.patient_id = patient_id;
         this.dentist_id = dentist_id;
     }
 
-    public LocalDate getAppointmentDate() {
+    public LocalDateTime getAppointmentDate() {
         return appointmentDate;
     }
 
-    public void setAppointmentDate(LocalDate appointmentDate) {
+    public void setAppointmentDate(LocalDateTime appointmentDate) {
         this.appointmentDate = appointmentDate;
     }
 

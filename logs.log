@@ -3275,3 +3275,34 @@ java.lang.IllegalArgumentException: The given id must not be null
 [2023-06-15 23:57:30] [ INFO ] [LoggerConfig:53] A new dentist named: Juan Doe has been added.
 [2023-06-16 00:03:59] [ INFO ] [LoggerConfig:66] A new patient named: Carlos Doe has been added.
 [2023-06-16 00:04:02] [ INFO ] [LoggerConfig:53] A new dentist named: Juan Doe has been added.
+[2023-06-16 01:04:55] [ INFO ] [LoggerConfig:69] A new patient named: Carlos Doe has been added.
+[2023-06-16 01:05:02] [ INFO ] [LoggerConfig:69] A new patient named: Carlos Doe has been added.
+[2023-06-16 01:05:17] [ INFO ] [LoggerConfig:69] A new patient named: Carlos Doe has been added.
+[2023-06-16 01:05:32] [ INFO ] [LoggerConfig:69] A new patient named: Carlos Doe has been added.
+[2023-06-16 01:09:03] [ INFO ] [LoggerConfig:69] A new patient named: Carlos Doe has been added.
+[2023-06-16 01:09:04] [ INFO ] [LoggerConfig:69] A new patient named: Carlos Doe has been added.
+[2023-06-16 01:09:30] [ INFO ] [LoggerConfig:69] A new patient named: Carlos Doe has been added.
+[2023-06-16 01:10:44] [ INFO ] [LoggerConfig:69] A new patient named: Carlos Doe has been added.
+[2023-06-16 01:10:46] [ INFO ] [LoggerConfig:69] A new patient named: Carlos Doe has been added.
+[2023-06-16 01:21:07] [ INFO ] [LoggerConfig:69] A new patient named: Carlos Doe has been added.
+[2023-06-16 01:21:15] [ INFO ] [LoggerConfig:69] A new patient named: Carlos Doe has been added.
+[2023-06-16 01:42:30] [ INFO ] [LoggerConfig:69] A new patient named: Carlos Doe has been added.
+[2023-06-16 01:42:51] [ INFO ] [LoggerConfig:57] A new dentist named: Juan Doe has been added.
+[2023-06-16 17:12:12] [ INFO ] [LoggerConfig:68] A new patient named: Carlos Doe has been added.
+[2023-06-16 17:12:22] [ INFO ] [LoggerConfig:52] A new dentist named: Juan Doe has been added.
+[2023-06-16 17:12:38] [ INFO ] [LoggerConfig:97] The patient Juan Doe has been modified
+[2023-06-16 17:14:23] [ INFO ] [LoggerConfig:68] The dentist Marcos Doe has been modified
+[2023-06-16 17:14:41] [ INFO ] [LoggerConfig:68] The dentist lol Doe has been modified
+[2023-06-16 17:15:22] [ INFO ] [LoggerConfig:68] The dentist lol Doe has been modified
+[2023-06-16 17:17:22] [ INFO ] [LoggerConfig:97] The patient da Doe has been modified
+[2023-06-16 17:18:00] [ INFO ] [LoggerConfig:97] The patient daa sa has been modified
+[2023-06-16 17:18:20] [ INFO ] [LoggerConfig:97] The patient dad sa has been modified
+[2023-06-16 17:29:49] [ INFO ] [LoggerConfig:68] A new patient named: Carlos Doe has been added.
+[2023-06-16 17:37:56] [ INFO ] [LoggerConfig:68] A new patient named: Carlos Doe has been added.
+[2023-06-16 17:38:02] [ INFO ] [LoggerConfig:98] The patient sd sa has been modified
+[2023-06-16 17:38:08] [ INFO ] [LoggerConfig:98] The patient asa sa has been modified
+[2023-06-16 17:38:12] [ INFO ] [LoggerConfig:98] The patient asa sa has been modified
+[2023-06-16 17:38:29] [ INFO ] [LoggerConfig:68] A new patient named: Carlos Doe has been added.
+[2023-06-16 17:41:05] [ INFO ] [LoggerConfig:98] The patient da sa has been modified
+[2023-06-16 17:41:12] [ INFO ] [LoggerConfig:98] The patient da dadsa has been modified
+[2023-06-16 17:41:21] [ INFO ] [LoggerConfig:98] The patient da dadsa has been modified
