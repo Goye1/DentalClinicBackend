@@ -13,6 +13,12 @@ public class DentistDTO implements Serializable {
     public DentistDTO() {
     }
 
+    public DentistDTO(String name, String surname, int licenseNumber) {
+        this.name = name;
+        this.surname = surname;
+        this.licenseNumber = licenseNumber;
+    }
+
     public String getName() {
         return name;
     }

@@ -9,6 +9,7 @@ import java.util.Set;
 @Entity
 @Table
 public class Dentist {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -24,6 +25,15 @@ public class Dentist {
     private Set<Appointment> appointments = new HashSet<>();
     public Dentist() {
     }
+
+    public Dentist(Long id, String name, String surname, Integer licenseNumber, Set<Appointment> appointments) {
+        this.id = id;
+        this.name = name;
+        this.surname = surname;
+        this.licenseNumber = licenseNumber;
+        this.appointments = appointments;
+    }
+
     public String getName() {
         return name;
     }

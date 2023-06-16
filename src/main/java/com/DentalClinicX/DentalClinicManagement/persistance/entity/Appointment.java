@@ -3,7 +3,7 @@ package com.DentalClinicX.DentalClinicManagement.persistance.entity;
 
 import jakarta.persistence.*;
 
-import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @Entity
 @Table
@@ -12,7 +12,7 @@ public class Appointment {
     @GeneratedValue (strategy = GenerationType.IDENTITY)
     private Long id;
     @Column(nullable = false)
-    private LocalDate appointmentDate;
+    private LocalDateTime appointmentDate;
     @ManyToOne
     @JoinColumn(name = "dentist_id", nullable = false)
     private Dentist dentist;
@@ -34,11 +34,11 @@ public class Appointment {
         this.id = id;
     }
 
-    public LocalDate getAppointmentDate() {
+    public LocalDateTime getAppointmentDate() {
         return appointmentDate;
     }
 
-    public void setAppointmentDate(LocalDate appointmentDate) {
+    public void setAppointmentDate(LocalDateTime appointmentDate) {
         this.appointmentDate = appointmentDate;
     }
 
