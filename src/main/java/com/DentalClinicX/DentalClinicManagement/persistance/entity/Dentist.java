@@ -9,7 +9,6 @@ import java.util.Set;
 @Entity
 @Table
 public class Dentist {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
