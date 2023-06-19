@@ -3,6 +3,7 @@ package com.DentalClinicX.DentalClinicManagement.controller;
 import com.DentalClinicX.DentalClinicManagement.model.dto.AppointmentDTO;
 import com.DentalClinicX.DentalClinicManagement.model.dto.PatientDTO;
 import com.DentalClinicX.DentalClinicManagement.model.wrapper.AppointmentWrapper;
+import com.DentalClinicX.DentalClinicManagement.persistance.repositoryMongo.IAppointmentRepositoryMongo;
 import com.DentalClinicX.DentalClinicManagement.persistance.entity.Address;
 import com.DentalClinicX.DentalClinicManagement.persistance.entity.Appointment;
 import com.DentalClinicX.DentalClinicManagement.persistance.entity.Patient;
@@ -18,9 +19,11 @@ import java.util.List;
 public class PatientController {
     private final PatientService patientService;
 
+
     @Autowired
-    public PatientController(PatientService patientService) {
+    public PatientController(PatientService patientService, IAppointmentRepositoryMongo mongoAppointmentRepository) {
         this.patientService = patientService;
+
     }
 
     @PostMapping("/patients/add")
@@ -93,6 +96,4 @@ public class PatientController {
             return new ResponseEntity<>(serviceResponse, HttpStatus.OK);
         }
     }
-
-
 }
