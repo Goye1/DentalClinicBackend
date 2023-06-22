@@ -1,9 +1,6 @@
 package com.DentalClinicX.DentalClinicManagement.service;
 
-import com.DentalClinicX.DentalClinicManagement.persistance.entity.Appointment;
 import com.DentalClinicX.DentalClinicManagement.persistance.entity.Patient;
-import com.DentalClinicX.DentalClinicManagement.persistance.entityMongo.AppointmentMongo;
-import com.DentalClinicX.DentalClinicManagement.persistance.entityMongo.DentistMongo;
 import com.DentalClinicX.DentalClinicManagement.persistance.entityMongo.PatientMongo;
 import com.DentalClinicX.DentalClinicManagement.persistance.repository.IPatientRepository;
 import com.DentalClinicX.DentalClinicManagement.persistance.repositoryMongo.IPatientRepositoryMongo;
@@ -34,7 +31,7 @@ public class PatientServiceMongo {
         List<Patient> patients = patientRepository.findByDischargeDateBefore(currentDate);
         if (!patients.isEmpty()) {
             for (Patient patient : patients) {
-                PatientMongo patientMongo = new PatientMongo(patient.getName(),patient.getSurname(), patient.getDischargeDate());
+                PatientMongo patientMongo = new PatientMongo(patient.getName(),patient.getSurname(), patient.getDischargeDate(), patient.getId());
                 patientRepositoryMongo.save(patientMongo);
                 patientRepository.delete(patient);
             }

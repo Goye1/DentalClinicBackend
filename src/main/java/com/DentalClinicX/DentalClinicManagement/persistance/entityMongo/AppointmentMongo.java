@@ -14,14 +14,24 @@ public class AppointmentMongo {
     private DentistMongo dentist;
 
     private PatientMongo patient;
+    private String reason;
 
     public AppointmentMongo() {
     }
 
-    public AppointmentMongo(LocalDateTime localDateTime, DentistMongo dentist, PatientMongo patient) {
+    public AppointmentMongo(LocalDateTime localDateTime, DentistMongo dentist, PatientMongo patient, String reason) {
         this.localDateTime = localDateTime;
         this.dentist = dentist;
         this.patient = patient;
+        this.reason = reason;
+    }
+
+    public String getReason() {
+        return reason;
+    }
+
+    public void setReason(String reason) {
+        this.reason = reason;
     }
 
     public String getId() {

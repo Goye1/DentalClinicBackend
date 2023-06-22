@@ -10,14 +10,24 @@ public class PatientMongo {
     private String name;
     private String surname;
     private LocalDate dischargeDate;
+    private Long patientID;
 
     public PatientMongo() {
     }
 
-    public PatientMongo(String name, String surname, LocalDate dischargeDate) {
+    public PatientMongo(String name, String surname, LocalDate dischargeDate, Long patientID) {
         this.name = name;
         this.surname = surname;
         this.dischargeDate = dischargeDate;
+        this.patientID = patientID;
+    }
+
+    public Long getPatientID() {
+        return patientID;
+    }
+
+    public void setPatientID(Long patientID) {
+        this.patientID = patientID;
     }
 
     public String getId() {

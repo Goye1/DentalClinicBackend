@@ -34,11 +34,18 @@ public class AppointmentServiceMongo {
         if (!appointments.isEmpty()) {
             for (Appointment appointment : appointments) {
                 DentistMongo dentistMongo = new DentistMongo(appointment.getDentist().getName(), appointment.getDentist().getSurname(), appointment.getDentist().getLicenseNumber());
-                PatientMongo patientMongo = new PatientMongo(appointment.getPatient().getName(), appointment.getDentist().getSurname(), appointment.getPatient().getDischargeDate());
-                AppointmentMongo appointmentMongo = new AppointmentMongo(appointment.getAppointmentDate(), dentistMongo, patientMongo);
+                PatientMongo patientMongo = new PatientMongo(appointment.getPatient().getName(), appointment.getDentist().getSurname(), appointment.getPatient().getDischargeDate(), appointment.getPatient().getId());
+                AppointmentMongo appointmentMongo = new AppointmentMongo(appointment.getAppointmentDate(), dentistMongo, patientMongo, appointment.getReason());
+                System.out.println("Eliminando bullshit");
                 appointmentMongoRepository.save(appointmentMongo);
                 appointmentRepository.delete(appointment);
             }
         }
     }
+
+    public List<AppointmentMongo> listAppointments(Long id){
+        return appointmentMongoRepository.findByPatient_PatientID(id);
+    }
+
+
 }

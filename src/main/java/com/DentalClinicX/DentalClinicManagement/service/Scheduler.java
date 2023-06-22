@@ -15,7 +15,7 @@ public class Scheduler {
 
     @Scheduled(cron = "0 * * * * ?", zone = "America/Argentina/Buenos_Aires")
     public void processExpiredAppointments() {
-        patientServiceMongo.processPatients();
         appointmentService.processAppointments();
+        patientServiceMongo.processPatients();
     }
 }

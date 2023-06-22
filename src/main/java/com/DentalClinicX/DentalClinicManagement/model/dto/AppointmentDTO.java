@@ -11,8 +11,17 @@ public class AppointmentDTO implements Serializable {
     private PatientDTO patient;
     private DentistDTO dentist;
     private LocalDateTime appointmentDate;
+    private String reason;
 
     public AppointmentDTO() {
+    }
+
+    public String getReason() {
+        return reason;
+    }
+
+    public void setReason(String reason) {
+        this.reason = reason;
     }
 
     public PatientDTO getPatient() {

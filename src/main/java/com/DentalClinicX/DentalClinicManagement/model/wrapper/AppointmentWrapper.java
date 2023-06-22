@@ -6,14 +6,24 @@ public class AppointmentWrapper {
     private LocalDateTime appointmentDate;
     private Long patient_id;
     private Long dentist_id;
+    private String reason;
 
     public AppointmentWrapper() {
     }
 
-    public AppointmentWrapper(LocalDateTime appointmentDate, long patient_id, long dentist_id) {
+    public AppointmentWrapper(LocalDateTime appointmentDate, long patient_id, long dentist_id, String reason) {
         this.appointmentDate = appointmentDate;
         this.patient_id = patient_id;
         this.dentist_id = dentist_id;
+        this.reason = reason;
+    }
+
+    public String getReason() {
+        return reason;
+    }
+
+    public void setReason(String reason) {
+        this.reason = reason;
     }
 
     public LocalDateTime getAppointmentDate() {

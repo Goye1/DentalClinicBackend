@@ -11,3 +11,378 @@
 [2023-06-19 17:39:27] [ INFO ] [LoggerConfig:68] A new patient named: Carlos Doe has been added.
 [2023-06-19 17:39:34] [ INFO ] [LoggerConfig:68] A new patient named: Carlos Doe has been added.
 [2023-06-19 17:39:37] [ INFO ] [LoggerConfig:68] A new patient named: Carlos Doe has been added.
+[2023-06-21 22:20:00] [ INFO ] [LoggerConfig:33] processing patients. 2023-06-21
+[2023-06-21 22:20:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T22:20:00.377767
+[2023-06-21 22:20:14] [ INFO ] [LoggerConfig:68] A new patient named: Carlos Doe has been added.
+[2023-06-21 22:20:17] [ INFO ] [LoggerConfig:54] A new dentist named: Juan Doe has been added.
+[2023-06-21 22:21:00] [ INFO ] [LoggerConfig:33] processing patients. 2023-06-21
+[2023-06-21 22:21:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T22:21:00.231649500
+[2023-06-21 22:22:00] [ INFO ] [LoggerConfig:33] processing patients. 2023-06-21
+[2023-06-21 22:22:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T22:22:00.016858900
+[2023-06-21 22:27:18] [ INFO ] [LoggerConfig:68] A new patient named: Carlos Doe has been added.
+[2023-06-21 22:27:34] [ INFO ] [LoggerConfig:54] A new dentist named: Juan Doe has been added.
+[2023-06-21 22:28:00] [ INFO ] [LoggerConfig:33] processing patients. 2023-06-21
+[2023-06-21 22:28:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T22:28:00.428291300
+[2023-06-21 22:28:20] [ INFO ] [LoggerConfig:68] A new patient named: Carlos Doe has been added.
+[2023-06-21 22:29:00] [ INFO ] [LoggerConfig:33] processing patients. 2023-06-21
+[2023-06-21 22:29:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T22:29:00.038999400
+[2023-06-21 22:29:33] [ INFO ] [LoggerConfig:68] A new patient named: Carlos Doe has been added.
+[2023-06-21 22:29:38] [ INFO ] [LoggerConfig:54] A new dentist named: Juan Doe has been added.
+[2023-06-21 22:30:00] [ INFO ] [LoggerConfig:33] processing patients. 2023-06-21
+[2023-06-21 22:30:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T22:30:00.038334300
+[2023-06-21 22:38:15] [ INFO ] [LoggerConfig:68] A new patient named: Carlos Doe has been added.
+[2023-06-21 22:38:17] [ INFO ] [LoggerConfig:54] A new dentist named: Juan Doe has been added.
+[2023-06-21 22:39:00] [ INFO ] [LoggerConfig:33] processing patients. 2023-06-21
+[2023-06-21 22:39:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T22:39:00.330990700
+[2023-06-21 22:40:00] [ INFO ] [LoggerConfig:33] processing patients. 2023-06-21
+[2023-06-21 22:40:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T22:40:00.024939800
+[2023-06-21 22:44:41] [ INFO ] [LoggerConfig:68] A new patient named: Carlos Doe has been added.
+[2023-06-21 22:44:44] [ INFO ] [LoggerConfig:54] A new dentist named: Juan Doe has been added.
+[2023-06-21 22:45:00] [ INFO ] [LoggerConfig:33] processing patients. 2023-06-21
+[2023-06-21 22:45:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T22:45:00.280544700
+[2023-06-21 22:46:00] [ INFO ] [LoggerConfig:33] processing patients. 2023-06-21
+[2023-06-21 22:46:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T22:46:00.020607700
+[2023-06-21 22:47:00] [ INFO ] [LoggerConfig:33] processing patients. 2023-06-21
+[2023-06-21 22:47:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T22:47:00.020115400
+[2023-06-21 22:48:42] [ INFO ] [LoggerConfig:68] A new patient named: Carlos Doe has been added.
+[2023-06-21 22:48:45] [ INFO ] [LoggerConfig:54] A new dentist named: Juan Doe has been added.
+[2023-06-21 22:49:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T22:49:00.007215500
+[2023-06-21 22:50:10] [ INFO ] [LoggerConfig:68] A new patient named: Carlos Doe has been added.
+[2023-06-21 22:50:12] [ INFO ] [LoggerConfig:54] A new dentist named: Juan Doe has been added.
+[2023-06-21 22:51:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T22:51:00.007671
+[2023-06-21 22:51:00] [ INFO ] [LoggerConfig:33] processing patients. 2023-06-21
+[2023-06-21 22:51:34] [ INFO ] [LoggerConfig:68] A new patient named: Carlos Doe has been added.
+[2023-06-21 22:51:37] [ INFO ] [LoggerConfig:54] A new dentist named: Juan Doe has been added.
+[2023-06-21 22:52:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T22:52:00.015316500
+[2023-06-21 22:52:00] [ INFO ] [LoggerConfig:33] processing patients. 2023-06-21
+[2023-06-21 23:18:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T23:18:00.001537100
+[2023-06-21 23:18:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-21
+[2023-06-21 23:18:50] [ INFO ] [LoggerConfig:68] A new patient named: Carlos Doe has been added.
+[2023-06-21 23:18:52] [ INFO ] [LoggerConfig:54] A new dentist named: Juan Doe has been added.
+[2023-06-21 23:19:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T23:19:00.006024500
+[2023-06-21 23:19:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-21
+[2023-06-21 23:20:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T23:20:00.011279900
+[2023-06-21 23:20:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-21
+[2023-06-21 23:36:25] [ INFO ] [LoggerConfig:68] A new patient named: Carlos Doe has been added.
+[2023-06-21 23:36:28] [ INFO ] [LoggerConfig:54] A new dentist named: Juan Doe has been added.
+[2023-06-21 23:37:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T23:37:00.014836700
+[2023-06-21 23:37:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-21
+[2023-06-21 23:38:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T23:38:00.007807300
+[2023-06-21 23:38:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-21
+[2023-06-21 23:39:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T23:39:00.014203
+[2023-06-21 23:39:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-21
+[2023-06-21 23:40:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T23:40:00.009860200
+[2023-06-21 23:40:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-21
+[2023-06-21 23:40:59] [ INFO ] [LoggerConfig:68] A new patient named: Carlos Doe has been added.
+[2023-06-21 23:41:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T23:41:00.012143400
+[2023-06-21 23:41:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-21
+[2023-06-21 23:44:59] [ INFO ] [LoggerConfig:68] A new patient named: Carlos Doe has been added.
+[2023-06-21 23:45:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T23:45:00.008691300
+[2023-06-21 23:45:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-21
+[2023-06-21 23:45:03] [ INFO ] [LoggerConfig:54] A new dentist named: Juan Doe has been added.
+[2023-06-21 23:45:24] [ INFO ] [LoggerConfig:68] A new patient named: Carlos Doe has been added.
+[2023-06-21 23:46:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T23:46:00.002832600
+[2023-06-21 23:46:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-21
+[2023-06-21 23:47:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T23:47:00.010575500
+[2023-06-21 23:47:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-21
+[2023-06-21 23:48:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T23:48:00.013996800
+[2023-06-21 23:48:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-21
+[2023-06-21 23:49:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T23:49:00.011009800
+[2023-06-21 23:49:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-21
+[2023-06-21 23:50:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T23:50:00.007353200
+[2023-06-21 23:50:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-21
+[2023-06-21 23:51:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T23:51:00.014919500
+[2023-06-21 23:51:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-21
+[2023-06-21 23:52:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T23:52:00.009767900
+[2023-06-21 23:52:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-21
+[2023-06-21 23:53:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T23:53:00.005513
+[2023-06-21 23:53:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-21
+[2023-06-21 23:54:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T23:54:00.007365500
+[2023-06-21 23:54:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-21
+[2023-06-21 23:56:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T23:56:00.004563100
+[2023-06-21 23:56:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-21
+[2023-06-21 23:56:17] [ INFO ] [LoggerConfig:68] A new patient named: Carlos Doe has been added.
+[2023-06-21 23:56:32] [ INFO ] [LoggerConfig:68] A new patient named: Carlos Doe has been added.
+[2023-06-21 23:56:36] [ INFO ] [LoggerConfig:54] A new dentist named: Juan Doe has been added.
+[2023-06-21 23:57:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T23:57:00.015603500
+[2023-06-21 23:57:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-21
+[2023-06-21 23:58:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T23:58:00.000651900
+[2023-06-21 23:58:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-21
+[2023-06-21 23:59:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-21T23:59:00.011756600
+[2023-06-21 23:59:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-21
+[2023-06-22 00:00:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:00:00.014282200
+[2023-06-22 00:00:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:01:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:01:00.009814800
+[2023-06-22 00:01:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:02:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:02:00.012759600
+[2023-06-22 00:02:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:03:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:03:00.014969500
+[2023-06-22 00:03:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:04:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:04:00.000804700
+[2023-06-22 00:04:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:05:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:05:00.014900500
+[2023-06-22 00:05:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:06:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:06:00.011589700
+[2023-06-22 00:06:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:07:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:07:00.004087200
+[2023-06-22 00:07:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:08:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:08:00.005632
+[2023-06-22 00:08:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:09:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:09:00.006446
+[2023-06-22 00:09:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:10:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:10:00.000688600
+[2023-06-22 00:10:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:11:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:11:00.005548400
+[2023-06-22 00:11:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:12:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:12:00.012840700
+[2023-06-22 00:12:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:12:59] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:12:59.999574300
+[2023-06-22 00:13:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:14:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:14:00.010127700
+[2023-06-22 00:14:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:15:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:15:00.009683400
+[2023-06-22 00:15:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:16:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:16:00.004714400
+[2023-06-22 00:16:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:17:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:17:00.014269700
+[2023-06-22 00:17:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:18:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:18:00.004196
+[2023-06-22 00:18:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:19:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:19:00.004242
+[2023-06-22 00:19:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:19:59] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:19:59.999816300
+[2023-06-22 00:20:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:21:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:21:00.012219700
+[2023-06-22 00:21:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:22:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:22:00.007570100
+[2023-06-22 00:22:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:23:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:23:00.012932900
+[2023-06-22 00:23:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:24:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:24:00.004658500
+[2023-06-22 00:24:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:25:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:25:00.010609400
+[2023-06-22 00:25:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:26:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:26:00.004926
+[2023-06-22 00:26:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:27:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:27:00.014989200
+[2023-06-22 00:27:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:28:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:28:00.004013200
+[2023-06-22 00:28:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:29:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:29:00.006628700
+[2023-06-22 00:29:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:30:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:30:00.007720300
+[2023-06-22 00:30:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:31:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:31:00.011977800
+[2023-06-22 00:31:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:32:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:32:00.001555
+[2023-06-22 00:32:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:33:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:33:00.001803600
+[2023-06-22 00:33:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:34:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:34:00.001694
+[2023-06-22 00:34:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:35:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:35:00.003122900
+[2023-06-22 00:35:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:36:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:36:00.003779900
+[2023-06-22 00:36:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:37:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:37:00.014151900
+[2023-06-22 00:37:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:38:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:38:00.006630700
+[2023-06-22 00:38:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:39:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:39:00.008347500
+[2023-06-22 00:39:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:39:59] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:39:59.999774500
+[2023-06-22 00:40:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:41:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:41:00.008656500
+[2023-06-22 00:41:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:42:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:42:00.005881900
+[2023-06-22 00:42:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:43:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:43:00.004575700
+[2023-06-22 00:43:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:44:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:44:00.011907400
+[2023-06-22 00:44:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:45:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:45:00.007628300
+[2023-06-22 00:45:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:46:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:46:00.014156500
+[2023-06-22 00:46:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:47:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:47:00.003929500
+[2023-06-22 00:47:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:48:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:48:00.010857700
+[2023-06-22 00:48:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:49:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:49:00.000499500
+[2023-06-22 00:49:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:50:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:50:00.014749
+[2023-06-22 00:50:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:52:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:52:00.012964500
+[2023-06-22 00:52:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:53:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:53:00.004276
+[2023-06-22 00:53:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:54:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:54:00.012959500
+[2023-06-22 00:54:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:55:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:55:00.008895800
+[2023-06-22 00:55:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:56:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:56:00.007960400
+[2023-06-22 00:56:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:57:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:57:00.004748500
+[2023-06-22 00:57:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:58:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:58:00.012438600
+[2023-06-22 00:58:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 00:59:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T00:59:00.012827600
+[2023-06-22 00:59:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:00:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:00:00.001056
+[2023-06-22 01:00:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:01:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:01:00.014755700
+[2023-06-22 01:01:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:02:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:02:00.005975
+[2023-06-22 01:02:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:03:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:03:00.012756600
+[2023-06-22 01:03:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:04:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:04:00.000544200
+[2023-06-22 01:04:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:05:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:05:00.002832700
+[2023-06-22 01:05:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:06:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:06:00.014040200
+[2023-06-22 01:06:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:07:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:07:00.012142
+[2023-06-22 01:07:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:08:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:08:00.013799600
+[2023-06-22 01:08:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:09:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:09:00.014351900
+[2023-06-22 01:09:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:09:59] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:09:59.999932300
+[2023-06-22 01:10:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:11:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:11:00.002940200
+[2023-06-22 01:11:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:12:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:12:00.009948400
+[2023-06-22 01:12:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:13:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:13:00.014724300
+[2023-06-22 01:13:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:14:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:14:00.014763400
+[2023-06-22 01:14:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:15:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:15:00.008027600
+[2023-06-22 01:15:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:16:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:16:00.015636100
+[2023-06-22 01:16:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:17:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:17:00.014277500
+[2023-06-22 01:17:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:18:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:18:00.004844200
+[2023-06-22 01:18:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:19:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:19:00.005487900
+[2023-06-22 01:19:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:20:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:20:00.013732900
+[2023-06-22 01:20:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:21:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:21:00.013521900
+[2023-06-22 01:21:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:22:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:22:00.000238200
+[2023-06-22 01:22:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:23:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:23:00.001289500
+[2023-06-22 01:23:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:24:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:24:00.008674600
+[2023-06-22 01:24:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:25:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:25:00.011424900
+[2023-06-22 01:25:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:26:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:26:00.008026600
+[2023-06-22 01:26:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:27:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:27:00.003075100
+[2023-06-22 01:27:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:28:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:28:00.000852600
+[2023-06-22 01:28:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:29:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:29:00.002138800
+[2023-06-22 01:29:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:30:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:30:00.007365500
+[2023-06-22 01:30:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:31:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:31:00.002614
+[2023-06-22 01:31:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:32:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:32:00.001905800
+[2023-06-22 01:32:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:33:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:33:00.011870
+[2023-06-22 01:33:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:33:59] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:33:59.999658800
+[2023-06-22 01:34:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:35:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:35:00.009312400
+[2023-06-22 01:35:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:36:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:36:00.004282700
+[2023-06-22 01:36:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:37:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:37:00.008323800
+[2023-06-22 01:37:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:38:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:38:00.003549300
+[2023-06-22 01:38:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:39:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:39:00.013330
+[2023-06-22 01:39:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:39:59] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:39:59.999755900
+[2023-06-22 01:40:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:41:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:41:00.014283100
+[2023-06-22 01:41:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:42:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:42:00.005936700
+[2023-06-22 01:42:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:43:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:43:00.006524800
+[2023-06-22 01:43:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:44:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:44:00.013285600
+[2023-06-22 01:44:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:45:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:45:00.002334300
+[2023-06-22 01:45:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:46:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:46:00.010353500
+[2023-06-22 01:46:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:46:11] [ INFO ] [LoggerConfig:68] A new patient named: Carlos Doe has been added.
+[2023-06-22 01:46:16] [ INFO ] [LoggerConfig:54] A new dentist named: Juan Doe has been added.
+[2023-06-22 01:46:51] [ INFO ] [LoggerConfig:68] A new patient named: Carlos Doe has been added.
+[2023-06-22 01:47:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:47:00.013491300
+[2023-06-22 01:47:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:48:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:48:00.012902
+[2023-06-22 01:48:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:49:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:49:00.014380200
+[2023-06-22 01:49:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:50:26] [ INFO ] [LoggerConfig:68] A new patient named: Carlos Doe has been added.
+[2023-06-22 01:51:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:51:00.001907800
+[2023-06-22 01:51:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:51:12] [ INFO ] [LoggerConfig:54] A new dentist named: Juan Doe has been added.
+[2023-06-22 01:52:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:52:00.005613900
+[2023-06-22 01:52:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:52:35] [ INFO ] [LoggerConfig:68] A new patient named: Carlos Doe has been added.
+[2023-06-22 01:53:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:53:00.003176
+[2023-06-22 01:53:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:54:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:54:00.006734900
+[2023-06-22 01:54:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:55:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:55:00.012460800
+[2023-06-22 01:55:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:56:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:56:00.013510300
+[2023-06-22 01:56:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:57:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:57:00.002350700
+[2023-06-22 01:57:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:58:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:58:00.001732300
+[2023-06-22 01:58:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 01:59:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T01:59:00.006825700
+[2023-06-22 01:59:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 02:00:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T02:00:00.010532700
+[2023-06-22 02:00:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 02:01:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T02:01:00.012789
+[2023-06-22 02:01:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 02:02:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T02:02:00.000738200
+[2023-06-22 02:02:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 02:03:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T02:03:00.005169600
+[2023-06-22 02:03:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 02:04:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T02:04:00.011168700
+[2023-06-22 02:04:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 02:04:59] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T02:04:59.999560800
+[2023-06-22 02:05:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 02:06:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T02:06:00.005875800
+[2023-06-22 02:06:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 02:07:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T02:07:00.000850600
+[2023-06-22 02:07:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 02:08:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T02:08:00.006451200
+[2023-06-22 02:08:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 02:09:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T02:09:00.005952700
+[2023-06-22 02:09:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 02:10:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T02:10:00.014800800
+[2023-06-22 02:10:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 02:11:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T02:11:00.004310100
+[2023-06-22 02:11:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 02:12:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T02:12:00.000989400
+[2023-06-22 02:12:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 02:13:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T02:13:00.008989400
+[2023-06-22 02:13:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 02:14:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T02:14:00.003617300
+[2023-06-22 02:14:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 02:15:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T02:15:00.007672800
+[2023-06-22 02:15:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22
+[2023-06-22 02:16:00] [ INFO ] [LoggerConfig:32] Processing appointments. 2023-06-22T02:16:00.000690500
+[2023-06-22 02:16:00] [ INFO ] [LoggerConfig:30] processing patients. 2023-06-22

@@ -138,6 +138,7 @@ public class PatientService {
                 realAppointment.setDentist(dentist);
                 realAppointment.setPatient(patient);
                 realAppointment.setAppointmentDate(appointment.getAppointmentDate());
+                realAppointment.setReason(appointment.getReason());
                 patient.getAppointments().add(realAppointment);
                 dentist.getAppointments().add(realAppointment);
                 appointmentRepository.save(realAppointment);
