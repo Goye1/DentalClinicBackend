@@ -1,4 +1,6 @@
 package com.DentalClinicX.DentalClinicManagement.service;
+import com.DentalClinicX.DentalClinicManagement.exceptions.AlreadyExistsException;
+import com.DentalClinicX.DentalClinicManagement.exceptions.ResourceNotFoundException;
 import com.DentalClinicX.DentalClinicManagement.model.dto.AppointmentDTO;
 import com.DentalClinicX.DentalClinicManagement.model.dto.PatientDTO;
 import com.DentalClinicX.DentalClinicManagement.model.wrapper.AppointmentWrapper;
@@ -13,10 +15,9 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.dao.DataAccessException;
 import org.springframework.stereotype.Service;
-
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Set;
 
@@ -40,101 +41,79 @@ public class PatientService {
         this.dentistService = dentistService;
     }
 
-    public List<PatientDTO> listPatients() {
+    public List<PatientDTO> listPatients() throws ResourceNotFoundException {
         List<PatientDTO> patientDTOList = null;
-        try {
             List<Patient> patients = patientRepository.findAll();
             patientDTOList = new ArrayList<>();
             for (Patient patient : patients) {
                 patientDTOList.add(objectMapper.convertValue(patient, PatientDTO.class));
             }
-        } catch (DataAccessException e) {
-            logger.fatal("Error trying to list all the patients", e.getCause());
-        }
+            if(patientDTOList.isEmpty()){
+                throw new ResourceNotFoundException("No patients were found");
+            }
         return patientDTOList;
     }
 
-    public Patient addPatient(Patient patient, Address address) {
-        Patient p = null;
-        try {
+    public Patient addPatient(Patient patient, Address address) throws AlreadyExistsException {
             if (patientRepository.existsByidCard(patient.getIdCard())) {
-                return null;
+                throw new AlreadyExistsException("A patient with the id card: " + patient.getIdCard() + " already exists");
             }
             patient.setAddress(address);
             addressRepository.save(address);
             patientRepository.save(patient);
-            if (patientRepository.existsById(patient.getId())) {
-                p = patient;
-                logger.info("A new patient named: " + patient.getName() + " " + patient.getSurname() + " has been added.");
-            }
-        } catch (DataAccessException e) {
-            logger.fatal("Error attempting to add the patient: " + patient.getName() + " " + patient.getSurname(), e.getCause());
-        } catch (AssertionError e) {
-            logger.fatal("A patient with that Id card already exists", e.getCause());
-        }
-        return p;
+            logger.info("A new patient named: " + patient.getName() + " " + patient.getSurname() + " has been added.");
+        return patient;
     }
 
-    public <T> List<Patient> findPatient(T info) {
+    public List<Patient> findPatient(String info) {
+        if (info == null || info.trim().isEmpty() || !info.matches("^[a-zA-Z0-9]*$")) {
+            throw new IllegalArgumentException("The submitted data is not valid");
+        }
         List<Patient> patientList = patientRepository.findAll();
         List<Patient> patients = new ArrayList<>();
+
         for (Patient patient : patientList) {
-            if (patient.getName().toLowerCase().contains((CharSequence) info) || patient.getSurname().toLowerCase().contains((CharSequence) info)
-                    || patient.getId().toString().contains((CharSequence) info)) {
+            String name = patient.getName();
+            String surname = patient.getSurname();
+            String id = patient.getId().toString();
+
+            if (name.toLowerCase().startsWith(info.toLowerCase().substring(0, 1))
+                    || surname.toLowerCase().startsWith(info.toLowerCase().substring(0, 1))
+                    || id.startsWith(info)) {
                 patients.add(patient);
             }
         }
+        patients.sort(Comparator.comparing(patient -> patient.getName().substring(0, 1)));
         return patients;
     }
 
-    public Patient modifyPatient(Patient modifiedPatient) {
-        Patient existingPatient = null;
-        try {
-            existingPatient = patientRepository.findById(modifiedPatient.getId()).orElse(null);
-            if(existingPatient != null){
+    public Patient modifyPatient(Patient modifiedPatient) throws AlreadyExistsException, ResourceNotFoundException, JsonMappingException{
+           Patient existingPatient = patientRepository.findById(modifiedPatient.getId()).orElseThrow(() -> new ResourceNotFoundException("Patient to modify does not exist"));
             if (!patientRepository.existsByidCard(modifiedPatient.getIdCard()) || existingPatient.getIdCard() == modifiedPatient.getIdCard()) {
                 objectMapper.updateValue(existingPatient, modifiedPatient);
                 patientRepository.save(existingPatient);
                 logger.info("The patient " + existingPatient.getName() + " " + existingPatient.getSurname() + " has been modified");
-            }}
-        } catch (DataAccessException e) {
-            logger.fatal("Error attempting to modify a patient", e.getCause());
-        } catch (JsonMappingException e) {
-            logger.error(e.getCause());
-        }
-        return existingPatient;
+            }else{
+                throw new AlreadyExistsException("A patient with the id card: " + modifiedPatient.getIdCard() +" already exists");
+            }
+        return modifiedPatient;
     }
 
-    public Patient deletePatient(Long id) {
-        Patient p = null;
-        try {
-            p = patientRepository.findById(id).orElse(null);
-            if(p != null){
+    public Patient deletePatient(Long id) throws ResourceNotFoundException {
+           Patient p = patientRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("No patient was found to delete with the id:" + id));
             patientRepository.delete(p);
-            logger.info("The patient " + p.getName() + " " + p.getSurname() + " has been deleted");}
-        } catch (DataAccessException e) {
-            logger.fatal("Error trying to modify a patient", e.getCause());
-        }
+            logger.info("The patient " + p.getName() + " " + p.getSurname() + " has been deleted");
         return p;
     }
 
-    public Patient findById(Long id) {
-        Patient patient = null;
-        try {
-            patient = patientRepository.findById(id).orElse(null);
-        } catch (DataAccessException e) {
-            logger.fatal("Error trying to find a patient by id", e.getCause());
-        }
-        return patient;
+    public Patient findById(Long id) throws ResourceNotFoundException {
+        return patientRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Patient with the id: " + id + "not found"));
     }
 
-    public Appointment addAppointment(AppointmentWrapper appointment) {
-        Appointment realAppointment = null;
-        try {
+    public Appointment addAppointment(AppointmentWrapper appointment) throws ResourceNotFoundException {
             Dentist dentist = dentistService.findById(appointment.getDentist_id());
             Patient patient = this.findById(appointment.getPatient_id());
-            if (dentist != null && patient != null) {
-                realAppointment = new Appointment();
+             Appointment realAppointment = new Appointment();
                 realAppointment.setDentist(dentist);
                 realAppointment.setPatient(patient);
                 realAppointment.setAppointmentDate(appointment.getAppointmentDate());
@@ -142,29 +121,17 @@ public class PatientService {
                 patient.getAppointments().add(realAppointment);
                 dentist.getAppointments().add(realAppointment);
                 appointmentRepository.save(realAppointment);
-            }
-        } catch (DataAccessException e) {
-            logger.fatal("Error trying to add an appointment", e.getCause());
-        }
         return realAppointment;
     }
 
-    public List<AppointmentDTO> listAppointments(Long id) {
-        List<AppointmentDTO> appointmentDTOList = null;
-        Patient foundPatient = null;
-        try {
-            foundPatient = this.findById(id);
-            if (foundPatient != null) {
+    public List<AppointmentDTO> listAppointments(Long id) throws ResourceNotFoundException {
+        List<AppointmentDTO> appointmentDTOList = null;;
+           Patient foundPatient = this.findById(id);
                 Set<Appointment> appointmentHashSet = foundPatient.getAppointments();
                 appointmentDTOList = new ArrayList<>();
                 for (Appointment a : appointmentHashSet) {
                     appointmentDTOList.add(objectMapper.convertValue(a, AppointmentDTO.class));
                 }
-            }
-        } catch (DataAccessException e) {
-            assert foundPatient != null;
-            logger.fatal("Error trying to list all the appointments for the patient: " + foundPatient.getName() + " " + foundPatient.getSurname(), e.getCause());
-        }
         return appointmentDTOList;
     }
 }

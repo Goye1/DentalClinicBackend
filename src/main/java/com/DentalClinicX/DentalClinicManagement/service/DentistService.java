@@ -1,5 +1,6 @@
 package com.DentalClinicX.DentalClinicManagement.service;
-
+import com.DentalClinicX.DentalClinicManagement.exceptions.AlreadyExistsException;
+import com.DentalClinicX.DentalClinicManagement.exceptions.ResourceNotFoundException;
 import com.DentalClinicX.DentalClinicManagement.model.dto.AppointmentDTO;
 import com.DentalClinicX.DentalClinicManagement.model.dto.DentistDTO;
 import com.DentalClinicX.DentalClinicManagement.persistance.entity.Appointment;
@@ -9,13 +10,10 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.dao.DataAccessException;
+
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
-import java.util.Set;
+import java.util.*;
 
 @Service
 public class DentistService {
@@ -30,108 +28,81 @@ public class DentistService {
         this.dentistRepository = dentistRepository;
     }
 
-    public List<DentistDTO> listDentists() {
+    public List<DentistDTO> listDentists() throws ResourceNotFoundException {
         List<DentistDTO> dentistDTOList = null;
-        try {
             List<Dentist> dentists = dentistRepository.findAll();
             dentistDTOList = new ArrayList<>();
             for (Dentist dentist : dentists) {
                 dentistDTOList.add(objectMapper.convertValue(dentist, DentistDTO.class));
             }
-        } catch (DataAccessException e) {
-            logger.fatal("Error trying to list all the dentists", e.getCause());
-        }
+            if(dentistDTOList.isEmpty()){
+                throw new ResourceNotFoundException("No dentists were found");
+            }
         return dentistDTOList;
     }
 
-    public Dentist addDentist(Dentist dentist) {
-        Dentist d = null;
-        try {
-            if (!dentistRepository.existsBylicenseNumber(dentist.getLicenseNumber())) {
-                dentistRepository.save(dentist);
-                if (dentistRepository.existsById(dentist.getId())) {
-                    d = dentist;
-                    logger.info("A new dentist named: " + dentist.getName() + " " + dentist.getSurname() + " has been added.");
-                }
+    public Dentist addDentist(Dentist dentist) throws ResourceNotFoundException {
+            if (dentistRepository.existsBylicenseNumber(dentist.getLicenseNumber())) {
+                throw new ResourceNotFoundException("A dentist with " + dentist.getLicenseNumber() + " license number already exists");
             }
-        } catch (DataAccessException e) {
-            logger.fatal("Error attempting to add the dentist: " + dentist.getName() + " " + dentist.getSurname(), e.getCause());
-        }
-        return d;
+                dentistRepository.save(dentist);
+                logger.info("A new dentist named: " + dentist.getName() + " " + dentist.getSurname() + " has been added.");
+        return dentist;
     }
 
-    public Dentist modifyDentist(Dentist modifiedDentist) {
-        Dentist existingDentist = null;
-        try {
-            existingDentist = dentistRepository.findById(modifiedDentist.getId()).orElse(null);
-            if (existingDentist != null) {
+    public Dentist modifyDentist(Dentist modifiedDentist) throws JsonMappingException, ResourceNotFoundException, AlreadyExistsException {
+            Dentist existingDentist = dentistRepository.findById(modifiedDentist.getId()).orElseThrow(() -> new ResourceNotFoundException("Dentist to modify does not exist"));
                 if (!dentistRepository.existsBylicenseNumber(modifiedDentist.getLicenseNumber()) || Objects.equals(modifiedDentist.getLicenseNumber(), existingDentist.getLicenseNumber())) {
                     objectMapper.updateValue(existingDentist, modifiedDentist);
                     dentistRepository.save(existingDentist);
                     logger.info("The dentist " + existingDentist.getName() + " " + existingDentist.getSurname() + " has been modified");
-                }
+                }else {
+                    throw new AlreadyExistsException("A dentist with " + modifiedDentist.getLicenseNumber() + " license number already exists");
             }
-        } catch (DataAccessException e) {
-            logger.fatal("Error attempting to modify a dentist", e.getCause());
-        } catch (JsonMappingException e) {
-            logger.error(e.getCause());
-            throw new RuntimeException(e);
-        }
-        return existingDentist;
+        return modifiedDentist;
     }
 
-    public Dentist deleteDentist(Long id) {
-        Dentist d = null;
-        try {
-            d = dentistRepository.findById(id).orElse(null);
-            if (d != null) {
+    public Dentist deleteDentist(Long id) throws ResourceNotFoundException {
+           Dentist d = dentistRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("No dentist was found to delete with de id: " + id));
                 dentistRepository.delete(d);
                 logger.info("The dentist " + d.getName() + " " + d.getSurname() + " has been deleted");
-            }
-        } catch (DataAccessException e) {
-            logger.fatal("Error attempting to modify a dentist", e.getCause());
-        }
         return d;
     }
 
-    public <T> List<Dentist> findDentist(T info) {
+    public List<Dentist> findDentist(String info) {
+        if (info == null || info.trim().isEmpty() || !info.matches("^[a-zA-Z0-9]*$")) {
+            throw new IllegalArgumentException("The submitted data is not valid");
+        }
         List<Dentist> dentistList = dentistRepository.findAll();
         List<Dentist> dentists = new ArrayList<>();
+
         for (Dentist dentist : dentistList) {
-            if (dentist.getName().toLowerCase().contains((CharSequence) info) || dentist.getSurname().toLowerCase().contains((CharSequence) info)
-                    || dentist.getLicenseNumber().toString().contains((CharSequence) info)) {
+            String name = dentist.getName();
+            String surname = dentist.getSurname();
+            String licenseNumber = dentist.getLicenseNumber().toString();
+
+            if (name.toLowerCase().startsWith(info.toLowerCase().substring(0, 1))
+                    || surname.toLowerCase().startsWith(info.toLowerCase().substring(0, 1))
+                    || licenseNumber.startsWith(info)) {
                 dentists.add(dentist);
             }
         }
+        dentists.sort(Comparator.comparing(dentist -> dentist.getName().substring(0, 1)));
         return dentists;
     }
 
-    public Dentist findById(Long id) {
-        Dentist dentist = null;
-        try {
-            dentist = dentistRepository.findById(id).orElse(null);
-        } catch (DataAccessException e) {
-            logger.fatal("Error trying to find a patient by id", e.getCause());
-        }
-        return dentist;
+    public Dentist findById(Long id) throws ResourceNotFoundException {
+           return dentistRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Dentist with id: " + id +"not found"));
     }
 
-    public List<AppointmentDTO> listAppointments(Long id) {
+    public List<AppointmentDTO> listAppointments(Long id) throws ResourceNotFoundException {
         List<AppointmentDTO> appointmentDTOList = null;
-        Dentist foundDentist = null;
-        try {
-            foundDentist = this.findById(id);
-            if (foundDentist != null) {
+        Dentist foundDentist = this.findById(id);
                 Set<Appointment> appointmentHashSet = foundDentist.getAppointments();
                 appointmentDTOList = new ArrayList<>();
                 for (Appointment a : appointmentHashSet) {
                     appointmentDTOList.add(objectMapper.convertValue(a, AppointmentDTO.class));
                 }
-            }
-        } catch (DataAccessException e) {
-            assert foundDentist != null;
-            logger.fatal("Error trying to list all the appointments for the dentist: " + foundDentist.getName() + " " + foundDentist.getSurname(), e.getCause());
-        }
         return appointmentDTOList;
     }
 }
