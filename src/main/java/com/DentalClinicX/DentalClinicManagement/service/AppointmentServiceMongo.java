@@ -34,7 +34,7 @@ public class AppointmentServiceMongo {
         if (!appointments.isEmpty()) {
             for (Appointment appointment : appointments) {
                 DentistMongo dentistMongo = new DentistMongo(appointment.getDentist().getName(), appointment.getDentist().getSurname(), appointment.getDentist().getLicenseNumber());
-                PatientMongo patientMongo = new PatientMongo(appointment.getPatient().getName(), appointment.getDentist().getSurname(), appointment.getPatient().getDischargeDate(), appointment.getPatient().getId());
+                PatientMongo patientMongo = new PatientMongo(appointment.getPatient().getName(), appointment.getDentist().getSurname(), appointment.getPatient().getIdCard(), appointment.getPatient().getDischargeDate(), appointment.getPatient().getId());
                 AppointmentMongo appointmentMongo = new AppointmentMongo(appointment.getAppointmentDate(), dentistMongo, patientMongo, appointment.getReason());
                 appointmentMongoRepository.save(appointmentMongo);
                 appointmentRepository.delete(appointment);

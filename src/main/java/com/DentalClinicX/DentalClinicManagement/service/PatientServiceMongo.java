@@ -31,10 +31,13 @@ public class PatientServiceMongo {
         List<Patient> patients = patientRepository.findByDischargeDateBefore(currentDate);
         if (!patients.isEmpty()) {
             for (Patient patient : patients) {
-                PatientMongo patientMongo = new PatientMongo(patient.getName(),patient.getSurname(), patient.getDischargeDate(), patient.getId());
+                PatientMongo patientMongo = new PatientMongo(patient.getName(),patient.getSurname(), patient.getIdCard(), patient.getDischargeDate(), patient.getId());
                 patientRepositoryMongo.save(patientMongo);
                 patientRepository.delete(patient);
             }
         }
     }
+
+
+
 }

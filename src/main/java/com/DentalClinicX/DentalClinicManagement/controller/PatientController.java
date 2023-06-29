@@ -42,7 +42,7 @@ public class PatientController {
     public <T> ResponseEntity<List<Patient>> findPatients(@RequestParam String info) {
         List<Patient> patientList = patientService.findPatient(info);
         if (patientList.isEmpty()) {
-            return new ResponseEntity<>(null, HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>(patientList, HttpStatus.NOT_FOUND);
         } else {
             return new ResponseEntity<>(patientList, HttpStatus.OK);
         }
@@ -74,5 +74,11 @@ public class PatientController {
         } else {
             return new ResponseEntity<>(serviceResponse, HttpStatus.OK);
         }
+    }
+
+    @DeleteMapping("patients/deleteAppointment")
+    public ResponseEntity<String> deleteAppointment(@RequestParam Long id) throws ResourceNotFoundException {
+        String serviceResponse = patientService.deleteAppointment(id);
+        return new ResponseEntity<>(serviceResponse,HttpStatus.OK);
     }
 }

@@ -30,7 +30,6 @@ public class GlobalExceptionHandler {
         logger.error(e.getMessage());
         return new ResponseEntity<>(e.getMessage(), HttpStatus.NOT_FOUND);
     }
-
     @ExceptionHandler(DataAccessException.class)
     public ResponseEntity<?> dataAccessException(DataAccessException e){
         logger.error(e.getCause());

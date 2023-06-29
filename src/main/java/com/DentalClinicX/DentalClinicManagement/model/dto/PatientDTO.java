@@ -10,10 +10,28 @@ import java.time.LocalDate;
 public class PatientDTO implements Serializable {
     private String name;
     private String surname;
+    private Boolean isDischarged;
+    private Integer idCard;
     private LocalDate dischargeDate;
     private AddressDTO address;
 
     public PatientDTO() {
+    }
+
+    public Integer getIdCard() {
+        return idCard;
+    }
+
+    public Boolean getDischarged() {
+        return isDischarged;
+    }
+
+    public void setDischarged(Boolean discharged) {
+        isDischarged = discharged;
+    }
+
+    public void setIdCard(Integer idCard) {
+        this.idCard = idCard;
     }
 
     public String getName() {

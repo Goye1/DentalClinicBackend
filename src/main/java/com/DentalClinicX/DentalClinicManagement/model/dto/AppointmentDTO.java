@@ -8,12 +8,21 @@ import java.time.LocalDateTime;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class AppointmentDTO implements Serializable {
+    private Long id;
     private PatientDTO patient;
     private DentistDTO dentist;
     private LocalDateTime appointmentDate;
     private String reason;
 
     public AppointmentDTO() {
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getReason() {

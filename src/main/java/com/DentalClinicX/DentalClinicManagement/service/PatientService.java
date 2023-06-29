@@ -8,9 +8,11 @@ import com.DentalClinicX.DentalClinicManagement.persistance.entity.Address;
 import com.DentalClinicX.DentalClinicManagement.persistance.entity.Appointment;
 import com.DentalClinicX.DentalClinicManagement.persistance.entity.Dentist;
 import com.DentalClinicX.DentalClinicManagement.persistance.entity.Patient;
+import com.DentalClinicX.DentalClinicManagement.persistance.entityMongo.PatientMongo;
 import com.DentalClinicX.DentalClinicManagement.persistance.repository.IAddressRepository;
 import com.DentalClinicX.DentalClinicManagement.persistance.repository.IAppointmentRepository;
 import com.DentalClinicX.DentalClinicManagement.persistance.repository.IPatientRepository;
+import com.DentalClinicX.DentalClinicManagement.persistance.repositoryMongo.IPatientRepositoryMongo;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.log4j.Logger;
@@ -25,6 +27,8 @@ import java.util.Set;
 public class PatientService {
     private final IAddressRepository addressRepository;
     private final IPatientRepository patientRepository;
+
+    private final IPatientRepositoryMongo patientRepositoryMongo;
     private final IAppointmentRepository appointmentRepository;
     private final DentistService dentistService;
 
@@ -34,9 +38,10 @@ public class PatientService {
     private Logger logger;
 
     @Autowired
-    public PatientService(IPatientRepository patientRepository, IAddressRepository addressRepository, IAppointmentRepository appointmentRepository, DentistService dentistService) {
+    public PatientService(IPatientRepository patientRepository, IAddressRepository addressRepository, IPatientRepositoryMongo patientRepositoryMongo, IAppointmentRepository appointmentRepository, DentistService dentistService) {
         this.patientRepository = patientRepository;
         this.addressRepository = addressRepository;
+        this.patientRepositoryMongo = patientRepositoryMongo;
         this.appointmentRepository = appointmentRepository;
         this.dentistService = dentistService;
     }
@@ -44,9 +49,17 @@ public class PatientService {
     public List<PatientDTO> listPatients() throws ResourceNotFoundException {
         List<PatientDTO> patientDTOList = null;
             List<Patient> patients = patientRepository.findAll();
+            List<PatientMongo> patientMongos = patientRepositoryMongo.findAll();
             patientDTOList = new ArrayList<>();
             for (Patient patient : patients) {
-                patientDTOList.add(objectMapper.convertValue(patient, PatientDTO.class));
+                PatientDTO pDTO = objectMapper.convertValue(patient, PatientDTO.class);
+                pDTO.setDischarged(false);
+                patientDTOList.add(pDTO);
+            }
+            for (PatientMongo patientMongo : patientMongos){
+                PatientDTO pDTOMongo = objectMapper.convertValue(patientMongo, PatientDTO.class);
+                pDTOMongo.setDischarged(true);
+                patientDTOList.add(pDTOMongo);
             }
             if(patientDTOList.isEmpty()){
                 throw new ResourceNotFoundException("No patients were found");
@@ -134,5 +147,13 @@ public class PatientService {
                 }
         return appointmentDTOList;
     }
+
+    public String deleteAppointment(Long id) throws ResourceNotFoundException {
+        Appointment appointment= appointmentRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("No appointment found to be deleted"));
+        appointmentRepository.delete(appointment);
+        return "Appointment deleted succsesfully";
+    }
+
+
 }
 

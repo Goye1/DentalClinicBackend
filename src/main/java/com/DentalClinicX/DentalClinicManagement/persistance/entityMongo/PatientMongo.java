@@ -9,17 +9,27 @@ public class PatientMongo {
     @Id private String id;
     private String name;
     private String surname;
+    private Integer idCard;
     private LocalDate dischargeDate;
     private Long patientID;
 
     public PatientMongo() {
     }
 
-    public PatientMongo(String name, String surname, LocalDate dischargeDate, Long patientID) {
+    public PatientMongo(String name, String surname, Integer idCard, LocalDate dischargeDate, Long patientID) {
         this.name = name;
         this.surname = surname;
+        this.idCard = idCard;
         this.dischargeDate = dischargeDate;
         this.patientID = patientID;
+    }
+
+    public Integer getIdCard() {
+        return idCard;
+    }
+
+    public void setIdCard(Integer idCard) {
+        this.idCard = idCard;
     }
 
     public Long getPatientID() {
