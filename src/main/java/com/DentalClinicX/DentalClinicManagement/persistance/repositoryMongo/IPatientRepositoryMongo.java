@@ -7,5 +7,5 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface IPatientRepositoryMongo extends MongoRepository<PatientMongo,String> {
 
-
+    boolean existsByidCard(Integer idCard);
 }

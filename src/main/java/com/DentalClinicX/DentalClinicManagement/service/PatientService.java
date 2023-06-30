@@ -68,7 +68,7 @@ public class PatientService {
     }
 
     public Patient addPatient(Patient patient, Address address) throws AlreadyExistsException {
-            if (patientRepository.existsByidCard(patient.getIdCard())) {
+            if (patientRepository.existsByidCard(patient.getIdCard()) || patientRepositoryMongo.existsByidCard(patient.getIdCard())) {
                 throw new AlreadyExistsException("A patient with the id card: " + patient.getIdCard() + " already exists");
             }
             patient.setAddress(address);
@@ -78,31 +78,45 @@ public class PatientService {
         return patient;
     }
 
-    public List<Patient> findPatient(String info) {
+    public List<PatientDTO> findPatient(String info) {
         if (info == null || info.trim().isEmpty() || !info.matches("^[a-zA-Z0-9]*$")) {
             throw new IllegalArgumentException("The submitted data is not valid");
         }
+        List<PatientDTO> patientDTOList = new ArrayList<>();
+        List<PatientMongo> patientMongoList = patientRepositoryMongo.findAll();
         List<Patient> patientList = patientRepository.findAll();
-        List<Patient> patients = new ArrayList<>();
 
         for (Patient patient : patientList) {
             String name = patient.getName();
             String surname = patient.getSurname();
             String id = patient.getId().toString();
-
             if (name.toLowerCase().startsWith(info.toLowerCase().substring(0, 1))
                     || surname.toLowerCase().startsWith(info.toLowerCase().substring(0, 1))
                     || id.startsWith(info)) {
-                patients.add(patient);
+                PatientDTO patientDTO = objectMapper.convertValue(patient,PatientDTO.class);
+                patientDTO.setDischarged(false);
+                patientDTOList.add(patientDTO);
             }
         }
-        patients.sort(Comparator.comparing(patient -> patient.getName().substring(0, 1)));
-        return patients;
+        for(PatientMongo patientMongo: patientMongoList){
+            String name = patientMongo.getName();
+            String surname = patientMongo.getSurname();
+            String id = patientMongo.getId().toString();
+            if (name.toLowerCase().startsWith(info.toLowerCase().substring(0, 1))
+                    || surname.toLowerCase().startsWith(info.toLowerCase().substring(0, 1))
+                    || id.startsWith(info)) {
+                PatientDTO patientDTO = objectMapper.convertValue(patientMongo,PatientDTO.class);
+                patientDTO.setDischarged(true);
+                patientDTOList.add(patientDTO);
+            }
+        }
+        patientDTOList.sort(Comparator.comparing(patient -> patient.getName().substring(0, 1)));
+        return patientDTOList;
     }
 
     public Patient modifyPatient(Patient modifiedPatient) throws AlreadyExistsException, ResourceNotFoundException, JsonMappingException{
            Patient existingPatient = patientRepository.findById(modifiedPatient.getId()).orElseThrow(() -> new ResourceNotFoundException("Patient to modify does not exist"));
-            if (!patientRepository.existsByidCard(modifiedPatient.getIdCard()) || existingPatient.getIdCard() == modifiedPatient.getIdCard()) {
+            if (!patientRepository.existsByidCard(modifiedPatient.getIdCard()) && !patientRepositoryMongo.existsByidCard(modifiedPatient.getIdCard()) || existingPatient.getIdCard() == modifiedPatient.getIdCard()) {
                 objectMapper.updateValue(existingPatient, modifiedPatient);
                 patientRepository.save(existingPatient);
                 logger.info("The patient " + existingPatient.getName() + " " + existingPatient.getSurname() + " has been modified");

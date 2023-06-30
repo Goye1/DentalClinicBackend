@@ -20,7 +20,7 @@ public class GlobalExceptionHandler {
     private Logger logger;
 
     @ExceptionHandler(AlreadyExistsException.class)
-    public ResponseEntity<?> alreadyExistsException(DataAccessException e){
+    public ResponseEntity<?> alreadyExistsException(AlreadyExistsException e){
         logger.error(e.getMessage());
         return new ResponseEntity<>(e.getMessage(), HttpStatus.BAD_REQUEST);
     }

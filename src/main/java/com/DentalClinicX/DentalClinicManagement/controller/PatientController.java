@@ -39,8 +39,8 @@ public class PatientController {
     }
 
     @GetMapping("/patients/search")
-    public <T> ResponseEntity<List<Patient>> findPatients(@RequestParam String info) {
-        List<Patient> patientList = patientService.findPatient(info);
+    public <T> ResponseEntity<List<PatientDTO>> findPatients(@RequestParam String info) {
+        List<PatientDTO> patientList = patientService.findPatient(info);
         if (patientList.isEmpty()) {
             return new ResponseEntity<>(patientList, HttpStatus.NOT_FOUND);
         } else {

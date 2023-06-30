@@ -32,6 +32,13 @@ public class Patient {
     public Patient() {
     }
 
+    public Patient(String name, String surname, Integer idCard, LocalDate dischargeDate) {
+        this.name = name;
+        this.surname = surname;
+        this.idCard = idCard;
+        this.dischargeDate = dischargeDate;
+    }
+
     public Set<Appointment> getAppointments() {
         return appointments;
     }
