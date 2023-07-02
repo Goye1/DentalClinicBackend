@@ -17,6 +17,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Set;
 
 @RestController
 public class PatientController {
@@ -67,10 +68,10 @@ public class PatientController {
     }
 
     @GetMapping("patients/listAppointments")
-    public ResponseEntity<List<AppointmentDTO>> listAppointments(@RequestParam Long id) throws ResourceNotFoundException {
-        List<AppointmentDTO> serviceResponse = patientService.listAppointments(id);
+    public ResponseEntity<List<AppointmentDTO>> listAppointments(@RequestParam Long idCard) throws ResourceNotFoundException{
+        List<AppointmentDTO> serviceResponse = patientService.listAppointments(idCard);
         if (serviceResponse.isEmpty()) {
-            return new ResponseEntity<>(null, HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>(serviceResponse, HttpStatus.NOT_FOUND);
         } else {
             return new ResponseEntity<>(serviceResponse, HttpStatus.OK);
         }

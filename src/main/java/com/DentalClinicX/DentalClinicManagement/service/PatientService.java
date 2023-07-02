@@ -8,7 +8,7 @@ import com.DentalClinicX.DentalClinicManagement.persistance.entity.Address;
 import com.DentalClinicX.DentalClinicManagement.persistance.entity.Appointment;
 import com.DentalClinicX.DentalClinicManagement.persistance.entity.Dentist;
 import com.DentalClinicX.DentalClinicManagement.persistance.entity.Patient;
-import com.DentalClinicX.DentalClinicManagement.persistance.entityMongo.PatientMongo;
+import com.DentalClinicX.DentalClinicManagement.persistance.entityMongo.DischargedPatientMongo;
 import com.DentalClinicX.DentalClinicManagement.persistance.repository.IAddressRepository;
 import com.DentalClinicX.DentalClinicManagement.persistance.repository.IAppointmentRepository;
 import com.DentalClinicX.DentalClinicManagement.persistance.repository.IPatientRepository;
@@ -18,10 +18,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Set;
+
+import java.util.*;
 
 @Service
 public class PatientService {
@@ -49,15 +47,15 @@ public class PatientService {
     public List<PatientDTO> listPatients() throws ResourceNotFoundException {
         List<PatientDTO> patientDTOList = null;
             List<Patient> patients = patientRepository.findAll();
-            List<PatientMongo> patientMongos = patientRepositoryMongo.findAll();
+            List<DischargedPatientMongo> dischargedPatientMongos = patientRepositoryMongo.findAll();
             patientDTOList = new ArrayList<>();
             for (Patient patient : patients) {
                 PatientDTO pDTO = objectMapper.convertValue(patient, PatientDTO.class);
                 pDTO.setDischarged(false);
                 patientDTOList.add(pDTO);
             }
-            for (PatientMongo patientMongo : patientMongos){
-                PatientDTO pDTOMongo = objectMapper.convertValue(patientMongo, PatientDTO.class);
+            for (DischargedPatientMongo dischargedPatientMongo : dischargedPatientMongos){
+                PatientDTO pDTOMongo = objectMapper.convertValue(dischargedPatientMongo, PatientDTO.class);
                 pDTOMongo.setDischarged(true);
                 patientDTOList.add(pDTOMongo);
             }
@@ -83,7 +81,7 @@ public class PatientService {
             throw new IllegalArgumentException("The submitted data is not valid");
         }
         List<PatientDTO> patientDTOList = new ArrayList<>();
-        List<PatientMongo> patientMongoList = patientRepositoryMongo.findAll();
+        List<DischargedPatientMongo> dischargedPatientMongoList = patientRepositoryMongo.findAll();
         List<Patient> patientList = patientRepository.findAll();
 
         for (Patient patient : patientList) {
@@ -98,14 +96,14 @@ public class PatientService {
                 patientDTOList.add(patientDTO);
             }
         }
-        for(PatientMongo patientMongo: patientMongoList){
-            String name = patientMongo.getName();
-            String surname = patientMongo.getSurname();
-            String id = patientMongo.getId().toString();
+        for(DischargedPatientMongo dischargedPatientMongo : dischargedPatientMongoList){
+            String name = dischargedPatientMongo.getName();
+            String surname = dischargedPatientMongo.getSurname();
+            String id = dischargedPatientMongo.getId().toString();
             if (name.toLowerCase().startsWith(info.toLowerCase().substring(0, 1))
                     || surname.toLowerCase().startsWith(info.toLowerCase().substring(0, 1))
                     || id.startsWith(info)) {
-                PatientDTO patientDTO = objectMapper.convertValue(patientMongo,PatientDTO.class);
+                PatientDTO patientDTO = objectMapper.convertValue(dischargedPatientMongo,PatientDTO.class);
                 patientDTO.setDischarged(true);
                 patientDTOList.add(patientDTO);
             }
@@ -137,6 +135,20 @@ public class PatientService {
         return patientRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Patient with the id: " + id + "not found"));
     }
 
+    public Patient findByIdCard(Long idCard) throws AlreadyExistsException {
+        Patient patient = patientRepository.findByIdCard(idCard);
+        DischargedPatientMongo dischargedPatientMongo = patientRepositoryMongo.findByidCard(idCard);
+        if(patient == null && dischargedPatientMongo == null){
+            throw new AlreadyExistsException("Patient with idCard: " + idCard + " dosent exist");
+        }
+        if(patient != null){
+            return patient;
+        }
+        return new Patient(dischargedPatientMongo.getName(), dischargedPatientMongo.getSurname(), dischargedPatientMongo.getIdCard(), dischargedPatientMongo.getDischargeDate());
+    }
+
+
+
     public Appointment addAppointment(AppointmentWrapper appointment) throws ResourceNotFoundException {
             Dentist dentist = dentistService.findById(appointment.getDentist_id());
             Patient patient = this.findById(appointment.getPatient_id());
@@ -151,10 +163,18 @@ public class PatientService {
         return realAppointment;
     }
 
-    public List<AppointmentDTO> listAppointments(Long id) throws ResourceNotFoundException {
+    public List<AppointmentDTO> listAppointments(Long idCard) throws ResourceNotFoundException{
         List<AppointmentDTO> appointmentDTOList = null;;
-           Patient foundPatient = this.findById(id);
-                Set<Appointment> appointmentHashSet = foundPatient.getAppointments();
+            Patient foundPatient = patientRepository.findByIdCard(idCard);
+            if(foundPatient == null){
+               DischargedPatientMongo patientMongo = patientRepositoryMongo.findByidCard(idCard);
+               String msg = "Patient with id: " + idCard + " dosent exist. ";
+               if(patientMongo != null){
+                   msg += " A discharged patient has been found: " + patientMongo.getName() + " " + patientMongo.getSurname() + " discharged on: " + patientMongo.getDischargeDate();
+               }
+                throw new ResourceNotFoundException(msg);
+            }
+        Set<Appointment> appointmentHashSet = foundPatient.getAppointments();
                 appointmentDTOList = new ArrayList<>();
                 for (Appointment a : appointmentHashSet) {
                     appointmentDTOList.add(objectMapper.convertValue(a, AppointmentDTO.class));
@@ -162,10 +182,12 @@ public class PatientService {
         return appointmentDTOList;
     }
 
+
+
     public String deleteAppointment(Long id) throws ResourceNotFoundException {
         Appointment appointment= appointmentRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("No appointment found to be deleted"));
         appointmentRepository.delete(appointment);
-        return "Appointment deleted succsesfully";
+        return "Appointment deleted successfully";
     }
 
 

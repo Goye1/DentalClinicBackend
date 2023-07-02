@@ -1,21 +1,23 @@
 package com.DentalClinicX.DentalClinicManagement.service;
 
+import com.DentalClinicX.DentalClinicManagement.exceptions.AlreadyExistsException;
+import com.DentalClinicX.DentalClinicManagement.exceptions.ResourceNotFoundException;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 @Component
 public class Scheduler {
-    private final AppointmentServiceMongo appointmentService;
-    private final PatientServiceMongo patientServiceMongo;
+    private final PastAppointmentServiceMongo appointmentService;
+    private final DischargedPatientServiceMongo dischargedPatientServiceMongo;
 
-    public Scheduler(AppointmentServiceMongo appointmentService, PatientServiceMongo patientServiceMongo) {
+    public Scheduler(PastAppointmentServiceMongo appointmentService, DischargedPatientServiceMongo dischargedPatientServiceMongo) {
         this.appointmentService = appointmentService;
-        this.patientServiceMongo = patientServiceMongo;
+        this.dischargedPatientServiceMongo = dischargedPatientServiceMongo;
     }
 
     @Scheduled(cron = "0 * * * * ?", zone = "America/Argentina/Buenos_Aires")
-    public void processExpiredAppointments() {
+    public void processExpiredAppointments() throws AlreadyExistsException, ResourceNotFoundException {
         appointmentService.processAppointments();
-        patientServiceMongo.processPatients();
+        dischargedPatientServiceMongo.processPatients();
     }
 }

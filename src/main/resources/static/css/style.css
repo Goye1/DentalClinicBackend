@@ -1,0 +1,51 @@
+.logox{
+    font-family: 'Oswald', sans-serif;
+    font-size: larger;
+
+}
+
+.invisible{
+    display:none;
+}
+
+
+
+.datepicker{
+    font-style: normal;
+}
+
+.no-resize {
+    resize: none;
+  }
+
+  #inputsVibrate {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .vibrate {
+    animation: vibrate 0.3s ease-in-out infinite;
+  }
+  
+  @keyframes vibrate {
+    0% {
+      transform: translateX(-2px);
+    }
+    50% {
+      transform: translateX(2px);
+    }
+    100% {
+      transform: translateX(-2px);
+    }
+  }
+
+  td.admitted {
+    color: green;
+    font-weight: bold;
+    font-size: 0.85em;
+}
+
+td.discharged {
+    color: red;
+    font-weight: bold;
+    font-size: 0.85em;
+}

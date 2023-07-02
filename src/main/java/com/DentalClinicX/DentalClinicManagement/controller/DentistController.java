@@ -55,10 +55,10 @@ public class DentistController {
     }
 
     @GetMapping("dentists/listAppointments")
-    public ResponseEntity<List<AppointmentDTO>> listAppointments(@RequestParam Long id) throws ResourceNotFoundException {
-        List<AppointmentDTO> serviceResponse = dentistService.listAppointments(id);
+    public ResponseEntity<List<AppointmentDTO>> listAppointments(@RequestParam Integer licenseNumber) throws ResourceNotFoundException {
+        List<AppointmentDTO> serviceResponse = dentistService.listAppointments(licenseNumber);
         if (serviceResponse.isEmpty()) {
-            return new ResponseEntity<>(null, HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>(serviceResponse, HttpStatus.NOT_FOUND);
         } else {
             return new ResponseEntity<>(serviceResponse, HttpStatus.OK);
         }

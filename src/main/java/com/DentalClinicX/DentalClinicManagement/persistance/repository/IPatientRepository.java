@@ -10,9 +10,6 @@ import java.util.List;
 public interface IPatientRepository extends JpaRepository<Patient,Long> {
 
     boolean existsByidCard(Integer idCard);
-
     List<Patient> findByDischargeDateBefore(LocalDate date);
-
-
-
+    Patient findByIdCard(Long id);
 }

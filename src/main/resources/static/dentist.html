@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bulma.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Dentist/Admin landing page</title>
+    <link href="node_modules/bulma-calendar/dist/css/bulma-calendar.css" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item home" href="">
+            <p class="logox">DentistX</p>
+          </a>
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item">
+              Home
+            </a>
+            <a class="navbar-item patientsButton">
+              Patients
+            </a>
+            <a class="navbar-item dentistsButton">
+              Dentists
+            </a>
+            </a>
+            <a class="navbar-item appointmentsButton">
+                Appointments
+            </a>
+            
+          
+          </div>
+      
+          <div class="navbar-end">
+            <a class="navbar-item">
+              My profile
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                Manuel Goyenechea
+              </a>
+              <div class="navbar-dropdown">
+                <a class="navbar-item">
+                  Sign out
+                </a>
+                <a class="navbar-item">
+                  Contact
+                </a>
+                <a class="navbar-item">
+                  Edit profile
+                </a>
+                <hr class="navbar-divider">
+                <a class="navbar-item">
+                  Report an issue
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </nav>
+      <section class="hero is-link is-small">
+        <div class="hero-body ">
+          <p class="title">
+            DentistX
+          </p>
+          <p class="subtitle">
+            (Back-end project)
+          </p>
+        </div>
+      </section>
+      
+      <section class="container patientContainer invisible">
+        <div class="field is-grouped mt-5">
+          <p class="control is-expanded">
+            <input id="inputsVibrate"  class="input searchInput" type="text" placeholder="Find a patient by name, surname or Id card">
+          </p>
+          <div class="field is-grouped">
+          <p class="control">
+            <a class="button is-info searchButton">
+              Search
+            </a>
+          </p>
+          <p class="control">
+            <a class="button is-info is-light viewAllButton">
+              View all
+            </a>
+          </p>
+        </div>
+      </div>
+        <div class="table-container">
+          <table class="table is-fullwidth is-hoverable" >
+            <thead>
+              <tr>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Id card</th>
+            <th>Discharge Date</th>
+            <th>State</th>
+            <th></th>
+            </tr>
+          </thead>
+          <tbody class="patientList">
+          </tbody>
+          </table>
+          <div class="container">
+            <div class="notification is-info is-light patientResponse ">
+              Find any patient.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container dentistContainer invisible ">
+        <div class="field is-grouped mt-5">
+          <p class="control is-expanded">
+            <input class="input searchInputDentists" type="text" placeholder="Find a dentist by name, surname or license number">
+          </p>
+          <div class="field is-grouped">
+          <p class="control">
+            <a class="button is-info searchButtonDentist">
+              Search
+            </a>
+          </p>
+          <p class="control">
+            <a class="button is-info is-light viewAllButtonDentist">
+              View all
+            </a>
+          </p>
+        </div>
+      </div>
+        <div class="table-container">
+          <table class="table is-fullwidth is-hoverable" >
+            <thead>
+              <tr>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>License Number</th>
+            <th></th>
+            </tr>
+          </thead>
+          <tbody class="dentistList">
+          </tbody>
+          </table>
+          <div class="container">
+            <div class="notification is-info is-light dentistResponse ">
+              Find any dentist
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="container appointmentsContainer invisible">
+        <div class="tabs is-centered options mb-0">
+          <ul>
+            <li class="futAppointments is-active"><a>Future appointments</a></li>
+            <li class="pastAppointments"><a>Past appointments</a></li>
+          </ul>
+        </div>
+        <div class="table-container">
+          <table class="table is-fullwidth is-hoverable" >
+            <thead>
+              <tr>
+            <th>Patient</th>
+            <th>Dentist</th>
+            <th>License Number</th>
+            <th>Date</th>
+            <th>Reason</th>
+            <th></th>
+            </tr>
+          </thead>
+          <tbody class="appointmentList">
+          </tbody>
+          </table>
+          <div class="container">
+            <div class="notification is-info is-light appointmentsResponse invisible">
+             No appointments were found.
+            </div>
+            
+          </div>
+        </div>
+      </section>
+     
+      <script src="node_modules/bulma-calendar/dist/js/bulma-calendar.js"></script>
+      <script src="scripts/dentist.js"></script>
+
+</body>
+</html>

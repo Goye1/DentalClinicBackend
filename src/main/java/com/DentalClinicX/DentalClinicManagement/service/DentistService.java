@@ -95,9 +95,17 @@ public class DentistService {
            return dentistRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Dentist with id: " + id +"not found"));
     }
 
-    public List<AppointmentDTO> listAppointments(Long id) throws ResourceNotFoundException {
+    public Dentist findByLicenseNumber(Integer licenseNumber) throws ResourceNotFoundException {
+        Dentist dentist = dentistRepository.findBylicenseNumber(licenseNumber);
+        if(dentist == null){
+            throw new ResourceNotFoundException("Dentist with license number: " + licenseNumber + " dosent exist");
+        }
+        return dentist;
+    }
+
+    public List<AppointmentDTO> listAppointments(Integer idCard) throws ResourceNotFoundException {
         List<AppointmentDTO> appointmentDTOList = null;
-        Dentist foundDentist = this.findById(id);
+        Dentist foundDentist = this.findByLicenseNumber(idCard);
                 Set<Appointment> appointmentHashSet = foundDentist.getAppointments();
                 appointmentDTOList = new ArrayList<>();
                 for (Appointment a : appointmentHashSet) {

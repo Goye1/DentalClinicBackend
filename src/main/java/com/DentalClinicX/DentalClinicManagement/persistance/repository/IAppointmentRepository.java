@@ -5,8 +5,12 @@ import org.springframework.stereotype.Repository;
 
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.Set;
 
 @Repository
 public interface IAppointmentRepository  extends JpaRepository<Appointment,Long> {
     List<Appointment> findByAppointmentDateBefore(LocalDateTime date);
+    Set<Appointment> findAllByPatientIdCard(Long idCard);
+
+
 }

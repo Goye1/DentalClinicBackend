@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bulma.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Patient landing page</title>
+    <link href="node_modules/bulma-calendar/dist/css/bulma-calendar.css" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item home" href="">
+            <p class="logox">DentistX</p>
+          </a>
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item">
+              Home
+            </a>
+      
+            <a class="navbar-item myAppointments">
+              My appointments
+            </a>
+            <a class="navbar-item findProffesionals">
+              Find proffesionals
+            </a>
+            <a class="navbar-item scheduleAppointment">
+              Schedule an appointment
+            </a>
+          </div>
+      
+          <div class="navbar-end">
+            <a class="navbar-item">
+              My profile
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                Manuel Goyenechea
+              </a>
+              <div class="navbar-dropdown">
+                <a class="navbar-item">
+                  Sign out
+                </a>
+                <a class="navbar-item">
+                  Contact
+                </a>
+                <a class="navbar-item">
+                  Edit profile
+                </a>
+                <hr class="navbar-divider">
+                <a class="navbar-item">
+                  Report an issue
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </nav>
+      <section class="hero is-link is-small">
+        <div class="hero-body ">
+          <p class="title">
+            DentistX
+          </p>
+          <p class="subtitle">
+            (Back-end project)
+          </p>
+        </div>
+      </section>
+      
+      <section class="container myFutureAppointmentsContainer invisible">
+        <div class="tabs is-centered options mb-0">
+          <ul>
+            <li class="futAppointments"><a>Future appointments</a></li>
+            <li class="pastAppointments"><a>Past appointments</a></li>
+          </ul>
+        </div>
+        <div class="table-container">
+          <table class="table is-fullwidth is-hoverable" >
+            <thead>
+              <tr>
+            <th>Patient</th>
+            <th>Dentist</th>
+            <th>License Number</th>
+            <th>Date</th>
+            <th>Reason</th>
+            <th></th>
+            </tr>
+          </thead>
+          <tbody class="appointmentList">
+          </tbody>
+          </table>
+          <div class="container">
+            <div class="notification is-info is-light noAppointments invisible">
+              You dont have any upcoming appointments, click <strong class="addAppointment" style="cursor: pointer; text-decoration: underline;">here</strong> to add one.
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      <section class="container findProffesionalsContainter invisible">
+        <div class="field is-grouped mt-5">
+          <p class="control is-expanded">
+            <input class="input searchInput" type="text" placeholder="Find a dentist by name, surname or license number">
+          </p>
+          <div class="field is-grouped">
+          <p class="control">
+            <a class="button is-info searchButton">
+              Search
+            </a>
+          </p>
+          <p class="control">
+            <a class="button is-info is-light viewAllButton">
+              View all
+            </a>
+          </p>
+        </div>
+      </div>
+        <div class="table-container">
+          <table class="table is-fullwidth is-hoverable" >
+            <thead>
+              <tr>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>License Number</th>
+            <th></th>
+            </tr>
+          </thead>
+          <tbody class="dentistList">
+          </tbody>
+          </table>
+          <div class="container">
+            <div class="notification is-info is-light noAppointmentsPro ">
+              Find any dentist
+            </div>
+          </div>
+        </div>
+      </section>
+
+   
+
+
+      <section class="scheduleAppointmentContainer container invisible">
+        <div class="columns">
+          <div class="column">
+            <h3 class="title is-3 mt-4">Schedule appointment</h3>
+
+        <div class="field">
+          <label class="label mt-5">Email</label>
+          <div class="control ">
+            <input class="input emailInput" type="text" placeholder="example@gmail.com">
+          </div>
+          <p class="help is-danger invisible invalidEmail">Invalid email</p>
+        </div>
+        
+        <div class="field">
+          <label class="label">Dentist</label>
+          <div class="control">
+            <div class="select">
+              <select class="selectDentist">
+                <option class="defaultOption">Select dentist</option>
+              </select>
+            </div>
+          </div>
+          <p class="help is-danger invisible invalidDentist">This field is obligatory</p>
+        </div>
+        
+        <div class="field">
+          <div class="control ">
+          <label class="label">Date and time</label> 
+          <input type="date">
+          </div>
+          <p class="help is-danger invisible invalidDate">This field is obligatory</p>
+        </div>
+          
+        <div class="field">
+          <div class="control">
+          <label class="label mt-3">Reason</label> 
+          <textarea class="textarea no-resize reasonInput" rows="5"></textarea>
+        </div>
+        <p class="help is-danger invisible invalidReason">This field is obligatory</p>
+        </div>
+        
+        
+          <div class="field">
+            <a class="button is-info submitButton">
+            Schedule
+          </a>
+        </div>
+        
+          </div>
+          <div class="column m-5">
+            
+          </div>
+        </div>
+  
+
+
+       
+
+      </section>
+      <script src="node_modules/bulma-calendar/dist/js/bulma-calendar.js"></script>
+      <script src="scripts/patient.js"></script>
+
+</body>
+</html>
