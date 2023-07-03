@@ -1,10 +1,8 @@
 package com.DentalClinicX.DentalClinicManagement.service;
-
 import com.DentalClinicX.DentalClinicManagement.exceptions.AlreadyExistsException;
 import com.DentalClinicX.DentalClinicManagement.exceptions.ResourceNotFoundException;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
-
 @Component
 public class Scheduler {
     private final PastAppointmentServiceMongo appointmentService;

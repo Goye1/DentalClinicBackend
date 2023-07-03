@@ -1,15 +1,23 @@
 const patientsButton = document.querySelector(".patientsButton");
 const dentistsButton = document.querySelector(".dentistsButton");
 const appointmentsButton = document.querySelector(".appointmentsButton");
+const addDentistButton = document.querySelector(".addDentistButton");
+
 
 const patientContainer = document.querySelector(".patientContainer");
 const dentistContainer = document.querySelector(".dentistContainer");
 const appointmentsContainer = document.querySelector(".appointmentsContainer");
+const addDentistContainer = document.querySelector(".addDentistContainer");
+
+const makeInvisible = (e) => {
+    e.classList.remove("invisible");
+}
 
 patientsButton.onclick = function(){
+  patientContainer.classList.remove("invisible");
   appointmentsContainer.classList.add("invisible")
-    patientContainer.classList.remove("invisible");
-    dentistContainer.classList.add("invisible");
+  dentistContainer.classList.add("invisible");
+  addDentistContainer.classList.add("invisible")
     const searchButton = document.querySelector(".searchButton");
     const viewAllButton  = document.querySelector(".viewAllButton");
     const searchInput = document.querySelector(".searchInput");
@@ -29,6 +37,7 @@ patientsButton.onclick = function(){
 //SEARCH PATIENTS
 
     function searchPatients() {
+      let viewLinksP = [];
       let searchQuery = searchInput.value;
       if (searchQuery != "") {
           searchButton.classList.add("is-loading")
@@ -58,7 +67,7 @@ patientsButton.onclick = function(){
                       <td>${patient.idCard}</td>
                       <td>${formatDate}</td>
                       <td class="${state.toLowerCase()}">${state}</td>
-                      <td><a class="view-link">${app}</a></td>
+                      <td><a class="view-linkP">${app}</a></td>
                     </tr>
                     `;
                 list = list += patientRow;
@@ -71,9 +80,9 @@ patientsButton.onclick = function(){
                 patientResponse.innerHTML = "No patients were found";
               } else {
                 patientResponse.classList.add("invisible");
-                let viewLinks = document.querySelectorAll(".view-link");
+                 viewLinksP = document.querySelectorAll(".view-linkP");
 
-                viewLinks.forEach((link) => {
+                viewLinksP.forEach((link) => {
                   link.addEventListener("click",viewAppointments);
                 })
               }
@@ -101,9 +110,9 @@ patientsButton.onclick = function(){
 
 
 viewAllButton.addEventListener("click",() => {
+ let viewLinksP = []
     let searchQuery = searchInput.value;
     viewAllButton.classList.add("is-loading");
-
     patientList.innerHTML = "";
     fetch("http://localhost:8080/patients/listAll")
       .then((response) =>
@@ -130,7 +139,7 @@ viewAllButton.addEventListener("click",() => {
             <td>${patient.idCard}</td>
             <td>${formatDate}</td>
             <td class="${state.toLowerCase()}">${state}</td>
-            <td><a class="view-link">${app}</a></td>
+            <td><a class="view-linkP">${app}</a></td>
           </tr>
           `;
           list += patientRow;
@@ -141,27 +150,29 @@ viewAllButton.addEventListener("click",() => {
             patientResponse.classList.remove("invisible");
             patientResponse.innerHTML = "No patients were found";
         } else {
-          let viewLinks = document.querySelectorAll(".view-link");
-          viewLinks.forEach((link) => {
+           viewLinksP = document.querySelectorAll(".view-linkP");
+          viewLinksP.forEach((link) => {
             link.addEventListener("click",viewAppointments);
           })
             patientResponse.classList.add("invisible");
         }
       }).catch(() => {
         viewAllButton.classList.remove("is-loading");
-            patientResponse.classList.remove("invisible")
+        patientResponse.classList.remove("invisible")
         patientResponse.innerHTML = "Error trying to get the patietns"
       });
-  });
-}
-
+    });
+  }
+  
+  
 //DENTISTS
 
 dentistsButton.onclick = function(){
   appointmentsContainer.classList.add("invisible")
   patientContainer.classList.add("invisible");
   dentistContainer.classList.remove("invisible");
-  
+  addDentistContainer.classList.add("invisible")
+
   const searchButtonDentist = document.querySelector(".searchButtonDentist");
   const viewAllButtonDentist =  document.querySelector(".viewAllButtonDentist");
   const dentistResponse = document.querySelector(".dentistResponse");
@@ -176,6 +187,7 @@ dentistsButton.onclick = function(){
     }, 300);
   }
   function searchDentists() {
+   let viewLinks = [];
     let searchQuery = searchInputDentists.value;
     if (searchQuery != "") {
       searchButtonDentist.classList.add("is-loading")
@@ -204,7 +216,7 @@ dentistsButton.onclick = function(){
             dentistResponse.classList.remove("invisible");
             dentistResponse.innerHTML = "No dentists were found";
           } else {
-            let viewLinks = document.querySelectorAll(".view-link");
+             viewLinks = document.querySelectorAll(".view-link");
             viewLinks.forEach((link) => {
               link.addEventListener("click",viewDentistAppointments);
             })
@@ -230,7 +242,8 @@ dentistsButton.onclick = function(){
   });
 
 
-  viewAllButtonDentist.addEventListener("click", () => {
+  function viewAllDentists(){
+    let viewLinks = [];
     dentistList.innerHTML = "";
     viewAllButtonDentist.classList.add("is-loading")
     fetch("http://localhost:8080/dentists/listAll")
@@ -241,11 +254,11 @@ dentistsButton.onclick = function(){
         dentistList.innerHTML = "";
         dentist.forEach((dentist) => {
           let dentistRow = `
-          <tr>
+          <tr value=${dentist.licenseNumber}>
             <td>${dentist.name}</td>
             <td>${dentist.surname}</td>
             <td>${dentist.licenseNumber}</td>
-            <td><a>View appointments</a></td>
+            <td><a class="view-link">View appointments</a></td>
           </tr>
           `;
           list += dentistRow;
@@ -258,39 +271,46 @@ dentistsButton.onclick = function(){
           dentistResponse.classList.remove("invisible");
           dentistResponse.innerHTML = "No dentists were found";
         } else {
+           viewLinks = document.querySelectorAll(".view-link");
+            viewLinks.forEach((link) => {
+              link.addEventListener("click",viewDentistAppointments);
+            })
           dentistResponse.classList.add("invisible");
         }
       }).catch(() => {
+        dentistResponse.classList.remove("invisible");
         viewAllButtonDentist.classList.remove("is-loading")
         dentistResponse.innerHTML = "Error trying to get the dentists"
       });
-  });
+  };
+
+  viewAllButtonDentist.addEventListener("click",viewAllDentists)
 }
 
-
-
 let patientIdCard;
-
-
+let futAppointments = document.querySelector(".futAppointments");
+let pastAppointments = document.querySelector(".pastAppointments")
+let appointmentList = document.querySelector(".appointmentList");
+let appointmentsResponse = document.querySelector(".appointmentsResponse");
+let variableNode = document.querySelector(".variable-node");
 
 function viewAppointments(event){
-  let futAppointments = document.querySelector(".futAppointments");
-  let pastAppointments = document.querySelector(".pastAppointments")
-  let appointmentList = document.querySelector(".appointmentList");
-  let appointmentsResponse = document.querySelector(".appointmentsResponse");
+
   appointmentsContainer.classList.remove("invisible")
-  
-
+  variableNode.innerHTML = "License number"
   appointmentList.innerHTML = "";
-
   patientContainer.classList.add("invisible");
   dentistContainer.classList.add("invisible");
+  addDentistContainer.classList.add("invisible")
   
-   patientIdCard = event.target.parentNode.parentNode.getAttribute("value");
-  viewFutAppointments();
+  patientIdCard = event.target.parentNode.parentNode.getAttribute("value");
   futAppointments.addEventListener("click",viewFutAppointments)
+  viewFutAppointments();
   
   function viewFutAppointments(){
+    patientIdCard = event.target.parentNode.parentNode.getAttribute("value");
+    variableNode.innerHTML = "License number"
+    appointmentsResponse.classList.add("invisible")
       futAppointments.classList.add("is-active");
       pastAppointments.classList.remove("is-active")
       appointmentList.innerHTML = "";
@@ -325,6 +345,8 @@ function viewAppointments(event){
   }
 
     pastAppointments.onclick = function(){
+      appointmentsResponse.classList.add("invisible")
+      variableNode.innerHTML = "License number"
       futAppointments.classList.remove("is-active");
       pastAppointments.classList.add("is-active")
       appointmentList.innerHTML = "";
@@ -357,7 +379,6 @@ function viewAppointments(event){
             appointmentsResponse.innerHTML = "Error trying to get past appointments"
       })
 }
-appointmentsButton.addEventListener("click", viewAppointments);
 }
 
 
@@ -365,27 +386,169 @@ let dentistLicenseNumber;
 function viewDentistAppointments(event){
   patientContainer.classList.add("invisible");
   dentistContainer.classList.add("invisible");
-  let futAppointments = document.querySelector(".futAppointments");
-  let pastAppointments = document.querySelector(".pastAppointments")
-  let appointmentList = document.querySelector(".appointmentList");
-  let appointmentsResponse = document.querySelector(".appointmentsResponse");
+  addDentistContainer.classList.add("invisible")
+  variableNode.innerHTML = "Patient Id card"
+  dentistLicenseNumber = event.target.parentNode.parentNode.getAttribute("value");
   appointmentsContainer.classList.remove("invisible")
-
+  
   appointmentList.innerHTML = "";
-
-
-   dentistLicenseNumber = event.target.parentNode.parentNode.getAttribute("value");
-   viewDentistFutAppointments();
+  viewDentistFutAppointments();
   futAppointments.addEventListener("click",viewDentistFutAppointments)
-
+  
   function viewDentistFutAppointments(){
+    appointmentsResponse.classList.add("invisible")
+    variableNode.innerHTML = "Patient Id card"
     appointmentList.innerHTML = "";
       futAppointments.classList.add("is-active");
       pastAppointments.classList.remove("is-active")
-      
-
-
-
+      fetch(`http://localhost:8080/dentists/listAppointments?licenseNumber=${dentistLicenseNumber}`)
+      .then((response) => response.json())
+      .then((appointment) => {
+        list = [];
+        appointment.forEach(appointment => {
+          let appointmentRow = `
+          <tr>
+          <td>${appointment.patient.name} ${appointment.patient.surname}</td>
+          <td>${appointment.dentist.name} ${appointment.dentist.surname}</td>
+          <td>${appointment.patient.idCard}</td>
+          <td>${appointment.appointmentDate[0]}/${appointment.appointmentDate[1]}/${appointment.appointmentDate[2]},
+           ${appointment.appointmentDate[3]}:${appointment.appointmentDate[4]}</td>
+          <td>${appointment.reason}</td>
+          </tr>
+          `
+          list += appointmentRow;
+          appointmentList.innerHTML = list;
+        })
+        if(list.length == 0){
+          appointmentsResponse.innerHTML = `No future appointments were found`;
+          appointmentsResponse.classList.remove("invisible")
+        }else{
+          appointmentsResponse.classList.add("invisible")
+        }
+      }).catch(() => {
+        appointmentsResponse.classList.remove("invisible")
+        appointmentsResponse.innerHTML = `Error trying to get future appointments`;
+      })
   }
 
+  pastAppointments.onclick = () => {
+    variableNode.innerHTML = "Patient Id card"
+      appointmentList.innerHTML = "";
+      futAppointments.classList.remove("is-active");
+      pastAppointments.classList.add("is-active")
+
+      fetch(`http://localhost:8080/dentists/pastAppointments?licenseNumber=${dentistLicenseNumber}`)
+      .then((response) => response.json())
+      .then((appointment) => {
+        list = [];
+        appointment.forEach(appointment => {
+          let appointmentRow = `
+          <tr>
+          <td>${appointment.patient.name} ${appointment.patient.surname}</td>
+          <td>${appointment.dentist.name} ${appointment.dentist.surname}</td>
+          <td>${appointment.patient.idCard}</td>
+          <td>${appointment.localDateTime[0]}/${appointment.localDateTime[1]}/${appointment.localDateTime[2]},
+           ${appointment.localDateTime[3]}:${appointment.localDateTime[4]}</td>
+          <td>${appointment.reason}</td>
+          </tr>
+          `
+          list += appointmentRow;
+          appointmentList.innerHTML = list;
+        })
+        if(list.length == 0){
+          appointmentsResponse.innerHTML = `No past appointments were found`;
+          appointmentsResponse.classList.remove("invisible")
+        }else{
+          appointmentsResponse.classList.add("invisible")
+        }
+      }).catch((e) => {
+        appointmentsResponse.classList.remove("invisible")
+        appointmentsResponse.innerHTML = `Error trying to get past appointments`;
+      })
+  }
 }
+
+addDentistButton.addEventListener("click", () => {
+  patientContainer.classList.add("invisible");
+  dentistContainer.classList.add("invisible");
+  addDentistContainer.classList.remove("invisible");
+
+    let nameInput = document.querySelector(".nameInput");
+    let surnameInput = document.querySelector(".surnameInput");
+    let licenseInput = document.querySelector(".licenseInput");
+    const submitButton = document.querySelector(".submitButton");
+    const invalidName = document.querySelector(".invalidName");
+    const invalidSurname = document.querySelector(".invalidSurname");
+    const invalidLicense = document.querySelector(".invalidLicense");
+    const alreadyExists = document.querySelector(".alreadyExists");
+
+    nameInput.value = "";
+    surnameInput.value = "";
+    licenseInput.value = "";
+
+    let ins = document.querySelectorAll(".ins");
+    ins.forEach(ins => {
+      ins.addEventListener('keydown', function(event) {
+        const key = event.key;
+        const regex = /^[A-Za-z]+$/;
+        if (key.length === 1 && !regex.test(key)) {
+          event.preventDefault();
+        }
+      });
+    })
+
+    let name = false;
+    let surname = false;
+    let license = false;
+    submitButton.onclick = (e) => {
+      if(nameInput.value == ''){
+        name = false;
+        invalidName.classList.remove("invisible");
+      }else{
+        name = true;
+        invalidName.classList.add("invisible");
+      }
+      if(surnameInput.value == ''){
+        surname = false;
+        invalidSurname.classList.remove("invisible");
+      }else{
+        surname = true;
+        invalidSurname.classList.add("invisible");
+      }
+      if(licenseInput.value  == ''){
+        license = false;
+        invalidLicense.classList.remove("invisible")
+      }else{
+        license = true;
+        invalidLicense.classList.add("invisible")
+      }
+      let requestBody = {
+        name: nameInput.value,
+        surname: surnameInput.value,
+        licenseNumber: licenseInput.value
+      };
+      if(name && surname && license){
+        fetch("http://localhost:8080/dentists/add", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(requestBody)
+        }).then((response) => {
+          if (response.ok) {
+            submitButton.innerHTML = "Dentist registered, redirecting."
+            setTimeout(() => {
+              dentistsButton.click();
+            },3000)
+            alreadyExists.classList.add("invisible")
+            return response.json();
+          } else {
+            alreadyExists.classList.remove("invisible")
+          }})
+        .then((data) => {
+        }).catch((e) => {
+        })
+      
+      }
+    }
+})

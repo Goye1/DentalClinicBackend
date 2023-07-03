@@ -35,32 +35,22 @@
               Dentists
             </a>
             </a>
-            <a class="navbar-item appointmentsButton">
-                Appointments
+            <a class="navbar-item addDentistButton">
+              Add Dentist
             </a>
             
           
           </div>
       
           <div class="navbar-end">
-            <a class="navbar-item">
-              My profile
-            </a>
             <div class="navbar-item has-dropdown is-hoverable">
               <a class="navbar-link">
-                Manuel Goyenechea
+                Admin
               </a>
-              <div class="navbar-dropdown">
+              <div class="navbar-dropdown is-right ">
                 <a class="navbar-item">
                   Sign out
                 </a>
-                <a class="navbar-item">
-                  Contact
-                </a>
-                <a class="navbar-item">
-                  Edit profile
-                </a>
-                <hr class="navbar-divider">
                 <a class="navbar-item">
                   Report an issue
                 </a>
@@ -84,7 +74,7 @@
       <section class="container patientContainer invisible">
         <div class="field is-grouped mt-5">
           <p class="control is-expanded">
-            <input id="inputsVibrate"  class="input searchInput" type="text" placeholder="Find a patient by name, surname or Id card">
+            <input id="inputsVibrate"  class="input searchInput" type="text" placeholder="Find a patient by name or surname.">
           </p>
           <div class="field is-grouped">
           <p class="control">
@@ -175,7 +165,7 @@
               <tr>
             <th>Patient</th>
             <th>Dentist</th>
-            <th>License Number</th>
+            <th class="variable-node">License Number</th>
             <th>Date</th>
             <th>Reason</th>
             <th></th>
@@ -191,6 +181,55 @@
             
           </div>
         </div>
+      </section>
+      <section class="container addDentistContainer invisible">
+
+        <div class="columns">
+          <div class="column">
+            <h3 class="title is-3 mt-4">Add dentist</h3>
+
+        <div class="field">
+          <label class="label mt-5">Name</label>
+          <div class="control ">
+            <input class="input nameInput ins" type="text">
+          </div>
+          <p class="help is-danger invisible invalidName">Obligatory field</p>
+        </div>
+
+        <div class="field">
+          <label class="label mt-5">Surname</label>
+          <div class="control ">
+            <input class="input surnameInput ins" type="text">
+          </div>
+          <p class="help is-danger invisible invalidSurname">Obligatory field</p>
+        </div>
+
+        <div class="field">
+          <label class="label mt-5">License number</label>
+          <div class="control ">
+            <input class="input licenseInput " type="number" onkeydown="javascript: return ['Backspace','Delete','ArrowLeft','ArrowRight'].includes(event.code) ? true : !isNaN(Number(event.key)) && event.code!=='Space'" />
+          </div>
+          <p class="help is-danger invisible invalidLicense">Obligatory field</p>
+        </div>
+        
+          <div class="field mt-5">
+            <a class="button is-info submitButton">
+            Register
+          </a>
+          <p class="help is-danger mt-3 invisible alreadyExists">A DENTIST WITH TAHT LICENSE NUMBER ALREADY EXISTS</p>
+          
+        </div>
+        
+          </div>
+          <div class="column m-5">
+            
+          </div>
+        </div>
+  
+
+
+
+
       </section>
      
       <script src="node_modules/bulma-calendar/dist/js/bulma-calendar.js"></script>

@@ -35,9 +35,6 @@ public class DentistService {
             for (Dentist dentist : dentists) {
                 dentistDTOList.add(objectMapper.convertValue(dentist, DentistDTO.class));
             }
-            if(dentistDTOList.isEmpty()){
-                throw new ResourceNotFoundException("No dentists were found");
-            }
         return dentistDTOList;
     }
 

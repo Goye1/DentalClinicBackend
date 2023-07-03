@@ -1,5 +1,4 @@
-package com.DentalClinicX.DentalClinicManagement.controller;
-
+package com.DentalClinicX.DentalClinicManagement.controllerTest;
 import com.DentalClinicX.DentalClinicManagement.exceptions.AlreadyExistsException;
 import com.DentalClinicX.DentalClinicManagement.exceptions.ResourceNotFoundException;
 import com.DentalClinicX.DentalClinicManagement.model.dto.AppointmentDTO;
@@ -57,10 +56,6 @@ public class DentistController {
     @GetMapping("dentists/listAppointments")
     public ResponseEntity<List<AppointmentDTO>> listAppointments(@RequestParam Integer licenseNumber) throws ResourceNotFoundException {
         List<AppointmentDTO> serviceResponse = dentistService.listAppointments(licenseNumber);
-        if (serviceResponse.isEmpty()) {
-            return new ResponseEntity<>(serviceResponse, HttpStatus.NOT_FOUND);
-        } else {
             return new ResponseEntity<>(serviceResponse, HttpStatus.OK);
-        }
     }
 }

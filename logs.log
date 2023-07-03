@@ -1993,7 +1993,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -2074,7 +2074,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -2161,7 +2161,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -2242,7 +2242,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -2332,7 +2332,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -2415,7 +2415,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -2498,7 +2498,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -2581,7 +2581,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -2664,7 +2664,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -2747,7 +2747,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -2893,7 +2893,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -2976,7 +2976,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -3059,7 +3059,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -3141,7 +3141,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -3224,7 +3224,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -3305,7 +3305,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -3388,7 +3388,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -3471,7 +3471,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -3552,7 +3552,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -3635,7 +3635,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -3718,7 +3718,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -3799,7 +3799,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -3881,7 +3881,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -3962,7 +3962,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -4050,7 +4050,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -4132,7 +4132,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -4219,7 +4219,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -4300,7 +4300,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -4384,7 +4384,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -4465,7 +4465,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -4546,7 +4546,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -4627,7 +4627,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -4708,7 +4708,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -4789,7 +4789,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -4872,7 +4872,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -4955,7 +4955,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -5038,7 +5038,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -5121,7 +5121,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -5204,7 +5204,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -5285,7 +5285,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -5366,7 +5366,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -5449,7 +5449,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -5539,7 +5539,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -5620,7 +5620,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -5701,7 +5701,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -5784,7 +5784,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -5869,7 +5869,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -5952,7 +5952,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -6035,7 +6035,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -6124,7 +6124,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -6209,7 +6209,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -6290,7 +6290,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -6373,7 +6373,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -6456,7 +6456,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -6714,7 +6714,7 @@ org.hibernate.PropertyValueException: not-null property references a null or tra
 	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
 	at jdk.proxy2/jdk.proxy2.$Proxy120.save(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:152)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -6820,7 +6820,7 @@ org.hibernate.PropertyValueException: not-null property references a null or tra
 	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
 	at jdk.proxy2/jdk.proxy2.$Proxy120.save(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:152)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -6928,7 +6928,7 @@ org.hibernate.PropertyValueException: not-null property references a null or tra
 	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
 	at jdk.proxy2/jdk.proxy2.$Proxy120.save(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:152)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -7042,7 +7042,7 @@ org.hibernate.PropertyValueException: not-null property references a null or tra
 	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
 	at jdk.proxy2/jdk.proxy2.$Proxy120.save(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:152)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -7148,7 +7148,7 @@ org.hibernate.PropertyValueException: not-null property references a null or tra
 	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
 	at jdk.proxy2/jdk.proxy2.$Proxy120.save(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:152)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -7256,7 +7256,7 @@ org.hibernate.PropertyValueException: not-null property references a null or tra
 	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
 	at jdk.proxy2/jdk.proxy2.$Proxy120.save(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:152)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -7362,7 +7362,7 @@ org.hibernate.PropertyValueException: not-null property references a null or tra
 	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
 	at jdk.proxy2/jdk.proxy2.$Proxy120.save(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:152)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -7470,7 +7470,7 @@ org.hibernate.PropertyValueException: not-null property references a null or tra
 	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
 	at jdk.proxy2/jdk.proxy2.$Proxy120.save(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:152)
-	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -9689,3 +9689,1212 @@ org.hibernate.PropertyValueException: not-null property references a null or tra
 [2023-07-02 17:35:03] [ ERROR] [LoggerConfig:30] Patient with id: 7 dosent exist. 
 [2023-07-02 17:36:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T17:36:00.010220700
 [2023-07-02 17:36:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 17:41:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T17:41:00.014717
+[2023-07-02 17:41:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:05:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:05:00.007920100
+[2023-07-02 18:05:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:05:34] [ INFO ] [LoggerConfig:75] A new patient named: felix Doe has been added.
+[2023-07-02 18:05:37] [ INFO ] [LoggerConfig:49] A new dentist named: juuanf Ref has been added.
+[2023-07-02 18:06:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:06:00.014869
+[2023-07-02 18:06:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:07:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:07:00.012393100
+[2023-07-02 18:07:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:08:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:08:00.001395
+[2023-07-02 18:08:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:09:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:09:00.006487500
+[2023-07-02 18:09:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:10:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:10:00.013385600
+[2023-07-02 18:10:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:11:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:11:00.014305400
+[2023-07-02 18:11:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:12:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:12:00.009271100
+[2023-07-02 18:12:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:13:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:13:00.000403200
+[2023-07-02 18:13:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:13:20] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 18:14:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:14:00.005234800
+[2023-07-02 18:14:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:15:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:15:00.003259300
+[2023-07-02 18:15:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:16:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:16:00.013588600
+[2023-07-02 18:16:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:17:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:17:00.001288300
+[2023-07-02 18:17:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:18:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:18:00.001107700
+[2023-07-02 18:18:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:19:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:19:00.004411900
+[2023-07-02 18:19:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:20:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:20:00.006373100
+[2023-07-02 18:20:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:21:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:21:00.001260100
+[2023-07-02 18:21:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:22:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:22:00.008334600
+[2023-07-02 18:22:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:23:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:23:00.000356600
+[2023-07-02 18:23:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:24:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:24:00.008764200
+[2023-07-02 18:24:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:25:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:25:00.008515700
+[2023-07-02 18:25:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:26:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:26:00.011214500
+[2023-07-02 18:26:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:27:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:27:00.010471
+[2023-07-02 18:27:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:28:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:28:00.012703100
+[2023-07-02 18:28:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:29:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:29:00.011125700
+[2023-07-02 18:29:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:30:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:30:00.008500900
+[2023-07-02 18:30:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:31:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:31:00.002267300
+[2023-07-02 18:31:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:32:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:32:00.006670100
+[2023-07-02 18:32:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:32:33] [ ERROR] [LoggerConfig:30] A dentist with 7 license number already exists
+[2023-07-02 18:32:37] [ INFO ] [LoggerConfig:49] A new dentist named: juuanf Ref has been added.
+[2023-07-02 18:33:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:33:00.001560600
+[2023-07-02 18:33:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:34:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:34:00.008154600
+[2023-07-02 18:34:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:35:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:35:00.015100400
+[2023-07-02 18:35:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:36:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:36:00.002379900
+[2023-07-02 18:36:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:37:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:37:00.026495200
+[2023-07-02 18:37:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:38:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:38:00.009570400
+[2023-07-02 18:38:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:39:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:39:00.005328100
+[2023-07-02 18:39:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:40:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:40:00.011149100
+[2023-07-02 18:40:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:41:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:41:00.002254700
+[2023-07-02 18:41:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:42:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:42:00.009901500
+[2023-07-02 18:42:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:43:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:43:00.013507700
+[2023-07-02 18:43:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:44:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:44:00.015625100
+[2023-07-02 18:44:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:45:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:45:00.004824800
+[2023-07-02 18:45:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:46:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:46:00.010949
+[2023-07-02 18:46:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:46:59] [ ERROR] [LoggerConfig:30] Dentist with license number: 2 dosent exist
+[2023-07-02 18:47:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:47:00.011424800
+[2023-07-02 18:47:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:47:01] [ ERROR] [LoggerConfig:30] Dentist with license number: 2 dosent exist
+[2023-07-02 18:47:01] [ ERROR] [LoggerConfig:30] Dentist with license number: 2 dosent exist
+[2023-07-02 18:47:01] [ ERROR] [LoggerConfig:30] Dentist with license number: 2 dosent exist
+[2023-07-02 18:47:01] [ ERROR] [LoggerConfig:30] Dentist with license number: 2 dosent exist
+[2023-07-02 18:47:10] [ ERROR] [LoggerConfig:30] Dentist with license number: 2 dosent exist
+[2023-07-02 18:47:10] [ ERROR] [LoggerConfig:30] Dentist with license number: 2 dosent exist
+[2023-07-02 18:47:16] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:47:16] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:47:20] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:47:20] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:47:20] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:47:22] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:47:22] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:47:22] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:47:23] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:47:23] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:47:23] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:47:57] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:47:57] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:47:59] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:47:59.999448700
+[2023-07-02 18:48:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:48:01] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:48:01] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:48:01] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:48:01] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:48:01] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:48:01] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:48:01] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:48:01] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:48:01] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:48:03] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:48:03] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:48:03] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:48:03] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:48:03] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:48:03] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:48:09] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:48:09] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:48:09] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:48:09] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:49:48] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:49:48] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:49:48] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:49:48] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:49:49] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:49:49] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:49:49] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:49:49] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:49:51] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:49:51] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:49:51] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:49:51] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:50:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:50:00.011132900
+[2023-07-02 18:50:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:50:17] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:50:17] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:50:17] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:50:17] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:50:20] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:50:20] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:50:20] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:50:20] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:50:41] [ ERROR] [LoggerConfig:30] No dentists were found
+[2023-07-02 18:51:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:51:00.007140100
+[2023-07-02 18:51:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:53:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:53:00.002370500
+[2023-07-02 18:53:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:53:48] [ INFO ] [LoggerConfig:72] A new patient named: felix Doe has been added.
+[2023-07-02 18:53:50] [ INFO ] [LoggerConfig:46] A new dentist named: juuanf Ref has been added.
+[2023-07-02 18:54:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:54:00.011886700
+[2023-07-02 18:54:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:55:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:55:00.010305800
+[2023-07-02 18:55:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:55:05] [ ERROR] [LoggerConfig:30] A dentist with 2 license number already exists
+[2023-07-02 18:55:07] [ INFO ] [LoggerConfig:46] A new dentist named: juuanf Ref has been added.
+[2023-07-02 18:56:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:56:00.012132200
+[2023-07-02 18:56:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:56:29] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 18:56:32] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 18:56:36] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 18:56:36] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 18:56:36] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 18:56:40] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 18:56:41] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 18:56:41] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 18:56:41] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 18:56:41] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 18:56:43] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 18:56:43] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 18:56:43] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 18:56:43] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 18:56:44] [ ERROR] [LoggerConfig:30] Patient with id: 21 dosent exist. 
+[2023-07-02 18:56:46] [ ERROR] [LoggerConfig:30] Patient with id: 21 dosent exist. 
+[2023-07-02 18:56:46] [ ERROR] [LoggerConfig:30] Patient with id: 21 dosent exist. 
+[2023-07-02 18:56:46] [ ERROR] [LoggerConfig:30] Patient with id: 21 dosent exist. 
+[2023-07-02 18:56:46] [ ERROR] [LoggerConfig:30] Patient with id: 21 dosent exist. 
+[2023-07-02 18:56:46] [ ERROR] [LoggerConfig:30] Patient with id: 21 dosent exist. 
+[2023-07-02 18:56:47] [ ERROR] [LoggerConfig:30] Patient with id: 21 dosent exist. 
+[2023-07-02 18:56:47] [ ERROR] [LoggerConfig:30] Patient with id: 21 dosent exist. 
+[2023-07-02 18:56:47] [ ERROR] [LoggerConfig:30] Patient with id: 21 dosent exist. 
+[2023-07-02 18:56:47] [ ERROR] [LoggerConfig:30] Patient with id: 21 dosent exist. 
+[2023-07-02 18:56:47] [ ERROR] [LoggerConfig:30] Patient with id: 21 dosent exist. 
+[2023-07-02 18:56:49] [ ERROR] [LoggerConfig:30] Patient with id: 21 dosent exist. 
+[2023-07-02 18:56:49] [ ERROR] [LoggerConfig:30] Patient with id: 21 dosent exist. 
+[2023-07-02 18:56:49] [ ERROR] [LoggerConfig:30] Patient with id: 21 dosent exist. 
+[2023-07-02 18:56:49] [ ERROR] [LoggerConfig:30] Patient with id: 21 dosent exist. 
+[2023-07-02 18:56:49] [ ERROR] [LoggerConfig:30] Patient with id: 21 dosent exist. 
+[2023-07-02 18:56:54] [ ERROR] [LoggerConfig:30] Patient with id: 21 dosent exist. 
+[2023-07-02 18:56:55] [ ERROR] [LoggerConfig:30] Patient with id: 21 dosent exist. 
+[2023-07-02 18:56:55] [ ERROR] [LoggerConfig:30] Patient with id: 21 dosent exist. 
+[2023-07-02 18:56:55] [ ERROR] [LoggerConfig:30] Patient with id: 21 dosent exist. 
+[2023-07-02 18:56:55] [ ERROR] [LoggerConfig:30] Patient with id: 21 dosent exist. 
+[2023-07-02 18:56:56] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 18:56:58] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 18:56:58] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 18:56:58] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 18:56:58] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 18:56:58] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 18:56:58] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 18:57:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:57:00.005057400
+[2023-07-02 18:57:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:57:00] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 18:57:00] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 18:57:00] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 18:57:00] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 18:57:00] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 18:57:00] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 18:57:02] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 18:57:02] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 18:57:02] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 18:57:02] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 18:57:02] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 18:57:02] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 18:58:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:58:00.004989
+[2023-07-02 18:58:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 18:59:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T18:59:00.000791300
+[2023-07-02 18:59:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:00:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:00:00.012810300
+[2023-07-02 19:00:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:01:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:01:00.001973
+[2023-07-02 19:01:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:02:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:02:00.005376400
+[2023-07-02 19:02:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:03:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:03:00.000544200
+[2023-07-02 19:03:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:04:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:04:00.014263500
+[2023-07-02 19:04:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:05:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:05:00.012785
+[2023-07-02 19:05:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:06:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:06:00.007875700
+[2023-07-02 19:06:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:07:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:07:00.000580700
+[2023-07-02 19:07:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:08:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:08:00.009381100
+[2023-07-02 19:08:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:09:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:09:00.012062900
+[2023-07-02 19:09:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:10:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:10:00.004692900
+[2023-07-02 19:10:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:11:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:11:00.003882300
+[2023-07-02 19:11:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:12:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:12:00.014164100
+[2023-07-02 19:12:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:13:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:13:00.013705800
+[2023-07-02 19:13:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:14:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:14:00.013419500
+[2023-07-02 19:14:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:15:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:15:00.013132300
+[2023-07-02 19:15:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:16:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:16:00.001558500
+[2023-07-02 19:16:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:17:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:17:00.005007300
+[2023-07-02 19:17:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:18:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:18:00.004151100
+[2023-07-02 19:18:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:19:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:19:00.002996
+[2023-07-02 19:19:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:20:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:20:00.002708800
+[2023-07-02 19:20:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:21:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:21:00.002426900
+[2023-07-02 19:21:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:22:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:22:00.014759100
+[2023-07-02 19:22:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:23:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:23:00.012996700
+[2023-07-02 19:23:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:24:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:24:00.012725200
+[2023-07-02 19:24:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:25:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:25:00.010273200
+[2023-07-02 19:25:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:26:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:26:00.005205500
+[2023-07-02 19:26:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:27:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:27:00.014391100
+[2023-07-02 19:27:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:27:14] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:27:15] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:27:15] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:27:17] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:27:17] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:27:21] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:27:21] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:27:22] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:27:22] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:27:23] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:27:23] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:27:25] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:27:25] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:27:25] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:27:25] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:27:26] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:27:26] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:27:32] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:27:32] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:27:33] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:27:33] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:27:34] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:27:34] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:27:46] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:27:54] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:27:54] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:28:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:28:00.007833300
+[2023-07-02 19:28:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:28:00] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:28:00] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:28:16] [ ERROR] [LoggerConfig:30] Dentist with license number: 7 dosent exist
+[2023-07-02 19:28:23] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:28:40] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:28:53] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:28:53] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:28:53] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:28:54] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:28:54] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:28:54] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:28:55] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:28:55] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:28:55] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:28:56] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:28:56] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:28:56] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:28:56] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:28:56] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:28:56] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:28:57] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:28:57] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:28:57] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:28:57] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:28:57] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:28:57] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:28:57] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:28:57] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:28:57] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:28:57] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:28:57] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:28:57] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:29:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:29:00.014197200
+[2023-07-02 19:29:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:29:05] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:29:05] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:29:05] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:29:07] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:29:07] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:29:07] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:29:08] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:29:08] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:29:08] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:29:11] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:29:12] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:29:12] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:29:12] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:29:12] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:29:12] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:29:12] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:29:13] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:29:13] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:29:13] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:29:13] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:29:13] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:29:13] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:29:58] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:29:58] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:29:58] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:29:58] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:29:58] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:29:58] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:30:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:30:00.011186600
+[2023-07-02 19:30:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:30:05] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:30:12] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:30:18] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:30:22] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:30:26] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:30:37] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:31:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:31:00.011649700
+[2023-07-02 19:31:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:32:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:32:00.001920200
+[2023-07-02 19:32:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:32:08] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:32:43] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:45] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:46] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:46] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:46] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:46] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:46] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:46] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:48] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:48] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:48] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:48] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:48] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:48] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:48] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:48] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:48] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:48] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:48] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:49] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:49] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:49] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:49] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:49] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:49] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:49] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:49] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:49] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:49] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:50] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:50] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:50] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:50] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:50] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:55] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:55] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:55] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:55] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:55] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:56] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:56] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:56] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:56] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:56] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:57] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:57] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:57] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:57] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:57] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:57] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:57] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:57] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:57] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:57] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:58] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:58] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:58] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:58] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:58] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:59] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:59] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:59] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:59] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:32:59] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:33:00.009228900
+[2023-07-02 19:33:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:33:00] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:00] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:00] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:00] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:00] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:02] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:02] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:02] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:02] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:02] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:02] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:02] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:02] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:02] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:02] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:03] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:03] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:03] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:03] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:03] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:03] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:03] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:03] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:03] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:03] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:03] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:03] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:03] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:03] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:03] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:03] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:03] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:03] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:03] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:03] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:06] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:06] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:06] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:06] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:06] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:06] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:13] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:14] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:14] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:14] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:14] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:14] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:14] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:15] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:15] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:15] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:15] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:33:15] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:34:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:34:00.003359700
+[2023-07-02 19:34:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:35:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:35:00.005197300
+[2023-07-02 19:35:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:36:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:36:00.002059900
+[2023-07-02 19:36:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:37:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:37:00.015120200
+[2023-07-02 19:37:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:38:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:38:00.009493
+[2023-07-02 19:38:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:39:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:39:00.007177600
+[2023-07-02 19:39:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:40:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:40:00.005443400
+[2023-07-02 19:40:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:41:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:41:00.010747800
+[2023-07-02 19:41:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:41:41] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:41:52] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:41:56] [ ERROR] [LoggerConfig:30] Patient with id: 21 dosent exist. 
+[2023-07-02 19:41:59] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:42:00.007152
+[2023-07-02 19:42:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:42:02] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:02] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:02] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:02] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:02] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:02] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:02] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:03] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:03] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:03] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:03] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:03] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:03] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:03] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:19] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:19] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:19] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:19] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:19] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:19] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:19] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:23] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:23] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:23] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:23] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:23] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:23] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:23] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:30] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:30] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:30] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:30] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:30] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:30] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:30] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:32] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:32] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:32] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:32] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:32] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:32] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:32] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:43] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:45] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:45] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:45] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:45] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:45] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:45] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:45] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:42:45] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:43:00.007241900
+[2023-07-02 19:43:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:43:15] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:25] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:25] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:25] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:25] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:25] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:25] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:25] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:25] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:25] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:26] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:26] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:26] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:26] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:26] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:26] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:26] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:26] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:26] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:27] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:27] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:27] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:27] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:27] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:27] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:27] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:27] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:27] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:36] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:36] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:36] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:36] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:36] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:36] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:36] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:36] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:36] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:38] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:38] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:38] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:38] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:38] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:38] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:38] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:38] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:38] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:39] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:39] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:39] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:39] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:39] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:39] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:39] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:39] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:43:39] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:44:00.013090500
+[2023-07-02 19:44:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:44:00] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:00] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:00] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:00] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:00] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:00] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:00] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:00] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:00] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:01] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:01] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:01] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:01] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:01] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:01] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:01] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:01] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:01] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:01] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:01] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:01] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:01] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:01] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:01] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:01] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:01] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:01] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:05] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:05] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:05] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:05] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:05] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:05] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:05] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:05] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:05] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:07] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:07] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:07] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:07] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:07] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:07] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:07] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:07] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:07] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:35] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:35] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:35] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:35] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:35] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:35] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:36] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:36] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:36] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:37] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:37] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:37] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:37] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:37] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:37] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:37] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:37] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:37] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:38] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:38] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:38] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:38] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:38] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:38] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:38] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:38] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:38] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:40] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:40] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:41] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:41] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:41] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:41] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:41] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:41] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:44:41] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:45:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:45:00.013271600
+[2023-07-02 19:45:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:46:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:46:00.011735400
+[2023-07-02 19:46:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:47:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:47:00.015273500
+[2023-07-02 19:47:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:48:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:48:00.003157300
+[2023-07-02 19:48:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:49:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:49:00.001231300
+[2023-07-02 19:49:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:50:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:50:00.011481600
+[2023-07-02 19:50:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:51:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:51:00.001599500
+[2023-07-02 19:51:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:51:54] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:51:56] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:51:56] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:51:56] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:51:56] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:51:58] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:51:58] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:51:58] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:51:58] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:52:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:52:00.004172400
+[2023-07-02 19:52:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:52:27] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:29] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:29] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:29] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:29] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:29] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:29] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:29] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:29] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:30] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:30] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:30] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:30] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:30] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:30] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:30] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:30] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:30] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:30] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:31] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:31] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:31] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:31] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:31] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:31] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:31] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:31] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:31] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:31] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:31] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:31] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:31] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:31] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:31] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:31] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:31] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:31] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:31] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:31] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:31] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:52:32] [ ERROR] [LoggerConfig:30] Dentist with license number: 11 dosent exist
+[2023-07-02 19:53:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:53:00.004429700
+[2023-07-02 19:53:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:54:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:54:00.006743900
+[2023-07-02 19:54:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:55:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:55:00.000231200
+[2023-07-02 19:55:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:55:06] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 19:55:11] [ ERROR] [LoggerConfig:30] Patient with id: 2 dosent exist. 
+[2023-07-02 19:56:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:56:00.011531200
+[2023-07-02 19:56:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:57:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:57:00.003074700
+[2023-07-02 19:57:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:58:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:58:00.001471400
+[2023-07-02 19:58:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 19:59:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T19:59:00.011400600
+[2023-07-02 19:59:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 20:00:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T20:00:00.002342900
+[2023-07-02 20:00:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 20:00:23] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:00:24] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:00:25] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:00:26] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:00:26] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:00:26] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:00:26] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:00:26] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:00:27] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:00:27] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:00:27] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:00:27] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:00:27] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:00:27] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:00:27] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:00:27] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:00:27] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:00:27] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:00:29] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:00:29] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:00:29] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:00:29] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:00:29] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:00:29] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:00:29] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:00:29] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:00:29] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:00:29] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:00:30] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:00:30] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:00:30] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:00:30] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:00:30] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:01:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T20:01:00.009576200
+[2023-07-02 20:01:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 20:02:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T20:02:00.008072600
+[2023-07-02 20:02:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 20:03:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T20:03:00.013227
+[2023-07-02 20:03:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 20:04:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T20:04:00.009359500
+[2023-07-02 20:04:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 20:05:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T20:05:00.008901400
+[2023-07-02 20:05:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 20:06:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T20:06:00.010365300
+[2023-07-02 20:06:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 20:07:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T20:07:00.004652
+[2023-07-02 20:07:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 20:07:38] [ ERROR] [LoggerConfig:47] For input string: "undefined"
+[2023-07-02 20:07:54] [ ERROR] [LoggerConfig:47] For input string: "undefined"
+[2023-07-02 20:08:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T20:08:00.010853100
+[2023-07-02 20:08:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 20:08:12] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:08:15] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:08:15] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:08:16] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:08:20] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:08:20] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:08:20] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:08:20] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:08:20] [ ERROR] [LoggerConfig:47] For input string: "null"
+[2023-07-02 20:09:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T20:09:00.013920300
+[2023-07-02 20:09:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 20:09:28] [ ERROR] [LoggerConfig:47] For input string: "undefined"
+[2023-07-02 20:10:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T20:10:00.006640
+[2023-07-02 20:10:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 20:10:44] [ ERROR] [LoggerConfig:47] For input string: "undefined"
+[2023-07-02 20:11:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T20:11:00.008639
+[2023-07-02 20:11:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 20:12:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T20:12:00.002545300
+[2023-07-02 20:12:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 20:13:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T20:13:00.014177
+[2023-07-02 20:13:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 20:14:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T20:14:00.004368600
+[2023-07-02 20:14:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 20:15:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T20:15:00.000397500
+[2023-07-02 20:15:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 20:16:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T20:16:00.013172
+[2023-07-02 20:16:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 20:17:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T20:17:00.005027100
+[2023-07-02 20:17:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 20:18:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T20:18:00.001489700
+[2023-07-02 20:18:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 20:19:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T20:19:00.006979400
+[2023-07-02 20:19:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 20:20:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T20:20:00.010217900
+[2023-07-02 20:20:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 20:21:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T20:21:00.008876200
+[2023-07-02 20:21:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 20:22:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T20:22:00.013569100
+[2023-07-02 20:22:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 20:23:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T20:23:00.008478300
+[2023-07-02 20:23:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 20:24:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T20:24:00.001818200
+[2023-07-02 20:24:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 20:25:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T20:25:00.013550100
+[2023-07-02 20:25:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 20:26:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T20:26:00.004089200
+[2023-07-02 20:26:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 20:27:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T20:27:00.008998100
+[2023-07-02 20:27:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 20:28:00] [ INFO ] [LoggerConfig:33] Processing appointments. 2023-07-02T20:28:00.007583200
+[2023-07-02 20:28:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-02
+[2023-07-02 22:21:28] [ ERROR] [LoggerConfig:31] java.lang.IllegalArgumentException: Entity must not be null
+[2023-07-02 22:24:21] [ ERROR] [LoggerConfig:31] org.hibernate.PropertyValueException: not-null property references a null or transient value : com.DentalClinicX.DentalClinicManagement.persistance.entity.Address.city
+[2023-07-02 22:26:07] [ INFO ] [LoggerConfig:72] A new patient named: Juan Senna has been added.
+[2023-07-02 22:31:56] [ INFO ] [LoggerConfig:72] A new patient named: Juan Senna has been added.
+[2023-07-02 22:34:51] [ INFO ] [LoggerConfig:46] A new dentist named: Frank Queries has been added.
+[2023-07-02 22:36:17] [ INFO ] [LoggerConfig:46] A new dentist named: Frank Queries has been added.
+[2023-07-02 22:44:10] [ INFO ] [LoggerConfig:46] A new dentist named: Frank Queries has been added.
+[2023-07-02 22:44:11] [ INFO ] [LoggerConfig:72] A new patient named: Juan Senna has been added.
+[2023-07-03 18:21:40] [ ERROR] [LoggerConfig:37] 
+[2023-07-03 18:22:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:22:00.010258900
+[2023-07-03 18:22:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:22:02] [ INFO ] [LoggerConfig:46] A new dentist named: juuanf Ref has been added.
+[2023-07-03 18:22:11] [ ERROR] [LoggerConfig:37] 
+[2023-07-03 18:23:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:23:00.005399200
+[2023-07-03 18:23:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:23:14] [ ERROR] [LoggerConfig:37] 
+[2023-07-03 18:24:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:24:00.007780900
+[2023-07-03 18:24:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:24:12] [ ERROR] [LoggerConfig:37] 
+[2023-07-03 18:24:50] [ ERROR] [LoggerConfig:31] java.lang.IllegalArgumentException: The given id must not be null
+[2023-07-03 18:25:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:25:00.015322500
+[2023-07-03 18:25:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:25:09] [ ERROR] [LoggerConfig:26] Patient with the id: 1not found
+[2023-07-03 18:25:29] [ INFO ] [LoggerConfig:72] A new patient named: felix Doe has been added.
+[2023-07-03 18:25:35] [ ERROR] [LoggerConfig:26] Patient with id: 44 dosent exist. 
+[2023-07-03 18:25:38] [ ERROR] [LoggerConfig:26] Patient with id: 44 dosent exist. 
+[2023-07-03 18:25:43] [ ERROR] [LoggerConfig:26] Patient with id: 44 dosent exist. 
+[2023-07-03 18:26:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:26:00.006361700
+[2023-07-03 18:26:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:26:59] [ ERROR] [LoggerConfig:26] No appointment found to be deleted
+[2023-07-03 18:27:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:27:00.010232200
+[2023-07-03 18:27:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:27:42] [ ERROR] [LoggerConfig:37] 
+[2023-07-03 18:28:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:28:00.004417600
+[2023-07-03 18:28:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:29:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:29:00.010646800
+[2023-07-03 18:29:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:30:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:30:00.010288800
+[2023-07-03 18:30:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:30:04] [ INFO ] [LoggerConfig:46] A new dentist named: George Newberrie has been added.
+[2023-07-03 18:30:38] [ ERROR] [LoggerConfig:26] A dentist with 4242424 license number already exists
+[2023-07-03 18:31:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:31:00.008560200
+[2023-07-03 18:31:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:31:32] [ ERROR] [LoggerConfig:26] A dentist with 4242424 license number already exists
+[2023-07-03 18:31:36] [ ERROR] [LoggerConfig:26] A dentist with 4242424 license number already exists
+[2023-07-03 18:32:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:32:00.008282700
+[2023-07-03 18:32:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:32:00] [ ERROR] [LoggerConfig:26] A dentist with 4242424 license number already exists
+[2023-07-03 18:33:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:33:00.001865800
+[2023-07-03 18:33:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:34:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:34:00.006791800
+[2023-07-03 18:34:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:34:56] [ ERROR] [LoggerConfig:26] A dentist with 4242424 license number already exists
+[2023-07-03 18:35:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:35:00.015535700
+[2023-07-03 18:35:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:36:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:36:00.006769300
+[2023-07-03 18:36:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:36:29] [ ERROR] [LoggerConfig:26] A dentist with 4242424 license number already exists
+[2023-07-03 18:36:32] [ ERROR] [LoggerConfig:26] A dentist with 4242424 license number already exists
+[2023-07-03 18:37:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:37:00.002089100
+[2023-07-03 18:37:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:38:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:38:00.004691500
+[2023-07-03 18:38:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:39:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:39:00.014353200
+[2023-07-03 18:39:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:39:53] [ ERROR] [LoggerConfig:26] A dentist with 4242424 license number already exists
+[2023-07-03 18:40:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:40:00.008428700
+[2023-07-03 18:40:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:41:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:41:00.011194700
+[2023-07-03 18:41:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:42:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:42:00.009246900
+[2023-07-03 18:42:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:43:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:43:00.005118300
+[2023-07-03 18:43:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:44:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:44:00.004499900
+[2023-07-03 18:44:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:44:03] [ ERROR] [LoggerConfig:26] A dentist with 4242424 license number already exists
+[2023-07-03 18:44:05] [ ERROR] [LoggerConfig:26] A dentist with 4242424 license number already exists
+[2023-07-03 18:44:06] [ ERROR] [LoggerConfig:26] A dentist with 4242424 license number already exists
+[2023-07-03 18:44:29] [ ERROR] [LoggerConfig:26] A dentist with 4242424 license number already exists
+[2023-07-03 18:45:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:45:00.015221
+[2023-07-03 18:45:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:45:40] [ ERROR] [LoggerConfig:26] A dentist with 4242424 license number already exists
+[2023-07-03 18:45:42] [ ERROR] [LoggerConfig:26] A dentist with 4242424 license number already exists
+[2023-07-03 18:45:59] [ ERROR] [LoggerConfig:26] A dentist with 4242424 license number already exists
+[2023-07-03 18:46:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:46:00.010605900
+[2023-07-03 18:46:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:46:32] [ ERROR] [LoggerConfig:26] A dentist with 4242424 license number already exists
+[2023-07-03 18:47:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:47:00.010324900
+[2023-07-03 18:47:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:47:26] [ ERROR] [LoggerConfig:26] A dentist with 4242424 license number already exists
+[2023-07-03 18:47:44] [ ERROR] [LoggerConfig:26] A dentist with 4242424 license number already exists
+[2023-07-03 18:47:46] [ INFO ] [LoggerConfig:46] A new dentist named: dada dadadad has been added.
+[2023-07-03 18:48:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:48:00.002733500
+[2023-07-03 18:48:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:49:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:49:00.006192700
+[2023-07-03 18:49:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:50:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:50:00.007328700
+[2023-07-03 18:50:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:51:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:51:00.012464400
+[2023-07-03 18:51:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:51:34] [ ERROR] [LoggerConfig:26] A dentist with 4242424 license number already exists
+[2023-07-03 18:51:35] [ ERROR] [LoggerConfig:26] A dentist with 4242424 license number already exists
+[2023-07-03 18:52:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:52:00.009156700
+[2023-07-03 18:52:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:53:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:53:00.010124900
+[2023-07-03 18:53:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:54:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:54:00.006271500
+[2023-07-03 18:54:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:54:07] [ INFO ] [LoggerConfig:46] A new dentist named: dadadad dada has been added.
+[2023-07-03 18:54:23] [ INFO ] [LoggerConfig:46] A new dentist named: tte tetet has been added.
+[2023-07-03 18:55:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:55:00.009684500
+[2023-07-03 18:55:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:55:04] [ INFO ] [LoggerConfig:46] A new dentist named: dad adafa has been added.
+[2023-07-03 18:55:45] [ INFO ] [LoggerConfig:46] A new dentist named: dadad adad has been added.
+[2023-07-03 18:56:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:56:00.002794500
+[2023-07-03 18:56:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:57:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:57:00.003681100
+[2023-07-03 18:57:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:57:02] [ INFO ] [LoggerConfig:46] A new dentist named: dad dadad has been added.
+[2023-07-03 18:57:17] [ ERROR] [LoggerConfig:26] A dentist with 324242 license number already exists
+[2023-07-03 18:57:19] [ INFO ] [LoggerConfig:46] A new dentist named: dadad adada has been added.
+[2023-07-03 18:58:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:58:00.000489100
+[2023-07-03 18:58:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 18:58:00] [ INFO ] [LoggerConfig:46] A new dentist named: adadq fsfs has been added.
+[2023-07-03 18:58:55] [ INFO ] [LoggerConfig:46] A new dentist named: dadad adad has been added.
+[2023-07-03 18:59:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T18:59:00.010796900
+[2023-07-03 18:59:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:00:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:00:00.005061300
+[2023-07-03 19:00:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:01:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:01:00.001308400
+[2023-07-03 19:01:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:02:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:02:00.014627500
+[2023-07-03 19:02:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:02:20] [ ERROR] [LoggerConfig:43] For input string: "undefined"
+[2023-07-03 19:03:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:03:00.000674300
+[2023-07-03 19:03:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:03:06] [ INFO ] [LoggerConfig:46] A new dentist named: adaa dafqfe has been added.
+[2023-07-03 19:04:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:04:00.005265200
+[2023-07-03 19:04:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:04:04] [ INFO ] [LoggerConfig:46] A new dentist named: fssf ffsf has been added.
+[2023-07-03 19:05:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:05:00.013871400
+[2023-07-03 19:05:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:05:43] [ INFO ] [LoggerConfig:46] A new dentist named: dada tgdg has been added.
+[2023-07-03 19:05:49] [ ERROR] [LoggerConfig:43] For input string: "undefined"
+[2023-07-03 19:06:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:06:00.014372500
+[2023-07-03 19:06:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:07:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:07:00.010580500
+[2023-07-03 19:07:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:08:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:08:00.004204900
+[2023-07-03 19:08:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:09:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:09:00.014816800
+[2023-07-03 19:09:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:10:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:10:00.003111500
+[2023-07-03 19:10:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:10:17] [ ERROR] [LoggerConfig:43] For input string: "undefined"
+[2023-07-03 19:10:26] [ ERROR] [LoggerConfig:43] For input string: "undefined"
+[2023-07-03 19:11:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:11:00.004712200
+[2023-07-03 19:11:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:11:40] [ ERROR] [LoggerConfig:43] For input string: "undefined"
+[2023-07-03 19:12:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:12:00.001427500
+[2023-07-03 19:12:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:12:39] [ ERROR] [LoggerConfig:43] For input string: "undefined"
+[2023-07-03 19:13:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:13:00.002780700
+[2023-07-03 19:13:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:13:46] [ ERROR] [LoggerConfig:43] For input string: "undefined"
+[2023-07-03 19:13:51] [ ERROR] [LoggerConfig:43] For input string: "undefined"
+[2023-07-03 19:14:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:14:00.013024500
+[2023-07-03 19:14:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:14:28] [ ERROR] [LoggerConfig:43] For input string: "undefined"
+[2023-07-03 19:15:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:15:00.008026
+[2023-07-03 19:15:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:15:50] [ ERROR] [LoggerConfig:43] For input string: "undefined"
+[2023-07-03 19:16:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:16:00.003839800
+[2023-07-03 19:16:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:16:21] [ ERROR] [LoggerConfig:43] For input string: "undefined"
+[2023-07-03 19:17:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:17:00.006433400
+[2023-07-03 19:17:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:17:10] [ ERROR] [LoggerConfig:43] For input string: "undefined"
+[2023-07-03 19:18:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:18:00.007444600
+[2023-07-03 19:18:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:18:34] [ ERROR] [LoggerConfig:43] For input string: "undefined"
+[2023-07-03 19:19:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:19:00.013441700
+[2023-07-03 19:19:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:19:40] [ ERROR] [LoggerConfig:43] For input string: "undefined"
+[2023-07-03 19:19:57] [ ERROR] [LoggerConfig:43] For input string: "undefined"
+[2023-07-03 19:20:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:20:00.007626100
+[2023-07-03 19:20:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:20:25] [ ERROR] [LoggerConfig:43] For input string: "undefined"
+[2023-07-03 19:20:36] [ ERROR] [LoggerConfig:43] For input string: "undefined"
+[2023-07-03 19:21:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:21:00.005818900
+[2023-07-03 19:21:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:22:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:22:00.011647200
+[2023-07-03 19:22:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:22:49] [ ERROR] [LoggerConfig:43] For input string: "undefined"
+[2023-07-03 19:23:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:23:00.013002
+[2023-07-03 19:23:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:24:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:24:00.015199300
+[2023-07-03 19:24:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:24:23] [ INFO ] [LoggerConfig:46] A new dentist named: Juan Goe has been added.
+[2023-07-03 19:25:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:25:00.006307500
+[2023-07-03 19:25:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:26:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:26:00.007086600
+[2023-07-03 19:26:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:26:05] [ ERROR] [LoggerConfig:26] A dentist with 3959 license number already exists
+[2023-07-03 19:27:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:27:00.008475500
+[2023-07-03 19:27:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:27:35] [ INFO ] [LoggerConfig:46] A new dentist named: adaer fwfsf has been added.
+[2023-07-03 19:28:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:28:00.007637
+[2023-07-03 19:28:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:29:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:29:00.008059200
+[2023-07-03 19:29:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:29:29] [ ERROR] [LoggerConfig:26] No appointment found to be deleted
+[2023-07-03 19:30:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:30:00.013104800
+[2023-07-03 19:30:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:31:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:31:00.002051900
+[2023-07-03 19:31:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:32:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:32:00.004582400
+[2023-07-03 19:32:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:33:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:33:00.003863200
+[2023-07-03 19:33:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:34:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:34:00.014356
+[2023-07-03 19:34:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:35:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:35:00.000462900
+[2023-07-03 19:35:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:36:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:36:00.012596700
+[2023-07-03 19:36:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:37:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:37:00.000497100
+[2023-07-03 19:37:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:38:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:38:00.002059100
+[2023-07-03 19:38:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:39:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:39:00.006795100
+[2023-07-03 19:39:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:40:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:40:00.003543900
+[2023-07-03 19:40:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:41:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:41:00.004643
+[2023-07-03 19:41:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:42:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:42:00.003739100
+[2023-07-03 19:42:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:43:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:43:00.004097900
+[2023-07-03 19:43:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:44:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:44:00.001048200
+[2023-07-03 19:44:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:45:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:45:00.004871500
+[2023-07-03 19:45:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:46:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:46:00.001248
+[2023-07-03 19:46:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:47:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:47:00.007444300
+[2023-07-03 19:47:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:48:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:48:00.014865700
+[2023-07-03 19:48:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-03 19:49:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:49:00.010190
+[2023-07-03 19:49:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03

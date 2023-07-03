@@ -1,8 +1,5 @@
 package com.DentalClinicX.DentalClinicManagement.persistance.entity;
-
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 import java.time.LocalDate;
 import java.util.HashSet;
@@ -37,6 +34,13 @@ public class Patient {
         this.surname = surname;
         this.idCard = idCard;
         this.dischargeDate = dischargeDate;
+    }
+
+    public Patient(String name, String surname, Integer idCard,Address address) {
+        this.name = name;
+        this.surname = surname;
+        this.idCard = idCard;
+        this.address = address;
     }
 
     public Set<Appointment> getAppointments() {

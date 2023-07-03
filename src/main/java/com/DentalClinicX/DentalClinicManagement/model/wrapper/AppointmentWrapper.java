@@ -1,7 +1,5 @@
 package com.DentalClinicX.DentalClinicManagement.model.wrapper;
-
 import java.time.LocalDateTime;
-
 public class AppointmentWrapper {
     private LocalDateTime appointmentDate;
     private Long patient_id;

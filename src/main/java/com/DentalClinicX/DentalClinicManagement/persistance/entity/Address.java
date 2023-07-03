@@ -1,7 +1,5 @@
 package com.DentalClinicX.DentalClinicManagement.persistance.entity;
-import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
-
 @Entity
 @Table
 public class Address {
@@ -18,6 +16,13 @@ public class Address {
     private String state;
 
     public Address() {
+    }
+
+    public Address(String street, Integer number, String city, String state) {
+        this.street = street;
+        this.number = number;
+        this.city = city;
+        this.state = state;
     }
 
     public Long getId() {

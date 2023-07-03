@@ -44,7 +44,7 @@ function viewAppointments() {
   myAppointmentsContainer.classList.remove("invisible");
   futButton.classList.add("is-active");
   pastButton.classList.remove("is-active");
-  fetch("http://localhost:8080/patients/listAppointments?idCard=44")
+  fetch("http://localhost:8080/patients/listAppointments?idCard=11")
 .then((respuesta) => respuesta.json())
 .then((datos) => {
     let list = "";
@@ -81,7 +81,6 @@ function viewAppointments() {
 });
 
 function cancelAppointment(event) {
-  futButton.click();
     const appointmentId = event.target.parentNode.parentNode.getAttribute("value");
   
     fetch(`http://localhost:8080/patients/deleteAppointment?id=${appointmentId}`, {
@@ -90,6 +89,7 @@ function cancelAppointment(event) {
     .then(response => {
         if (response.ok) {
             event.target.parentNode.parentNode.remove();
+            futButton.click();
         } else {
             console.log("Failed to delete appointment.");
         }
@@ -98,9 +98,6 @@ function cancelAppointment(event) {
         console.log("Error: " + error);
     });
 }
-
-
-
 
 
 }
@@ -113,7 +110,7 @@ pastButton.addEventListener("click", (event) => {
   pastButton.classList.add("is-active");
   futButton.classList.remove("is-active");
   appointmentList.innerHTML = "";
-  fetch("http://localhost:8080/patients/pastAppointments?idCard=44")
+  fetch("http://localhost:8080/patients/pastAppointments?idCard=11")
     .then((response) => response.json())
     .then((datos) => {
       pastList = [];
@@ -250,16 +247,19 @@ findProffesionals.addEventListener("click", () => {
 
 // SCHEDULE AN APPOINTMENT
 
+
+
+
+let actualDate;
 scheduleAppointment.addEventListener("click", (e) => {
   findProffesionalsContainter.classList.add("invisible");
   myAppointmentsContainer.classList.add("invisible");
   scheduleAppointmentContainer.classList.remove("invisible");
   let selectDentist = document.querySelector(".selectDentist");
-  let defaultOption = document.querySelector(".defaultOption");
   let emailInput = document.querySelector(".emailInput");
   let reasonInput = document.querySelector(".reasonInput");
-  let selectedDentist;
-  let selectedEmail;
+
+
   let selectedReason;
   let submitButton = document.querySelector(".submitButton");
   let invalidDentist = document.querySelector(".invalidDentist")
@@ -299,7 +299,7 @@ scheduleAppointment.addEventListener("click", (e) => {
   });
   var disabledDates = ["2023-06-15", "2023-06-20", "2023-06-25"];
   var currentDate = new Date();
-  let actualDate;
+
 
   var calendars = bulmaCalendar.attach('[type="date"]', {
     type: "datetime",
@@ -399,7 +399,6 @@ scheduleAppointment.addEventListener("click", (e) => {
     return formattedDate;
   }
   //--------------------------------
-
   //SUBMIT FORM-------------------------
 
   submitButton.addEventListener("click", (e) => {
@@ -446,9 +445,9 @@ scheduleAppointment.addEventListener("click", (e) => {
         .then((response) => response.json())
         .then((data) => {
           setTimeout(() => {
-            submitButton.innerHTML = "Scheduled succesfully, redirecting..."
-            submitButton.classList.remove("is-loading");
             submitButton.classList.add("is-success")
+            submitButton.innerHTML = "Scheduled succesfully, redirecting."
+            submitButton.classList.remove("is-loading");
         }, 1500);
         
         setTimeout(() => {

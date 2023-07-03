@@ -1,11 +1,8 @@
 package com.DentalClinicX.DentalClinicManagement.persistance.entity;
-
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
-
 import java.util.HashSet;
 import java.util.Set;
-
 @Entity
 @Table
 public class Dentist {
@@ -32,6 +29,12 @@ public class Dentist {
         this.surname = surname;
         this.licenseNumber = licenseNumber;
         this.appointments = appointments;
+    }
+
+    public Dentist(String name, String surname, Integer licenseNumber) {
+        this.name = name;
+        this.surname = surname;
+        this.licenseNumber = licenseNumber;
     }
 
     public String getName() {

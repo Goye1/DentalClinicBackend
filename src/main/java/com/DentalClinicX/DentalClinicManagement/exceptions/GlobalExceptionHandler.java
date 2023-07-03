@@ -1,17 +1,13 @@
 package com.DentalClinicX.DentalClinicManagement.exceptions;
-
-
 import com.fasterxml.jackson.databind.JsonMappingException;
-import org.apache.coyote.Response;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.context.config.ConfigDataResourceNotFoundException;
 import org.springframework.dao.DataAccessException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.context.request.WebRequest;
+
 
 @ControllerAdvice
 public class GlobalExceptionHandler {

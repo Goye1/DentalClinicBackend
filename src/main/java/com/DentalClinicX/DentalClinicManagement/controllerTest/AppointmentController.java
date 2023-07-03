@@ -1,4 +1,4 @@
-package com.DentalClinicX.DentalClinicManagement.controller;
+package com.DentalClinicX.DentalClinicManagement.controllerTest;
 
 import com.DentalClinicX.DentalClinicManagement.exceptions.ResourceNotFoundException;
 import com.DentalClinicX.DentalClinicManagement.persistance.entityMongo.PastAppointmentMongo;

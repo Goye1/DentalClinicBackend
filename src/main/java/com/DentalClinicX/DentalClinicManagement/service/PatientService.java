@@ -44,7 +44,7 @@ public class PatientService {
         this.dentistService = dentistService;
     }
 
-    public List<PatientDTO> listPatients() throws ResourceNotFoundException {
+    public List<PatientDTO> listPatients() {
         List<PatientDTO> patientDTOList = null;
             List<Patient> patients = patientRepository.findAll();
             List<DischargedPatientMongo> dischargedPatientMongos = patientRepositoryMongo.findAll();
@@ -58,9 +58,6 @@ public class PatientService {
                 PatientDTO pDTOMongo = objectMapper.convertValue(dischargedPatientMongo, PatientDTO.class);
                 pDTOMongo.setDischarged(true);
                 patientDTOList.add(pDTOMongo);
-            }
-            if(patientDTOList.isEmpty()){
-                throw new ResourceNotFoundException("No patients were found");
             }
         return patientDTOList;
     }

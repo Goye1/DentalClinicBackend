@@ -1,18 +1,13 @@
 package com.DentalClinicX.DentalClinicManagement.persistance.entityMongo;
-
 import jakarta.persistence.*;
 import org.springframework.data.mongodb.core.mapping.Document;
-
 import java.time.LocalDateTime;
 
 @Document
 public class PastAppointmentMongo {
-
     @Id private String id;
-
     private LocalDateTime localDateTime;
     private DentistMongo dentist;
-
     private DischargedPatientMongo patient;
     private String reason;
 

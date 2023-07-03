@@ -1,10 +1,6 @@
 package com.DentalClinicX.DentalClinicManagement.persistance.entity;
-
-
 import jakarta.persistence.*;
-
 import java.time.LocalDateTime;
-
 @Entity
 @Table
 public class Appointment {

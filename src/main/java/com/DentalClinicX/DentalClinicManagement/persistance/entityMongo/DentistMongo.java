@@ -1,8 +1,6 @@
 package com.DentalClinicX.DentalClinicManagement.persistance.entityMongo;
-
 import jakarta.persistence.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
-
 @Document
 public class DentistMongo {
     @Id private String id;

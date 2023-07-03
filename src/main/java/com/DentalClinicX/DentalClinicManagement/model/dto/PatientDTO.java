@@ -1,8 +1,5 @@
 package com.DentalClinicX.DentalClinicManagement.model.dto;
-
-import com.DentalClinicX.DentalClinicManagement.persistance.entity.Address;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
 import java.io.Serializable;
 import java.time.LocalDate;
 
@@ -16,6 +13,14 @@ public class PatientDTO implements Serializable {
     private AddressDTO address;
 
     public PatientDTO() {
+    }
+
+    public PatientDTO(String name, String surname, Boolean isDischarged, Integer idCard, AddressDTO address) {
+        this.name = name;
+        this.surname = surname;
+        this.isDischarged = isDischarged;
+        this.idCard = idCard;
+        this.address = address;
     }
 
     public Integer getIdCard() {

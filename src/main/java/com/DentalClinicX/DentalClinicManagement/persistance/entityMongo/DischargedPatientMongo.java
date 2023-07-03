@@ -1,11 +1,8 @@
 package com.DentalClinicX.DentalClinicManagement.persistance.entityMongo;
-
-import com.DentalClinicX.DentalClinicManagement.persistance.entity.Appointment;
 import jakarta.persistence.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
-
 import java.time.LocalDate;
-import java.util.Set;
+
 
 @Document
 public class DischargedPatientMongo {
