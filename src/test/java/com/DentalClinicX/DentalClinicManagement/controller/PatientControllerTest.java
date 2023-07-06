@@ -1,4 +1,4 @@
-package com.DentalClinicX.DentalClinicManagement.controllerTest;
+package com.DentalClinicX.DentalClinicManagement.controller;
 import com.DentalClinicX.DentalClinicManagement.persistance.entity.Address;
 import com.DentalClinicX.DentalClinicManagement.persistance.entity.Patient;
 import com.fasterxml.jackson.databind.ObjectMapper;

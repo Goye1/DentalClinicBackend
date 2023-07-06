@@ -1,11 +1,39 @@
 .logox{
     font-family: 'Oswald', sans-serif;
-    font-size: larger;
+    font-size: larger;    
+}
 
+.center{
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; 
+}
+
+.quest{
+  font-size: 0.9rem;
+  margin-left: 10.75em;
+
+}
+
+.cons{
+  margin-left: 10px;
+}
+
+.logo{
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Oswald', sans-serif;
+  font-size: larger;
+  font-size: 2rem;   
 }
 
 .invisible{
     display:none;
+}
+
+.invisible-element {
+  visibility: hidden;
 }
 
 

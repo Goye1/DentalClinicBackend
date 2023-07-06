@@ -1,4 +1,4 @@
-package com.DentalClinicX.DentalClinicManagement.controllerTest;
+package com.DentalClinicX.DentalClinicManagement.controller;
 import com.DentalClinicX.DentalClinicManagement.exceptions.AlreadyExistsException;
 import com.DentalClinicX.DentalClinicManagement.exceptions.ResourceNotFoundException;
 import com.DentalClinicX.DentalClinicManagement.model.dto.AppointmentDTO;
@@ -20,11 +20,13 @@ import java.util.List;
 @RestController
 public class PatientController {
     private final PatientService patientService;
+
+
     @Autowired
     public PatientController(PatientService patientService, IAppointmentRepositoryMongo mongoAppointmentRepository) {
         this.patientService = patientService;
     }
-    @PostMapping("/patients/add")
+    @PostMapping("/landing-page/add")
     public ResponseEntity<Patient> addPatient(@RequestBody Patient patient) throws AlreadyExistsException {
         Address address = patient.getAddress();
         Patient serviceResponse = patientService.addPatient(patient, address);

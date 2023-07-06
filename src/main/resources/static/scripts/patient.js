@@ -1,3 +1,5 @@
+window.addEventListener("load", function () {
+
 let myAppointments = document.querySelector(".myAppointments");
 let myAppointmentsContainer = document.querySelector(
   ".myFutureAppointmentsContainer"
@@ -464,3 +466,4 @@ scheduleAppointment.addEventListener("click", (e) => {
     }
   });
 });
+})

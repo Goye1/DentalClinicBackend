@@ -1993,7 +1993,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -2074,7 +2074,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -2161,7 +2161,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -2242,7 +2242,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -2332,7 +2332,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -2415,7 +2415,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -2498,7 +2498,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -2581,7 +2581,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -2664,7 +2664,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -2747,7 +2747,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -2893,7 +2893,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -2976,7 +2976,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -3059,7 +3059,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -3141,7 +3141,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -3224,7 +3224,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -3305,7 +3305,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -3388,7 +3388,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -3471,7 +3471,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -3552,7 +3552,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -3635,7 +3635,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -3718,7 +3718,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -3799,7 +3799,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -3881,7 +3881,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -3962,7 +3962,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -4050,7 +4050,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -4132,7 +4132,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -4219,7 +4219,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -4300,7 +4300,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -4384,7 +4384,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -4465,7 +4465,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -4546,7 +4546,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -4627,7 +4627,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -4708,7 +4708,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -4789,7 +4789,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -4872,7 +4872,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -4955,7 +4955,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -5038,7 +5038,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -5121,7 +5121,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -5204,7 +5204,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -5285,7 +5285,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -5366,7 +5366,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -5449,7 +5449,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -5539,7 +5539,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -5620,7 +5620,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -5701,7 +5701,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -5784,7 +5784,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -5869,7 +5869,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -5952,7 +5952,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -6035,7 +6035,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -6124,7 +6124,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -6209,7 +6209,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -6290,7 +6290,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -6373,7 +6373,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -6456,7 +6456,7 @@ java.lang.IllegalArgumentException: The given id must not be null
 	at jdk.proxy2/jdk.proxy2.$Proxy130.findById(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.DentistService.findById(DentistService.java:129)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:142)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -6714,7 +6714,7 @@ org.hibernate.PropertyValueException: not-null property references a null or tra
 	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
 	at jdk.proxy2/jdk.proxy2.$Proxy120.save(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:152)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -6820,7 +6820,7 @@ org.hibernate.PropertyValueException: not-null property references a null or tra
 	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
 	at jdk.proxy2/jdk.proxy2.$Proxy120.save(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:152)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -6928,7 +6928,7 @@ org.hibernate.PropertyValueException: not-null property references a null or tra
 	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
 	at jdk.proxy2/jdk.proxy2.$Proxy120.save(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:152)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -7042,7 +7042,7 @@ org.hibernate.PropertyValueException: not-null property references a null or tra
 	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
 	at jdk.proxy2/jdk.proxy2.$Proxy120.save(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:152)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -7148,7 +7148,7 @@ org.hibernate.PropertyValueException: not-null property references a null or tra
 	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
 	at jdk.proxy2/jdk.proxy2.$Proxy120.save(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:152)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -7256,7 +7256,7 @@ org.hibernate.PropertyValueException: not-null property references a null or tra
 	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
 	at jdk.proxy2/jdk.proxy2.$Proxy120.save(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:152)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -7362,7 +7362,7 @@ org.hibernate.PropertyValueException: not-null property references a null or tra
 	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
 	at jdk.proxy2/jdk.proxy2.$Proxy120.save(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:152)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -7470,7 +7470,7 @@ org.hibernate.PropertyValueException: not-null property references a null or tra
 	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
 	at jdk.proxy2/jdk.proxy2.$Proxy120.save(Unknown Source)
 	at com.DentalClinicX.DentalClinicManagement.service.PatientService.addAppointment(PatientService.java:152)
-	at com.DentalClinicX.DentalClinicManagement.controllerTest.PatientController.addAppointment(PatientController.java:82)
+	at com.DentalClinicX.DentalClinicManagement.controller.PatientController.addAppointment(PatientController.java:82)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -10898,3 +10898,364 @@ org.hibernate.PropertyValueException: not-null property references a null or tra
 [2023-07-03 19:48:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
 [2023-07-03 19:49:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-03T19:49:00.010190
 [2023-07-03 19:49:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-03
+[2023-07-04 20:20:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T20:20:00.008456800
+[2023-07-04 20:20:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 20:21:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T20:21:00.008659500
+[2023-07-04 20:21:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 20:22:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T20:22:00.005090400
+[2023-07-04 20:22:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 20:23:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T20:23:00.013445400
+[2023-07-04 20:23:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 20:24:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T20:24:00.004942300
+[2023-07-04 20:24:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 21:15:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T21:15:00.011691300
+[2023-07-04 21:15:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 21:38:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T21:38:00.007554600
+[2023-07-04 21:38:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 21:39:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T21:39:00.012732100
+[2023-07-04 21:39:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 21:40:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T21:40:00.008564400
+[2023-07-04 21:40:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 21:41:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T21:41:00.012991900
+[2023-07-04 21:41:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 21:42:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T21:42:00.000508
+[2023-07-04 21:42:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 21:43:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T21:43:00.010354600
+[2023-07-04 21:43:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 21:43:47] [ ERROR] [LoggerConfig:37] 
+[2023-07-04 21:44:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T21:44:00.008806800
+[2023-07-04 21:44:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 21:44:22] [ ERROR] [LoggerConfig:37] 
+[2023-07-04 21:45:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T21:45:00.003759100
+[2023-07-04 21:45:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 21:45:44] [ ERROR] [LoggerConfig:37] 
+[2023-07-04 21:46:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T21:46:00.008539100
+[2023-07-04 21:46:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 21:47:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T21:47:00.000783900
+[2023-07-04 21:47:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 21:48:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T21:48:00.000938
+[2023-07-04 21:48:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 21:48:32] [ ERROR] [LoggerConfig:37] 
+[2023-07-04 21:49:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T21:49:00.007888800
+[2023-07-04 21:49:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 21:50:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T21:50:00.014922700
+[2023-07-04 21:50:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 21:50:30] [ ERROR] [LoggerConfig:37] 
+[2023-07-04 21:51:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T21:51:00.009112200
+[2023-07-04 21:51:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 21:52:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T21:52:00.000713900
+[2023-07-04 21:52:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 21:53:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T21:53:00.012232300
+[2023-07-04 21:53:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 21:54:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T21:54:00.004438500
+[2023-07-04 21:54:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 21:54:37] [ ERROR] [LoggerConfig:37] 
+[2023-07-04 21:55:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T21:55:00.011925400
+[2023-07-04 21:55:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 21:55:08] [ ERROR] [LoggerConfig:37] 
+[2023-07-04 21:55:20] [ ERROR] [LoggerConfig:37] 
+[2023-07-04 21:56:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T21:56:00.006846500
+[2023-07-04 21:56:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 21:57:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T21:57:00.010365400
+[2023-07-04 21:57:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 21:58:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T21:58:00.001155200
+[2023-07-04 21:58:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 21:59:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T21:59:00.000883600
+[2023-07-04 21:59:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 21:59:59] [ ERROR] [LoggerConfig:37] 
+[2023-07-04 22:00:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T22:00:00.013454500
+[2023-07-04 22:00:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 22:01:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T22:01:00.006495
+[2023-07-04 22:01:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 22:02:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T22:02:00.002819400
+[2023-07-04 22:02:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 22:03:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T22:03:00.004760300
+[2023-07-04 22:03:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 22:04:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T22:04:00.000867500
+[2023-07-04 22:04:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 22:05:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T22:05:00.002505800
+[2023-07-04 22:05:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 22:06:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T22:06:00.005826300
+[2023-07-04 22:06:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 22:07:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T22:07:00.000337500
+[2023-07-04 22:07:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 22:08:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T22:08:00.012298300
+[2023-07-04 22:08:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 22:09:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T22:09:00.007156
+[2023-07-04 22:09:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 22:10:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T22:10:00.008347500
+[2023-07-04 22:10:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 22:11:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T22:11:00.009406
+[2023-07-04 22:11:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 22:12:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T22:12:00.006366500
+[2023-07-04 22:12:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 22:13:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T22:13:00.008840300
+[2023-07-04 22:13:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 22:14:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T22:14:00.003744800
+[2023-07-04 22:14:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 22:15:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T22:15:00.011640700
+[2023-07-04 22:15:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 22:16:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T22:16:00.011248800
+[2023-07-04 22:16:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 22:17:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T22:17:00.010891800
+[2023-07-04 22:17:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 22:18:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T22:18:00.014287900
+[2023-07-04 22:18:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 22:19:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T22:19:00.006120800
+[2023-07-04 22:19:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 23:00:33] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T23:00:33.206434100
+[2023-07-04 23:00:33] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 23:01:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T23:01:00.009520100
+[2023-07-04 23:01:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 23:01:25] [ ERROR] [LoggerConfig:37] 
+[2023-07-04 23:01:37] [ ERROR] [LoggerConfig:37] 
+[2023-07-04 23:02:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T23:02:00.009964200
+[2023-07-04 23:02:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 23:03:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T23:03:00.001190
+[2023-07-04 23:03:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 23:04:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T23:04:00.003213300
+[2023-07-04 23:04:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 23:05:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T23:05:00.008268400
+[2023-07-04 23:05:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 23:06:29] [ ERROR] [LoggerConfig:37] 
+[2023-07-04 23:07:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T23:07:00.004315600
+[2023-07-04 23:07:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 23:10:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T23:10:00.003732600
+[2023-07-04 23:10:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 23:11:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T23:11:00.008339400
+[2023-07-04 23:11:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 23:12:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T23:12:00.012612100
+[2023-07-04 23:12:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-04 23:13:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-04T23:13:00.014634100
+[2023-07-04 23:13:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-04
+[2023-07-05 17:31:30] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T17:31:30.142584600
+[2023-07-05 17:31:30] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 17:32:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T17:32:00.005635300
+[2023-07-05 17:32:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 17:33:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T17:33:00.014712100
+[2023-07-05 17:33:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 17:34:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T17:34:00.002183
+[2023-07-05 17:34:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 17:36:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T17:36:00.002853300
+[2023-07-05 17:36:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 17:37:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T17:37:00.000592200
+[2023-07-05 17:37:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 17:37:24] [ ERROR] [LoggerConfig:31] jakarta.persistence.NonUniqueResultException: query did not return a unique result: 2
+[2023-07-05 17:37:37] [ ERROR] [LoggerConfig:31] jakarta.persistence.NonUniqueResultException: query did not return a unique result: 3
+[2023-07-05 17:38:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T17:38:00.001885600
+[2023-07-05 17:38:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 17:39:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T17:39:00.005742
+[2023-07-05 17:39:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 17:40:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T17:40:00.008939700
+[2023-07-05 17:40:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 17:44:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T17:44:00.004519100
+[2023-07-05 17:44:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 17:45:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T17:45:00.006120600
+[2023-07-05 17:45:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 17:45:09] [ INFO ] [LoggerConfig:46] A new dentist named: juuanf Ref has been added.
+[2023-07-05 17:46:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T17:46:00.003762900
+[2023-07-05 17:46:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 17:47:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T17:47:00.007043900
+[2023-07-05 17:47:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 17:48:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T17:48:00.010179600
+[2023-07-05 17:48:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 17:49:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T17:49:00.013220100
+[2023-07-05 17:49:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 17:50:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T17:50:00.001064800
+[2023-07-05 17:50:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 17:51:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T17:51:00.009772
+[2023-07-05 17:51:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 17:52:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T17:52:00.006178200
+[2023-07-05 17:52:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 17:53:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T17:53:00.013254600
+[2023-07-05 17:53:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 17:54:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T17:54:00.003219400
+[2023-07-05 17:54:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 17:55:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T17:55:00.007913400
+[2023-07-05 17:55:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 17:56:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T17:56:00.005742400
+[2023-07-05 17:56:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 17:57:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T17:57:00.000553100
+[2023-07-05 17:57:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 17:58:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T17:58:00.014461500
+[2023-07-05 17:58:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 17:59:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T17:59:00.011336100
+[2023-07-05 17:59:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 18:00:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T18:00:00.009114900
+[2023-07-05 18:00:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 18:01:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T18:01:00.005111500
+[2023-07-05 18:01:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 18:02:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T18:02:00.013292700
+[2023-07-05 18:02:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 18:03:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T18:03:00.001385500
+[2023-07-05 18:03:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 18:04:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T18:04:00.012041100
+[2023-07-05 18:04:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 18:05:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T18:05:00.010454300
+[2023-07-05 18:05:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 18:06:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T18:06:00.007203
+[2023-07-05 18:06:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 18:07:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T18:07:00.011036200
+[2023-07-05 18:07:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 18:17:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T18:17:00.009126600
+[2023-07-05 18:17:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 18:17:20] [ ERROR] [LoggerConfig:20] A user is already registered with that email.
+[2023-07-05 18:18:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T18:18:00.010819200
+[2023-07-05 18:18:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 18:19:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T18:19:00.012076600
+[2023-07-05 18:19:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 18:20:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T18:20:00.010020800
+[2023-07-05 18:20:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 18:21:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T18:21:00.005780400
+[2023-07-05 18:21:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 18:22:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T18:22:00.014739900
+[2023-07-05 18:22:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 18:23:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T18:23:00.005948500
+[2023-07-05 18:23:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 18:24:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T18:24:00.005851100
+[2023-07-05 18:24:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 18:27:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T18:27:00.003525800
+[2023-07-05 18:27:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 18:28:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T18:28:00.000629
+[2023-07-05 18:28:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 18:29:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T18:29:00.013976900
+[2023-07-05 18:29:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 18:33:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T18:33:00.002293500
+[2023-07-05 18:33:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 18:34:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T18:34:00.014384100
+[2023-07-05 18:34:01] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 18:40:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T18:40:00.013997900
+[2023-07-05 18:40:01] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-05 18:41:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-05T18:41:00.003386200
+[2023-07-05 18:41:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-05
+[2023-07-06 02:34:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T02:34:00.007610800
+[2023-07-06 02:34:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 02:34:46] [ ERROR] [LoggerConfig:20] A user is already registered with that email.
+[2023-07-06 02:35:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T02:35:00.000467900
+[2023-07-06 02:35:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 02:42:35] [ ERROR] [LoggerConfig:31] java.lang.IllegalArgumentException: Entity must not be null
+[2023-07-06 02:43:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T02:43:00.001295200
+[2023-07-06 02:43:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 02:43:49] [ INFO ] [LoggerConfig:72] A new patient named: Manue Goye has been added.
+[2023-07-06 02:44:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T02:44:00.010858300
+[2023-07-06 02:44:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 02:55:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T02:55:00.001948500
+[2023-07-06 02:55:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 02:55:03] [ INFO ] [LoggerConfig:72] A new patient named: Juan Goye has been added.
+[2023-07-06 02:56:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T02:56:00.003332100
+[2023-07-06 02:56:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 02:57:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T02:57:00.000775400
+[2023-07-06 02:57:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 02:58:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T02:58:00.009032300
+[2023-07-06 02:58:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 03:07:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T03:07:00.003720400
+[2023-07-06 03:07:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 03:08:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T03:08:00.008453600
+[2023-07-06 03:08:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 03:09:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T03:09:00.010917800
+[2023-07-06 03:09:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 04:01:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T04:01:00.009835700
+[2023-07-06 04:01:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 04:01:33] [ INFO ] [LoggerConfig:72] A new patient named: Manue Goye has been added.
+[2023-07-06 04:02:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T04:02:00.001334500
+[2023-07-06 04:02:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 04:03:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T04:03:00.001844900
+[2023-07-06 04:03:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:16:33] [ INFO ] [LoggerConfig:72] A new patient named: Manue Goye has been added.
+[2023-07-06 19:17:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:17:00.010649500
+[2023-07-06 19:17:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:18:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:18:00.014404
+[2023-07-06 19:18:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:19:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:19:00.014845400
+[2023-07-06 19:19:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:26:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:26:00.013050600
+[2023-07-06 19:26:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:26:22] [ INFO ] [LoggerConfig:72] A new patient named: Manue Goye has been added.
+[2023-07-06 19:27:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:27:00.014009400
+[2023-07-06 19:27:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:28:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:28:00.010933400
+[2023-07-06 19:28:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:29:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:29:00.001492300
+[2023-07-06 19:29:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:30:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:30:00.002992700
+[2023-07-06 19:30:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:31:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:31:00.002386100
+[2023-07-06 19:31:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:32:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:32:00.003947900
+[2023-07-06 19:32:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:33:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:33:00.013769300
+[2023-07-06 19:33:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:34:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:34:00.013872500
+[2023-07-06 19:34:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:35:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:35:00.008754500
+[2023-07-06 19:35:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:36:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:36:00.015034
+[2023-07-06 19:36:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:37:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:37:00.004102200
+[2023-07-06 19:37:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:38:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:38:00.014584400
+[2023-07-06 19:38:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:39:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:39:00.014211900
+[2023-07-06 19:39:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:39:57] [ ERROR] [LoggerConfig:20] A user is already registered with that email.
+[2023-07-06 19:40:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:40:00.000131600
+[2023-07-06 19:40:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:40:07] [ ERROR] [LoggerConfig:20] A patient with the id card: 424 already exists
+[2023-07-06 19:40:22] [ INFO ] [LoggerConfig:72] A new patient named: Manue Goye has been added.
+[2023-07-06 19:41:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:41:00.012702400
+[2023-07-06 19:41:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:42:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:42:00.004634100
+[2023-07-06 19:42:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:43:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:43:00.009290700
+[2023-07-06 19:43:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:44:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:44:00.014485200
+[2023-07-06 19:44:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:45:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:45:00.012792500
+[2023-07-06 19:45:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:46:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:46:00.009978100
+[2023-07-06 19:46:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:47:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:47:00.000409600
+[2023-07-06 19:47:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:48:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:48:00.006561300
+[2023-07-06 19:48:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:49:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:49:00.010972200
+[2023-07-06 19:49:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:50:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:50:00.009820
+[2023-07-06 19:50:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:51:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:51:00.006384500
+[2023-07-06 19:51:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:52:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:52:00.014281200
+[2023-07-06 19:52:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:53:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:53:00.008164800
+[2023-07-06 19:53:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:54:44] [ INFO ] [LoggerConfig:72] A new patient named: Manue Goye has been added.
+[2023-07-06 19:55:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:55:00.006647800
+[2023-07-06 19:55:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:56:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:56:00.004151100
+[2023-07-06 19:56:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:57:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:57:00.015089900
+[2023-07-06 19:57:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:58:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:58:00.002001300
+[2023-07-06 19:58:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 19:58:11] [ INFO ] [LoggerConfig:46] A new dentist named: juuanf Ref has been added.
+[2023-07-06 19:58:48] [ ERROR] [LoggerConfig:26] A dentist with 21 license number already exists
+[2023-07-06 19:59:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T19:59:00.008201400
+[2023-07-06 19:59:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 20:00:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T20:00:00.004221400
+[2023-07-06 20:00:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 20:01:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T20:01:00.014033
+[2023-07-06 20:01:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 20:01:00] [ INFO ] [LoggerConfig:72] A new patient named: Manue Goye has been added.
+[2023-07-06 20:02:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T20:02:00.014542300
+[2023-07-06 20:02:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 20:02:32] [ ERROR] [LoggerConfig:26] Dentist with id: 1not found
+[2023-07-06 20:03:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T20:03:00.008855
+[2023-07-06 20:03:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 20:04:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T20:04:00.012200200
+[2023-07-06 20:04:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 20:05:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T20:05:00.004340200
+[2023-07-06 20:05:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 20:06:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T20:06:00.013740200
+[2023-07-06 20:06:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06
+[2023-07-06 20:07:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-06T20:07:00.007211
+[2023-07-06 20:07:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-06

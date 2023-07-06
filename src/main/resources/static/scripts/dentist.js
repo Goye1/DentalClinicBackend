@@ -1,3 +1,5 @@
+window.addEventListener("load", function () {
+
 const patientsButton = document.querySelector(".patientsButton");
 const dentistsButton = document.querySelector(".dentistsButton");
 const appointmentsButton = document.querySelector(".appointmentsButton");
@@ -551,4 +553,5 @@ addDentistButton.addEventListener("click", () => {
       
       }
     }
+})
 })
