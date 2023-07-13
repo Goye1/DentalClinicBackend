@@ -28,10 +28,19 @@ public class SecurityConfiguration {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
                 .csrf(csrf -> csrf.disable())
+                .cors(cors -> cors.disable())
                 .authorizeHttpRequests(auth -> {
                     auth.requestMatchers("/patients/**").hasAuthority("USER");
-                    auth.requestMatchers("/dentists/**").hasAuthority("ADMIN");
+                    auth.requestMatchers("/admins/**").hasAuthority("ADMIN");
                     auth.requestMatchers("/landing-page/**").permitAll();
+                    auth.requestMatchers("/login.html").permitAll();
+                    auth.requestMatchers("/register.html").permitAll();
+                    auth.requestMatchers("/scripts/**").permitAll();
+                    auth.requestMatchers("/css/**").permitAll();
+                    auth.requestMatchers("/node_modules/**").permitAll();
+                    auth.requestMatchers("/patient.html").permitAll();
+                    auth.requestMatchers("/profile.html").permitAll();
+                    auth.requestMatchers("/assets/**").permitAll();
                     auth.anyRequest().authenticated();
                 });
         http

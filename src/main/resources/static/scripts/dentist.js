@@ -1,5 +1,8 @@
-window.addEventListener("load", function () {
+if (!this.sessionStorage.jwt || this.sessionStorage.role == "USER" ) {
+  location.replace('/login.html');
+}
 
+window.addEventListener("load", function () {
 const patientsButton = document.querySelector(".patientsButton");
 const dentistsButton = document.querySelector(".dentistsButton");
 const appointmentsButton = document.querySelector(".appointmentsButton");
@@ -45,7 +48,7 @@ patientsButton.onclick = function(){
           searchButton.classList.add("is-loading")
             patientList.innerHTML = "";
             patientResponse.classList.add("invisible");
-          fetch("http://localhost:8080/patients/search?info=" + searchQuery)
+          fetch("http://localhost:8080/admin/searchPatient?info=" + searchQuery)
             .then((response) => response.json())
             .then((patient) => {
               list = [];
@@ -116,7 +119,7 @@ viewAllButton.addEventListener("click",() => {
     let searchQuery = searchInput.value;
     viewAllButton.classList.add("is-loading");
     patientList.innerHTML = "";
-    fetch("http://localhost:8080/patients/listAll")
+    fetch("http://localhost:8080/admin/listAllPatients")
       .then((response) =>
        response.json())
       .then((patient) => {
@@ -195,7 +198,7 @@ dentistsButton.onclick = function(){
       searchButtonDentist.classList.add("is-loading")
         dentistList.innerHTML = "";
         dentistResponse.classList.add("invisible");
-      fetch("http://localhost:8080/dentists/search?info=" + searchQuery)
+      fetch("http://localhost:8080/admin/searchDentist?info=" + searchQuery)
         .then((response) => response.json())
         .then((dentist) => {
           list = [];
@@ -248,7 +251,7 @@ dentistsButton.onclick = function(){
     let viewLinks = [];
     dentistList.innerHTML = "";
     viewAllButtonDentist.classList.add("is-loading")
-    fetch("http://localhost:8080/dentists/listAll")
+    fetch("http://localhost:8080/admin/listAllDentists")
       .then((response) => 
         response.json())
       .then((dentist) => {
@@ -316,7 +319,7 @@ function viewAppointments(event){
       futAppointments.classList.add("is-active");
       pastAppointments.classList.remove("is-active")
       appointmentList.innerHTML = "";
-    fetch(`http://localhost:8080/patients/listAppointments?idCard=${patientIdCard}`)
+    fetch(`http://localhost:8080/admin/listPatientAppointments?idCard=${patientIdCard}`)
     .then((response) => response.json())
     .then((appointment) => {
       list = [];
@@ -352,7 +355,7 @@ function viewAppointments(event){
       futAppointments.classList.remove("is-active");
       pastAppointments.classList.add("is-active")
       appointmentList.innerHTML = "";
-        fetch(`http://localhost:8080/patients/pastAppointments?idCard=${patientIdCard}`)
+        fetch(`http://localhost:8080/admin/pastAppointmentsPatient?idCard=${patientIdCard}`)
         .then((response) => response.json())
         .then((appointment) => {
           list = [];
@@ -403,7 +406,7 @@ function viewDentistAppointments(event){
     appointmentList.innerHTML = "";
       futAppointments.classList.add("is-active");
       pastAppointments.classList.remove("is-active")
-      fetch(`http://localhost:8080/dentists/listAppointments?licenseNumber=${dentistLicenseNumber}`)
+      fetch(`http://localhost:8080/admin/listDentistAppointments?licenseNumber=${dentistLicenseNumber}`)
       .then((response) => response.json())
       .then((appointment) => {
         list = [];
@@ -439,7 +442,7 @@ function viewDentistAppointments(event){
       futAppointments.classList.remove("is-active");
       pastAppointments.classList.add("is-active")
 
-      fetch(`http://localhost:8080/dentists/pastAppointments?licenseNumber=${dentistLicenseNumber}`)
+      fetch(`http://localhost:8080/admin/pastAppointmentsDentist?licenseNumber=${dentistLicenseNumber}`)
       .then((response) => response.json())
       .then((appointment) => {
         list = [];
@@ -530,7 +533,7 @@ addDentistButton.addEventListener("click", () => {
         licenseNumber: licenseInput.value
       };
       if(name && surname && license){
-        fetch("http://localhost:8080/dentists/add", {
+        fetch("http://localhost:8080/admin/add", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

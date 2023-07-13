@@ -19,6 +19,9 @@ public class Patient {
     private Integer idCard;
     @Column(nullable = true)
     private LocalDate dischargeDate;
+
+    @Column
+    private String email;
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "id_address" , referencedColumnName = "id")
     private Address address;
@@ -95,5 +98,13 @@ public class Patient {
 
     public void setId(Long id) {
         this.id = id;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 }

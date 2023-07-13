@@ -15,7 +15,7 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
 @SpringBootTest
 @AutoConfigureMockMvc
-public class DentistControllerTest {
+public class AdminControllerTest {
 
     @Autowired
     private MockMvc mvc;

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <script src="scripts/profile.js"></script>
+    <link rel="stylesheet" href="css/bulma.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="hero is-link is-small">
+        <div class="hero-body ">
+          <p class="title">
+            DentistX
+          </p>
+          <p class="subtitle">
+            (Back-end project)
+          </p>
+        </div>
+      </section>
+      <section class="container">
+      <div class="columns">
+        <div class="column">
+            <nav class="mt-4 breadcrumb" aria-label="breadcrumbs">
+                <ul>
+                  <li><a href="patient.html">Home</a></li>
+                  <li class="is-active"><a href="#" aria-current="page">My profile</a></li>
+                </ul>
+              </nav>
+            <img src="assets/blank-profile-picture-973460_960_720 (1).png" class="foton" alt="">
+            <aside class="menu">
+                <p class="menu-label">
+                  General
+                </p>
+                <ul class="menu-list">
+                    <li><a>Dashboard</a></li>
+                    <li><a>Preferences</a></li>
+                </ul>
+                <p class="menu-label">
+                  Administration
+                </p>
+                <ul class="menu-list">
+                  <li><a>Settings</a></li>
+                  <li>
+                      <a class="is-active">Edit profile</a>
+                      <ul>
+                      <li><a>Update your information</a></li>
+                      <li><a>Change password</a></li>
+                      <li><a>Change email</a></li>
+                    </ul>
+                </li>
+                </ul>
+                <p class="menu-label">
+                    Contact
+                </p>
+                <ul class="menu-list">
+                    <li><a>Report an issue</a></li>
+                    <li><a>Feedback</a></li>
+                </ul>
+              </aside>
+
+            </div>
+            <div class="column">
+              <h3 class="title is-3 mt-4">Update your information</h3>
+              <div class="field mt-6">
+                <label class="label">Name</label>
+                <div class="control">
+                  <input class="input nameInput ins" type="text" placeholder="John">
+                  <p class="help is-danger invisible-element invalidName">This field is obligatory</p>
+                </div>
+              </div>
+              
+              <div class="field ">
+                <label class="label">Surname</label>
+                <div class="control">
+                  <input class="input surnameInput ins" type="text" placeholder="Doe">
+                  <p class="help is-danger invisible-element invalidSurname">This field is obligatory</p>
+                </div>
+              </div>
+              <div class="field">
+                <label class="label">Id card</label>
+                <div class="control">
+                  <input class="input idCardInput" type="number" placeholder="123456789" onkeydown="javascript: return ['Backspace','Delete','ArrowLeft','ArrowRight'].includes(event.code) ? true : !isNaN(Number(event.key)) && event.code!=='Space'" >
+                  <p class="help is-danger invisible-element invalidIdCard">This field is obligatory</p>
+                </div>
+              </div>
+              <div class="field">
+                <label class="label">Street</label>
+                <div class="control">
+                  <input class="input streetInput ins" type="text" placeholder="Av. Cabildo">
+                  <p class="help is-danger invisible-element invalidStreet">This field is obligatory</p>
+                </div>
+              </div>
+              <button class="button save is-info">Save changes</button>
+            </div>
+        <div class="column">
+          <h3 class="title is-3 invisible-element mt-4">Update your information</h3>
+          <div class="field mt-6">
+            <label class="label">Street Number</label>
+            <div class="control">
+              <input class="input streetNmbInput" type="number" placeholder="2550" onkeydown="javascript: return ['Backspace','Delete','ArrowLeft','ArrowRight'].includes(event.code) ? true : !isNaN(Number(event.key)) && event.code!=='Space'" >
+              <p class="help is-danger invisible-element invalidStreetNmb">This field is obligatory</p>
+            </div>
+          </div>
+    
+          <div class="field">
+            <label class="label">City</label>
+            <div class="control">
+              <input class="input cityInput ins" type="text" placeholder="Palermo">
+              <p class="help is-danger invisible-element invalidCity">This field is obligatory</p>
+            </div>
+          </div>
+    
+          <div class="field">
+            <label class="label">State</label>
+            <div class="control">
+              <input class="input stateInput ins" type="text" placeholder="Buenos Aires">
+              <p class="help is-danger invisible-element invalidState">This field is obligatory</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+</body>
+</html>

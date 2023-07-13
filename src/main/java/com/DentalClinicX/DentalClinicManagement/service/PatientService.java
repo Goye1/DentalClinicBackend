@@ -144,6 +144,13 @@ public class PatientService {
         return new Patient(dischargedPatientMongo.getName(), dischargedPatientMongo.getSurname(), dischargedPatientMongo.getIdCard(), dischargedPatientMongo.getDischargeDate());
     }
 
+    public Patient findByEmail(String email) throws ResourceNotFoundException {
+        Patient patient = patientRepository.findByEmail(email);
+        if(patient == null){
+            throw new ResourceNotFoundException("User not found");
+        }
+        return patient;
+    }
 
 
     public Appointment addAppointment(AppointmentWrapper appointment) throws ResourceNotFoundException {

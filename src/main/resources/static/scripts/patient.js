@@ -1,5 +1,38 @@
+  
 window.addEventListener("load", function () {
+  
+  if (!this.sessionStorage.jwt || !this.sessionStorage.patient || sessionStorage.role == "ADMIN") {
+    location.replace('/login.html');
+    sessionStorage.clear();
+  }
+  const patient = JSON.parse(sessionStorage.getItem("patient"));
+  const token = this.sessionStorage.jwt;
 
+
+fetch("http://localhost:8080/patients/listAllDentists", {
+    method: "GET",
+    headers: {
+      "Authorization": `Bearer ${token}`
+    }
+  })
+  .then(response => response.json())
+  .then((data) => {
+      console.log("todo ok");
+  }).catch((e) => {
+      this.sessionStorage.clear();
+      this.location.replace("/login.html")
+  })
+
+
+  const navName = this.document.querySelector(".name");
+  navName.innerHTML = patient.name + " " + patient.surname
+
+
+  const signout = this.document.querySelector(".sign-out")
+  signout.onclick = () => {
+    this.sessionStorage.clear();
+  this.location.replace("/login.html")
+  }
 let myAppointments = document.querySelector(".myAppointments");
 let myAppointmentsContainer = document.querySelector(
   ".myFutureAppointmentsContainer"
@@ -46,7 +79,13 @@ function viewAppointments() {
   myAppointmentsContainer.classList.remove("invisible");
   futButton.classList.add("is-active");
   pastButton.classList.remove("is-active");
-  fetch("http://localhost:8080/patients/listAppointments?idCard=11")
+  console.log(token);
+  fetch("http://localhost:8080/patients/listAppointments?idCard=" + patient.idCard, {
+    method: "GET",
+    headers: {
+      "Authorization": `Bearer ${token}`
+    }
+  })
 .then((respuesta) => respuesta.json())
 .then((datos) => {
     let list = "";
@@ -112,7 +151,7 @@ pastButton.addEventListener("click", (event) => {
   pastButton.classList.add("is-active");
   futButton.classList.remove("is-active");
   appointmentList.innerHTML = "";
-  fetch("http://localhost:8080/patients/pastAppointments?idCard=11")
+  fetch("http://localhost:8080/patients/pastAppointments?idCard=" + patient.idCard)
     .then((response) => response.json())
     .then((datos) => {
       pastList = [];
@@ -169,7 +208,7 @@ findProffesionals.addEventListener("click", () => {
     if (searchQuery != "") {
       searchButton.classList.add("is-loading");
       noAppointmentsPro.classList.add("invisible");
-      fetch("http://localhost:8080/dentists/search?info=" + searchQuery)
+      fetch("http://localhost:8080/patients/searchDentist?info=" + searchQuery)
         .then((respuesta) => respuesta.json())
         .then((dentist) => {
           list = [];
@@ -215,7 +254,7 @@ findProffesionals.addEventListener("click", () => {
     noAppointments.innerHTML = "No dentist were found";
     dentistList.innerHTML = "";
     viewAllButton.classList.add("is-loading");
-    fetch("http://localhost:8080/dentists/listAll")
+    fetch("http://localhost:8080/patients/listAllDentists")
       .then((response) => 
         response.json())
       .then((dentist) => {
@@ -278,7 +317,7 @@ scheduleAppointment.addEventListener("click", (e) => {
  
 
     let dentistOptions = [];
-    fetch("http://localhost:8080/dentists/listAll")
+    fetch("http://localhost:8080/patients/listAllDentists")
       .then((response) => response.json())
       .then((dentist) => {
         dentist.forEach((dentist) => {
@@ -417,7 +456,7 @@ scheduleAppointment.addEventListener("click", (e) => {
       selectedOption = selectDentist.options[selectDentist.selectedIndex];
       selectedOptionLicenseNumber = selectedOption.value;
       fetch(
-        `http://localhost:8080/dentists/search?info=${selectedOptionLicenseNumber}`
+        `http://localhost:8080/patients/searchDentist?info=${selectedOptionLicenseNumber}`
       )
         .then((response) => response.json())
         .then((element) => {
@@ -432,7 +471,7 @@ scheduleAppointment.addEventListener("click", (e) => {
 
       let requestBody = {
         appointmentDate: dateToSend,
-        patient_id: 1,
+        patient_id: patient.id,
         dentist_id: sessionStorage.getItem("idToSend"),
         reason: selectedReason,
       };

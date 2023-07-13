@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DentistX</title>
+    <link rel="stylesheet" href="css/bulma.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="scripts/register.js"></script>
+</head>
+<body>
+
+  
+  <div class="columns mt-5">
+
+    <div class="column"></div>
+
+    
+    <div class="column is-two-fifths that holds box">
+
+        <div class="center mt-3">
+          <div class="center">
+            <p class="logo">DentistX</p>
+          </div>
+        </div>
+    
+        <div class="columns mr-3 ml-3 mb-3 mt-2">
+      <div class="column 1">
+    <div class="field">
+        <label class="label">Name</label>
+        <div class="control">
+          <input class="input nameInput ins" type="text" placeholder="John">
+          <p class="help is-danger invisible-element invalidName">This field is obligatory</p>
+        </div>
+      </div>
+      
+      <div class="field ">
+        <label class="label">Surname</label>
+        <div class="control">
+          <input class="input surnameInput ins" type="text" placeholder="Doe">
+          <p class="help is-danger invisible-element invalidSurname">This field is obligatory</p>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Email</label>
+        <div class="control">
+          <input class="input emailInput " type="text" placeholder="example@gmail.com">
+          <p class="help is-danger invisible-element invalidEmail">This field is obligatory</p>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Password</label>
+        <div class="control">
+          <input class="input passwordInput" type="password" placeholder="********">
+          <p class="help is-danger invisible-element invalidPass">This field is obligatory</p>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Repeat password</label>
+        <div class="control">
+          <input class="input repeatPasswordInput" type="password" placeholder="********">
+          <p class="help is-danger invisible-element invalidPassRep">This field is obligatory</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="field">
+        <label class="label">Id card</label>
+        <div class="control">
+          <input class="input idCardInput" type="number" placeholder="123456789" onkeydown="javascript: return ['Backspace','Delete','ArrowLeft','ArrowRight'].includes(event.code) ? true : !isNaN(Number(event.key)) && event.code!=='Space'" >
+          <p class="help is-danger invisible-element invalidIdCard">This field is obligatory</p>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Street</label>
+        <div class="control">
+          <input class="input streetInput ins" type="text" placeholder="Av. Cabildo">
+          <p class="help is-danger invisible-element invalidStreet">This field is obligatory</p>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Street Number</label>
+        <div class="control">
+          <input class="input streetNmbInput" type="number" placeholder="2550" onkeydown="javascript: return ['Backspace','Delete','ArrowLeft','ArrowRight'].includes(event.code) ? true : !isNaN(Number(event.key)) && event.code!=='Space'" >
+          <p class="help is-danger invisible-element invalidStreetNmb">This field is obligatory</p>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">City</label>
+        <div class="control">
+          <input class="input cityInput ins" type="text" placeholder="Palermo">
+          <p class="help is-danger invisible-element invalidCity">This field is obligatory</p>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">State</label>
+        <div class="control">
+          <input class="input stateInput ins" type="text" placeholder="Buenos Aires">
+          <p class="help is-danger invisible-element invalidState">This field is obligatory</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="columns ml-2 mr-2">
+        <div class="column ">
+          <button class="button is-info is-fullwidth registerButton">Register</button>
+            <div class="cons mt-2">
+          <a class="help is-link center quest" href="login.html">Already have an account? Log in.</a>
+            </div>
+        </div>
+    </div>
+
+   
+    
+  </div>
+  <div class="column"></div>
+    </div>
+    
+    
+</body>
+</html>
