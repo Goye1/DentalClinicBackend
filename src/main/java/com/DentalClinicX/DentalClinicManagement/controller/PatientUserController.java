@@ -2,7 +2,6 @@ package com.DentalClinicX.DentalClinicManagement.controller;
 import com.DentalClinicX.DentalClinicManagement.exceptions.AlreadyExistsException;
 import com.DentalClinicX.DentalClinicManagement.exceptions.ResourceNotFoundException;
 import com.DentalClinicX.DentalClinicManagement.model.dto.AppointmentDTO;
-import com.DentalClinicX.DentalClinicManagement.model.dto.DentistDTO;
 import com.DentalClinicX.DentalClinicManagement.model.wrapper.AppointmentWrapper;
 import com.DentalClinicX.DentalClinicManagement.persistance.entity.Dentist;
 import com.DentalClinicX.DentalClinicManagement.persistance.entityMongo.PastAppointmentMongo;
@@ -76,8 +75,8 @@ public class PatientUserController {
     }
 
     @GetMapping("/listAllDentists")
-    public ResponseEntity<List<DentistDTO>> listDentists() throws ResourceNotFoundException {
-        List<DentistDTO> serviceResponse = dentistService.listDentists();
+    public ResponseEntity<List<Dentist>> listDentists() throws ResourceNotFoundException {
+        List<Dentist> serviceResponse = dentistService.listDentists();
         return new ResponseEntity<>(serviceResponse,HttpStatus.OK);
     }
 

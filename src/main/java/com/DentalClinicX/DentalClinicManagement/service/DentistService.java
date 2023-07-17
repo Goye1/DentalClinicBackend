@@ -2,7 +2,6 @@ package com.DentalClinicX.DentalClinicManagement.service;
 import com.DentalClinicX.DentalClinicManagement.exceptions.AlreadyExistsException;
 import com.DentalClinicX.DentalClinicManagement.exceptions.ResourceNotFoundException;
 import com.DentalClinicX.DentalClinicManagement.model.dto.AppointmentDTO;
-import com.DentalClinicX.DentalClinicManagement.model.dto.DentistDTO;
 import com.DentalClinicX.DentalClinicManagement.persistance.entity.Appointment;
 import com.DentalClinicX.DentalClinicManagement.persistance.entity.Dentist;
 import com.DentalClinicX.DentalClinicManagement.persistance.repository.IDentistRepository;
@@ -28,14 +27,8 @@ public class DentistService {
         this.dentistRepository = dentistRepository;
     }
 
-    public List<DentistDTO> listDentists() throws ResourceNotFoundException {
-        List<DentistDTO> dentistDTOList = null;
-            List<Dentist> dentists = dentistRepository.findAll();
-            dentistDTOList = new ArrayList<>();
-            for (Dentist dentist : dentists) {
-                dentistDTOList.add(objectMapper.convertValue(dentist, DentistDTO.class));
-            }
-        return dentistDTOList;
+    public List<Dentist> listDentists() throws ResourceNotFoundException {
+        return dentistRepository.findAll();
     }
 
     public Dentist addDentist(Dentist dentist) throws ResourceNotFoundException {

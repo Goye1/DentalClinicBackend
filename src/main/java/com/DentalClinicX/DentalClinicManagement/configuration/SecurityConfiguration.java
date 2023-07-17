@@ -38,7 +38,9 @@ public class SecurityConfiguration {
                     auth.requestMatchers("/scripts/**").permitAll();
                     auth.requestMatchers("/css/**").permitAll();
                     auth.requestMatchers("/node_modules/**").permitAll();
+                    auth.requestMatchers("/appointment.html").permitAll();
                     auth.requestMatchers("/patient.html").permitAll();
+                    auth.requestMatchers("/dentist.html").permitAll();
                     auth.requestMatchers("/profile.html").permitAll();
                     auth.requestMatchers("/assets/**").permitAll();
                     auth.anyRequest().authenticated();

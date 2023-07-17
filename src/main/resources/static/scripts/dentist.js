@@ -1,28 +1,46 @@
-if (!this.sessionStorage.jwt || this.sessionStorage.role == "USER" ) {
-  location.replace('/login.html');
-}
-
 window.addEventListener("load", function () {
+  if (!this.sessionStorage.jwt || this.sessionStorage.role == "USER" ) {
+    location.replace('/login.html');
+    sessionStorage.clear();
+  }
+  const token = this.sessionStorage.jwt;
+
+       fetch("http://localhost:8080/admins/listAllPatients", {
+         method: "GET",
+         headers: {
+           "Authorization": `Bearer ${token}`
+         }
+       })
+         .then((response) =>
+          response.json())
+         .then(() => {
+         }).catch((e) => {
+          this.sessionStorage.clear();
+          this.location.replace("/login.html")
+         })
+
 const patientsButton = document.querySelector(".patientsButton");
 const dentistsButton = document.querySelector(".dentistsButton");
-const appointmentsButton = document.querySelector(".appointmentsButton");
 const addDentistButton = document.querySelector(".addDentistButton");
-
+const homeButton = document.querySelector(".homeButton");
+const logoHome = document.querySelector(".logoHome")
 
 const patientContainer = document.querySelector(".patientContainer");
 const dentistContainer = document.querySelector(".dentistContainer");
 const appointmentsContainer = document.querySelector(".appointmentsContainer");
 const addDentistContainer = document.querySelector(".addDentistContainer");
+const informationContainer = document.querySelector(".info");
 
-const makeInvisible = (e) => {
-    e.classList.remove("invisible");
-}
+
+
+logoHome.onclick = () => homeButton.click();
 
 patientsButton.onclick = function(){
   patientContainer.classList.remove("invisible");
   appointmentsContainer.classList.add("invisible")
   dentistContainer.classList.add("invisible");
-  addDentistContainer.classList.add("invisible")
+  addDentistContainer.classList.add("invisible");
+  informationContainer.classList.add("invisible");
     const searchButton = document.querySelector(".searchButton");
     const viewAllButton  = document.querySelector(".viewAllButton");
     const searchInput = document.querySelector(".searchInput");
@@ -48,7 +66,12 @@ patientsButton.onclick = function(){
           searchButton.classList.add("is-loading")
             patientList.innerHTML = "";
             patientResponse.classList.add("invisible");
-          fetch("http://localhost:8080/admin/searchPatient?info=" + searchQuery)
+          fetch("http://localhost:8080/admins/searchPatient?info=" + searchQuery, {
+            method: "GET",
+            headers: {
+              "Authorization": `Bearer ${token}`
+            }
+          })
             .then((response) => response.json())
             .then((patient) => {
               list = [];
@@ -119,7 +142,12 @@ viewAllButton.addEventListener("click",() => {
     let searchQuery = searchInput.value;
     viewAllButton.classList.add("is-loading");
     patientList.innerHTML = "";
-    fetch("http://localhost:8080/admin/listAllPatients")
+    fetch("http://localhost:8080/admins/listAllPatients", {
+      method: "GET",
+      headers: {
+        "Authorization": `Bearer ${token}`
+      }
+    })
       .then((response) =>
        response.json())
       .then((patient) => {
@@ -152,9 +180,11 @@ viewAllButton.addEventListener("click",() => {
           patientList.innerHTML = list;
         });
         if (list.length == 0) {
+          viewAllButton.classList.remove("is-loading");
             patientResponse.classList.remove("invisible");
             patientResponse.innerHTML = "No patients were found";
         } else {
+          viewAllButton.classList.remove("is-loading");
            viewLinksP = document.querySelectorAll(".view-linkP");
           viewLinksP.forEach((link) => {
             link.addEventListener("click",viewAppointments);
@@ -173,6 +203,7 @@ viewAllButton.addEventListener("click",() => {
 //DENTISTS
 
 dentistsButton.onclick = function(){
+  informationContainer.classList.add("invisible");
   appointmentsContainer.classList.add("invisible")
   patientContainer.classList.add("invisible");
   dentistContainer.classList.remove("invisible");
@@ -198,7 +229,12 @@ dentistsButton.onclick = function(){
       searchButtonDentist.classList.add("is-loading")
         dentistList.innerHTML = "";
         dentistResponse.classList.add("invisible");
-      fetch("http://localhost:8080/admin/searchDentist?info=" + searchQuery)
+      fetch("http://localhost:8080/admins/searchDentist?info=" + searchQuery, {
+        method: "GET",
+        headers: {
+          "Authorization": `Bearer ${token}`
+        }
+      })
         .then((response) => response.json())
         .then((dentist) => {
           list = [];
@@ -251,7 +287,12 @@ dentistsButton.onclick = function(){
     let viewLinks = [];
     dentistList.innerHTML = "";
     viewAllButtonDentist.classList.add("is-loading")
-    fetch("http://localhost:8080/admin/listAllDentists")
+    fetch("http://localhost:8080/admins/listAllDentists", {
+      method: "GET",
+      headers: {
+        "Authorization": `Bearer ${token}`
+      }
+    })
       .then((response) => 
         response.json())
       .then((dentist) => {
@@ -307,6 +348,7 @@ function viewAppointments(event){
   patientContainer.classList.add("invisible");
   dentistContainer.classList.add("invisible");
   addDentistContainer.classList.add("invisible")
+  informationContainer.classList.add("invisible");
   
   patientIdCard = event.target.parentNode.parentNode.getAttribute("value");
   futAppointments.addEventListener("click",viewFutAppointments)
@@ -319,7 +361,12 @@ function viewAppointments(event){
       futAppointments.classList.add("is-active");
       pastAppointments.classList.remove("is-active")
       appointmentList.innerHTML = "";
-    fetch(`http://localhost:8080/admin/listPatientAppointments?idCard=${patientIdCard}`)
+    fetch(`http://localhost:8080/admins/listPatientAppointments?idCard=${patientIdCard}`, {
+      method: "GET",
+      headers: {
+        "Authorization": `Bearer ${token}`
+      }
+    })
     .then((response) => response.json())
     .then((appointment) => {
       list = [];
@@ -355,7 +402,12 @@ function viewAppointments(event){
       futAppointments.classList.remove("is-active");
       pastAppointments.classList.add("is-active")
       appointmentList.innerHTML = "";
-        fetch(`http://localhost:8080/admin/pastAppointmentsPatient?idCard=${patientIdCard}`)
+        fetch(`http://localhost:8080/admins/pastAppointmentsPatient?idCard=${patientIdCard}`, {
+          method: "GET",
+          headers: {
+            "Authorization": `Bearer ${token}`
+          }
+        })
         .then((response) => response.json())
         .then((appointment) => {
           list = [];
@@ -406,7 +458,12 @@ function viewDentistAppointments(event){
     appointmentList.innerHTML = "";
       futAppointments.classList.add("is-active");
       pastAppointments.classList.remove("is-active")
-      fetch(`http://localhost:8080/admin/listDentistAppointments?licenseNumber=${dentistLicenseNumber}`)
+      fetch(`http://localhost:8080/admins/listDentistAppointments?licenseNumber=${dentistLicenseNumber}`, {
+        method: "GET",
+        headers: {
+          "Authorization": `Bearer ${token}`
+        }
+      })
       .then((response) => response.json())
       .then((appointment) => {
         list = [];
@@ -442,7 +499,12 @@ function viewDentistAppointments(event){
       futAppointments.classList.remove("is-active");
       pastAppointments.classList.add("is-active")
 
-      fetch(`http://localhost:8080/admin/pastAppointmentsDentist?licenseNumber=${dentistLicenseNumber}`)
+      fetch(`http://localhost:8080/admins/pastAppointmentsDentist?licenseNumber=${dentistLicenseNumber}`, {
+        method: "GET",
+        headers: {
+          "Authorization": `Bearer ${token}`
+        }
+      })
       .then((response) => response.json())
       .then((appointment) => {
         list = [];
@@ -474,6 +536,7 @@ function viewDentistAppointments(event){
 }
 
 addDentistButton.addEventListener("click", () => {
+  informationContainer.classList.add("invisible");
   patientContainer.classList.add("invisible");
   dentistContainer.classList.add("invisible");
   addDentistContainer.classList.remove("invisible");
@@ -528,14 +591,15 @@ addDentistButton.addEventListener("click", () => {
         invalidLicense.classList.add("invisible")
       }
       let requestBody = {
-        name: nameInput.value,
+        name: "Dr/a" + nameInput.value,
         surname: surnameInput.value,
         licenseNumber: licenseInput.value
       };
       if(name && surname && license){
-        fetch("http://localhost:8080/admin/add", {
+        fetch("http://localhost:8080/admins/add", {
           method: "POST",
           headers: {
+            "Authorization": `Bearer ${token}`,
             "Content-Type": "application/json",
           },
           body: JSON.stringify(requestBody)
@@ -557,4 +621,13 @@ addDentistButton.addEventListener("click", () => {
       }
     }
 })
+
+homeButton.onclick = function(){
+  patientContainer.classList.add("invisible");
+  appointmentsContainer.classList.add("invisible")
+  dentistContainer.classList.add("invisible");
+  addDentistContainer.classList.add("invisible");
+  informationContainer.classList.remove("invisible");
+}
+
 })

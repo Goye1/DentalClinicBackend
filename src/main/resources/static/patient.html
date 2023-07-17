@@ -12,7 +12,7 @@
 <body>
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-          <a class="navbar-item home" href="">
+          <a class="navbar-item logoHome" >
             <p class="logox">DentistX</p>
           </a>
       
@@ -25,7 +25,7 @@
       
         <div id="navbarBasicExample" class="navbar-menu">
           <div class="navbar-start">
-            <a class="navbar-item">
+            <a class="navbar-item homeButton">
               Home
             </a>
       
@@ -41,11 +41,11 @@
           </div>
       
           <div class="navbar-end">
-            <div class="navbar-item has-dropdown is-right is-hoverable">
+            <div class="navbar-item has-dropdown is-hoverable">
               <a class="navbar-link name">
                 
               </a>
-              <div class="navbar-dropdown">
+              <div class="navbar-dropdown is-right">
                 <a class="navbar-item sign-out">
                   Sign out
                 </a>
@@ -75,6 +75,74 @@
           </p>
         </div>
       </section>
+
+      <section class="container mt-5 info ">
+        <div class="columns">
+          <div class="column">
+              <div class="content">
+                  <h1>User functionalities</h1>
+                  <p>This is a dental clinic mock webpage, wich lets you create your own user account. This account lets 
+                    you manage all your appointments by being able to cancel, create and view them, both past and future. You can also
+                    search and view any proffessional. The appointments are created by selecting an existing dentist 
+                    from the database, this appointment is assigned to both the patient and the dentist. The account information
+                     can be modified in the edit profile section. Todo: Implement already made back-end 
+                     functionalities to the front.  
+                  </p>
+              </div>
+         
+
+              <div class="content">
+                <h1>Security</h1>
+                <p>The application security is made with the spring security dependency and the jjwt one. Each endpoint is protected and 
+                  can be accsesed only if you are authenticated and have the right role, if not you'll be redirected to the login page. Registered users are saved on the H2 database
+                  with their password encrypted. When you log in, you'll be redirected automatically to the right page depending wich role your account has.
+                 </p>
+              </div>
+              <div class="content mt-6 ">
+                <h1>Main technologies and dependecies used</h1>
+                <ul>
+                  <li>Java, IntelliJ</li>
+                  <li>H2 Database</li>
+                  <li>Junit</li>
+                  <li>Log4J</li>
+                  <li>Jwt</li>
+                  <li>Hibernate JPA</li>
+                  <li>Spring security</li>
+                  <li>Spring boot</li>
+                  <li>Vanilla JS</li>
+                  <li>Bulma CSS library</li>
+                </ul>
+              </div>   
+          </div>
+          <div class="column">
+            <div class="content">
+              <h1>Admin functionalities</h1>
+              <p>Users with admin role can view and search every existing patient and list all their future and past appointments. 
+                They can also add, view and search proffesionals and their future and past appointments. Todo: Implement already made back-end 
+                functionalities to the front.  
+              </p>
+            </div> 
+            <div class="content">
+              <h1>How its made</h1>
+              <p>This fullstack, back-end orientated project is based on the MVC pattern, meaning it works using various API Rest endpoints
+                each designed for a specific purpose. Entities are mapped to both Mongo and H2 using Hibernate JPA.
+                Appointments, once their date has passed, are removed from the relational database and passed onto the more 
+                light one, Mongo, the same with patients and their discharge date, this is made by a scheduler that is checking every
+                minute if any of them are past. Information is sent and recieved with DTOs and wrappers. It also has custom exceptions 
+                wich are handled and returned to the client with a global exception handler and a response entity.
+              </p>
+            </div>   
+          
+
+          </div>
+
+
+        </div>
+      </section>
+
+
+
+
       
       <section class="container myFutureAppointmentsContainer invisible">
         <div class="tabs is-centered options mb-0">
@@ -148,65 +216,6 @@
    
 
 
-      <section class="scheduleAppointmentContainer container invisible">
-        <div class="columns">
-          <div class="column">
-            <h3 class="title is-3 mt-4">Schedule appointment</h3>
-
-        <div class="field">
-          <label class="label mt-5">Email</label>
-          <div class="control ">
-            <input class="input emailInput" type="text" placeholder="example@gmail.com">
-          </div>
-          <p class="help is-danger invisible invalidEmail">Invalid email</p>
-        </div>
-        
-        <div class="field">
-          <label class="label">Dentist</label>
-          <div class="control">
-            <div class="select">
-              <select class="selectDentist">
-                <option class="defaultOption">Select dentist</option>
-              </select>
-            </div>
-          </div>
-          <p class="help is-danger invisible invalidDentist">This field is obligatory</p>
-        </div>
-        
-        <div class="field">
-          <div class="control ">
-          <label class="label">Date and time</label> 
-          <input type="date">
-          </div>
-          <p class="help is-danger invisible invalidDate">This field is obligatory</p>
-        </div>
-          
-        <div class="field">
-          <div class="control">
-          <label class="label mt-3">Reason</label> 
-          <textarea class="textarea no-resize reasonInput" rows="5"></textarea>
-        </div>
-        <p class="help is-danger invisible invalidReason">This field is obligatory</p>
-        </div>
-        
-        
-          <div class="field">
-            <a class="button is-info submitButton">
-            Schedule
-          </a>
-        </div>
-        
-          </div>
-          <div class="column m-5">
-            
-          </div>
-        </div>
-  
-
-
-       
-
-      </section>
       <script src="node_modules/bulma-calendar/dist/js/bulma-calendar.js"></script>
       <script src="scripts/patient.js"></script>
 

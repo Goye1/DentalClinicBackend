@@ -1,4 +1,5 @@
 package com.DentalClinicX.DentalClinicManagement.model.dto;
+import com.DentalClinicX.DentalClinicManagement.persistance.entity.Dentist;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import java.io.Serializable;
 import java.time.LocalDateTime;
@@ -6,7 +7,7 @@ import java.time.LocalDateTime;
 public class AppointmentDTO implements Serializable {
     private Long id;
     private PatientDTO patient;
-    private DentistDTO dentist;
+    private Dentist dentist;
     private LocalDateTime appointmentDate;
     private String reason;
 
@@ -37,11 +38,11 @@ public class AppointmentDTO implements Serializable {
         this.patient = patient;
     }
 
-    public DentistDTO getDentist() {
+    public Dentist getDentist() {
         return dentist;
     }
 
-    public void setDentist(DentistDTO dentist) {
+    public void setDentist(Dentist dentist) {
         this.dentist = dentist;
     }
 

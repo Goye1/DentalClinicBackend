@@ -5,7 +5,7 @@ window.addEventListener("load", function () {
     location.replace('/login.html');
     sessionStorage.clear();
   }
-  const patient = JSON.parse(sessionStorage.getItem("patient"));
+  const patientS = JSON.parse(sessionStorage.getItem("patient"));
   const token = this.sessionStorage.jwt;
 
 
@@ -16,16 +16,15 @@ fetch("http://localhost:8080/patients/listAllDentists", {
     }
   })
   .then(response => response.json())
-  .then((data) => {
-      console.log("todo ok");
-  }).catch((e) => {
+  .then(() => {
+  }).catch(() => {
       this.sessionStorage.clear();
       this.location.replace("/login.html")
   })
 
 
   const navName = this.document.querySelector(".name");
-  navName.innerHTML = patient.name + " " + patient.surname
+  navName.innerHTML = patientS.name + " " + patientS.surname
 
 
   const signout = this.document.querySelector(".sign-out")
@@ -33,39 +32,37 @@ fetch("http://localhost:8080/patients/listAllDentists", {
     this.sessionStorage.clear();
   this.location.replace("/login.html")
   }
-let myAppointments = document.querySelector(".myAppointments");
-let myAppointmentsContainer = document.querySelector(
-  ".myFutureAppointmentsContainer"
-);
+  
+  
+  
+  let findProffesionals = document.querySelector(".findProffesionals");
+  let findProffesionalsContainter = document.querySelector(
+    ".findProffesionalsContainter"
+    );
 
-let findProffesionals = document.querySelector(".findProffesionals");
-let findProffesionalsContainter = document.querySelector(
-  ".findProffesionalsContainter"
-);
+    let informationContainer = document.querySelector(".info");
+    const myAppointmentsContainer = document.querySelector(".myFutureAppointmentsContainer")
+    
+    let myAppointments = document.querySelector(".myAppointments");
+    const scheduleAppointment = document.querySelector(".scheduleAppointment");
 
-let scheduleAppointmentContainer = document.querySelector(
-  ".scheduleAppointmentContainer"
-);
-let scheduleAppointment = document.querySelector(".scheduleAppointment");
-
+let logoHome = this.document.querySelector(".logoHome")
+let homeButton = document.querySelector(".homeButton")
 let pastButton = document.querySelector(".pastAppointments");
 let futButton = document.querySelector(".futAppointments");
 let noAppointments = document.querySelector(".noAppointments");
 let addAppointment = document.querySelector(".addAppointment")
-
 let appointmentList = document.querySelector(".appointmentList");
 let list = [];
 let pastList = [];
 
-
-
-// MY APPOINTMENTS BUTTON
+logoHome.onclick = () => homeButton.click();
 
 // FUTURE APPOINTMENTS
 function viewAppointments() {
+  informationContainer.classList.add("invisible");
   findProffesionalsContainter.classList.add("invisible");
   myAppointmentsContainer.classList.remove("invisible");
-  scheduleAppointmentContainer.classList.add("invisible");
   appointmentList.innerHTML = "";
   noAppointments.innerHTML =
     `You dont have any upcoming appointments, click <strong class="addAppointment" style="cursor: pointer; text-decoration: none;">here</strong> to add one.`;
@@ -74,13 +71,14 @@ function viewAppointments() {
   addAppointmentLink.addEventListener("click", () => {
     scheduleAppointment.click();
   });
-  
+
   findProffesionalsContainter.classList.add("invisible");
   myAppointmentsContainer.classList.remove("invisible");
+
   futButton.classList.add("is-active");
   pastButton.classList.remove("is-active");
-  console.log(token);
-  fetch("http://localhost:8080/patients/listAppointments?idCard=" + patient.idCard, {
+  
+  fetch("http://localhost:8080/patients/listAppointments?idCard=" + patientS.idCard, {
     method: "GET",
     headers: {
       "Authorization": `Bearer ${token}`
@@ -125,7 +123,10 @@ function cancelAppointment(event) {
     const appointmentId = event.target.parentNode.parentNode.getAttribute("value");
   
     fetch(`http://localhost:8080/patients/deleteAppointment?id=${appointmentId}`, {
-        method: "DELETE"
+        method: "DELETE",
+        headers: {
+          "Authorization": `Bearer ${token}`
+        }
     })
     .then(response => {
         if (response.ok) {
@@ -151,7 +152,12 @@ pastButton.addEventListener("click", (event) => {
   pastButton.classList.add("is-active");
   futButton.classList.remove("is-active");
   appointmentList.innerHTML = "";
-  fetch("http://localhost:8080/patients/pastAppointments?idCard=" + patient.idCard)
+  fetch("http://localhost:8080/patients/pastAppointments?idCard=" + patientS.idCard, {
+    method: "GET",
+    headers: {
+      "Authorization": `Bearer ${token}`
+    }
+})
     .then((response) => response.json())
     .then((datos) => {
       pastList = [];
@@ -179,6 +185,14 @@ pastButton.addEventListener("click", (event) => {
     });
 });
 
+
+function vibrateInput() {        
+  searchInput.classList.add('vibrate');
+  
+  setTimeout(() => {
+    searchInput.classList.remove('vibrate');
+  }, 300);
+}
 const noAppointmentsPro = document.querySelector(".noAppointmentsPro");
 const searchInput = document.querySelector(".searchInput");
 const searchButton = document.querySelector(".searchButton");
@@ -186,20 +200,13 @@ const viewAllButton = document.querySelector(".viewAllButton");
 const dentistList = document.querySelector(".dentistList");
 
 
-function vibrateInput() {        
-  searchInput.classList.add('vibrate');
-
-  setTimeout(() => {
-      searchInput.classList.remove('vibrate');
-  }, 300);
-}
-
 
 // FIND DENTISTS
 findProffesionals.addEventListener("click", () => {
+  informationContainer.classList.add("invisible");
   myAppointmentsContainer.classList.add("invisible");
   findProffesionalsContainter.classList.remove("invisible");
-  scheduleAppointmentContainer.classList.add("invisible");
+
   let list = [];
   noAppointmentsPro.innerHTML = "Find any dentist.";
 
@@ -208,7 +215,12 @@ findProffesionals.addEventListener("click", () => {
     if (searchQuery != "") {
       searchButton.classList.add("is-loading");
       noAppointmentsPro.classList.add("invisible");
-      fetch("http://localhost:8080/patients/searchDentist?info=" + searchQuery)
+      fetch("http://localhost:8080/patients/searchDentist?info=" + searchQuery, {
+        method: "GET",
+        headers: {
+          "Authorization": `Bearer ${token}`
+        }
+    })
         .then((respuesta) => respuesta.json())
         .then((dentist) => {
           list = [];
@@ -227,6 +239,7 @@ findProffesionals.addEventListener("click", () => {
             dentistList.innerHTML = list;
           });
           if (list.length == 0) {
+            searchButton.classList.remove("is-loading");
             noAppointmentsPro.classList.remove("invisible");
             noAppointmentsPro.innerHTML = "No dentists were found";
           } else {
@@ -251,10 +264,16 @@ findProffesionals.addEventListener("click", () => {
 
   //VIEW ALL DENTIST
   viewAllButton.addEventListener("click", (e) => {
+
     noAppointments.innerHTML = "No dentist were found";
     dentistList.innerHTML = "";
     viewAllButton.classList.add("is-loading");
-    fetch("http://localhost:8080/patients/listAllDentists")
+    fetch("http://localhost:8080/patients/listAllDentists", {
+      method: "GET",
+      headers: {
+        "Authorization": `Bearer ${token}`
+      }
+  })
       .then((response) => 
         response.json())
       .then((dentist) => {
@@ -274,235 +293,39 @@ findProffesionals.addEventListener("click", () => {
           dentistList.innerHTML = list;
         });
         if (list.length == 0) {
+          viewAllButton.classList.remove("is-loading");
           noAppointmentsPro.classList.remove("invisible");
-          noAppointments.innerHTML = "No dentists were found";
+          noAppointmentsPro.innerHTML = "No dentists were found";
         } else {
           noAppointmentsPro.classList.add("invisible");
         }
-      }).catch(() => {
+      }).catch((e) => {
+        noAppointmentsPro.classList.remove("invisible");
         viewAllButton.classList.remove("is-loading");
         noAppointmentsPro.innerHTML = "Error trying to get the dentists"
       });
   });
 });
 
-// SCHEDULE AN APPOINTMENT
-
-
-
-
-let actualDate;
-scheduleAppointment.addEventListener("click", (e) => {
+homeButton.onclick = function(){
+  informationContainer.classList.remove("invisible");
   findProffesionalsContainter.classList.add("invisible");
   myAppointmentsContainer.classList.add("invisible");
-  scheduleAppointmentContainer.classList.remove("invisible");
-  let selectDentist = document.querySelector(".selectDentist");
-  let emailInput = document.querySelector(".emailInput");
-  let reasonInput = document.querySelector(".reasonInput");
+  scheduleAppointmentContainer.classList.add("invisible");
+}
 
+if(sessionStorage.getItem("redirected") == "yes"){
+  console.log("has sido redirigido !");
+  sessionStorage.setItem("redirected","no")
+  myAppointments.click();
+}else{
+  console.log("no has sido redigiragod");
+}
 
-  let selectedReason;
-  let submitButton = document.querySelector(".submitButton");
-  let invalidDentist = document.querySelector(".invalidDentist")
-
-  let emailState = false;
-  let reasonState = false;
-  let dentistState = false;
-  let dateState = false;
-  submitButton.innerHTML = "Schedule"
-  submitButton.classList.remove("is-success")
-  submitButton.classList.remove("is-danger")
-  submitButton.classList.add("is-info")
-  selectDentist.addEventListener("click", (e) => {
- 
-
-    let dentistOptions = [];
-    fetch("http://localhost:8080/patients/listAllDentists")
-      .then((response) => response.json())
-      .then((dentist) => {
-        dentist.forEach((dentist) => {
-          let dentistOptionRow = `
-          <option value="${dentist.licenseNumber}">Dr/a ${dentist.name} ${dentist.surname}</option>
-          `;
-          dentistOptions += dentistOptionRow;
-        });
-        selectDentist.innerHTML = dentistOptions;
-        if (dentistOptions.length == 0) {
-          selectDentist.innerHTML = `
-          <option>No dentist were found</option>
-          `;
-        }
-      }).catch(() => {
-        selectDentist.innerHTML = `
-          <option>Error trying to get the dentists</option>
-          `
-      })
-  });
-  var disabledDates = ["2023-06-15", "2023-06-20", "2023-06-25"];
-  var currentDate = new Date();
-
-
-  var calendars = bulmaCalendar.attach('[type="date"]', {
-    type: "datetime",
-    color: "info",
-    validateLabel: "Accept",
-    showTodayButton: false,
-    enableYearSwitch: false,
-    disabledDates: disabledDates,
-    disabledWeekDays: [6, 0],
-    showClearButton: false,
-  });
-
-
-  for (var i = 0; i < calendars.length; i++) {
-    calendars[i].on("select", (date) => {
-      actualDate = date.data.value();
-      validateDate();
-    });
-    calendars[i].on("clear", () => {
-      actualDate = undefined; 
-    })
-  }
-  var element = document.querySelector("#my-element");
-  if (element) {
-    element.bulmaCalendar.on("select", function (datepicker) {
-    });
-  }
-
-
-  function validateEmail(email) {
-    selectedEmail = email.value;
-    if (new RegExp("[a-z0-9]+@[a-z]+.[a-z]{2,3}").test(emailInput.value)) {
-      document.querySelector(".invalidEmail").classList.add("invisible");
-      emailState = true;
-    } else {
-      document.querySelector(".invalidEmail").classList.remove("invisible");
-      emailState = false;
-    }
-  }
-
-  function valideReason(reason) {
-    selectedReason = reason.value;
-    if (selectedReason.trim() !== "") {
-      document.querySelector(".invalidReason").classList.add("invisible");
-      reasonState = true;
-    } else {
-      document.querySelector(".invalidReason").classList.remove("invisible");
-      reasonState = false;
-    }
-  }
-
-  function validateSelect(){
-    var selectedValue = selectDentist.options[selectDentist.selectedIndex].value;
-    if (selectedValue != "Select dentist" && selectedValue != "No dentist were found"){
-      invalidDentist.classList.add("invisible");
-      dentistState = true;
-    }else{
-      invalidDentist.classList.remove("invisible");
-      dentistState = false;
-    }
-  }
-
-  emailInput.onchange = function () {
-    validateEmail(emailInput);
-  };
-
-  
-  selectDentist.onblur = function(){
-    validateSelect();
-  }
-
-  function validateDate(){
-      if(actualDate != undefined){
-        document.querySelector(".invalidDate").classList.add("invisible")
-        dateState = true;
-      }else{
-        document.querySelector(".invalidDate").classList.remove("invisible")
-        dateState = false;
-      }
-  }
-
-
-
-  // FORMAT DATE--------------------------------
-  function formatDate(dateString) {
-    var parts = dateString.split(" ");
-    var datePart = parts[0];
-    var timePart = parts[1];
-
-    var dateParts = datePart.split("/");
-    var month = dateParts[0];
-    var day = dateParts[1];
-    var year = dateParts[2];
-
-    var formattedDate = year + "-" + month + "-" + day + "T" + timePart + ":00";
-
-    return formattedDate;
-  }
-  //--------------------------------
-  //SUBMIT FORM-------------------------
-
-  submitButton.addEventListener("click", (e) => {
-    validateEmail(emailInput);
-    valideReason(reasonInput);
-    validateSelect();
-    validateDate();
-    
-
-    if (emailState && reasonState && dentistState && dateState) {
-      submitButton.classList.add("is-loading");
-      let selectedOptionLicenseNumber;
-      selectedDentist = selectDentist.value;
-      selectedOption = selectDentist.options[selectDentist.selectedIndex];
-      selectedOptionLicenseNumber = selectedOption.value;
-      fetch(
-        `http://localhost:8080/patients/searchDentist?info=${selectedOptionLicenseNumber}`
-      )
-        .then((response) => response.json())
-        .then((element) => {
-          sessionStorage.setItem("idToSend", element[0].id);
-        })
-        .catch(() => {
-          submitButton.classList.remove("is-loading");
-        });
-
-      let url = "http://localhost:8080/patients/addAppointment";
-      let dateToSend = formatDate(actualDate);
-
-      let requestBody = {
-        appointmentDate: dateToSend,
-        patient_id: patient.id,
-        dentist_id: sessionStorage.getItem("idToSend"),
-        reason: selectedReason,
-      };
-
-      fetch(url, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(requestBody),
-      })
-        .then((response) => response.json())
-        .then((data) => {
-          setTimeout(() => {
-            submitButton.classList.add("is-success")
-            submitButton.innerHTML = "Scheduled succesfully, redirecting."
-            submitButton.classList.remove("is-loading");
-        }, 1500);
-        
-        setTimeout(() => {
-          myAppointments.click();
-      }, 4000);
-        })
-        .catch((error) => {
-          submitButton.classList.remove("is-loading");
-          submitButton.classList.add("is-danger")
-          submitButton.innerHTML = "Error trying to schedule"
-
-        });
-      sessionStorage.clear;
-    }
-  });
+window.addEventListener("beforeunload", function() {
+  sessionStorage.setItem("redirected","no");
 });
+
+scheduleAppointment.onclick = () => this.location.replace("/appointment.html")
+
 })
