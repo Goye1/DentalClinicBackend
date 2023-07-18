@@ -1,5 +1,4 @@
 package com.DentalClinicX.DentalClinicManagement.configuration;
-
 import com.DentalClinicX.DentalClinicManagement.persistance.repository.IUserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;

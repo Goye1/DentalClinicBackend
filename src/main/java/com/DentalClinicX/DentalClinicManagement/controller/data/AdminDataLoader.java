@@ -1,18 +1,11 @@
 package com.DentalClinicX.DentalClinicManagement.controller.data;
-
-import com.DentalClinicX.DentalClinicManagement.persistance.entity.Address;
 import com.DentalClinicX.DentalClinicManagement.persistance.entity.Dentist;
-import com.DentalClinicX.DentalClinicManagement.persistance.entity.Role;
-import com.DentalClinicX.DentalClinicManagement.persistance.entity.User;
-import com.DentalClinicX.DentalClinicManagement.persistance.repository.IAddressRepository;
-import com.DentalClinicX.DentalClinicManagement.persistance.repository.IAppointmentRepository;
-import com.DentalClinicX.DentalClinicManagement.persistance.repository.IUserRepository;
 import com.DentalClinicX.DentalClinicManagement.service.AuthenticationService;
 import com.DentalClinicX.DentalClinicManagement.service.DentistService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
-import org.springframework.security.crypto.password.PasswordEncoder;
+
 import org.springframework.stereotype.Component;
 
 @RequiredArgsConstructor

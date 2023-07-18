@@ -539,6 +539,7 @@ addDentistButton.addEventListener("click", () => {
   informationContainer.classList.add("invisible");
   patientContainer.classList.add("invisible");
   dentistContainer.classList.add("invisible");
+  appointmentsContainer.classList.add("invisible")
   addDentistContainer.classList.remove("invisible");
 
     let nameInput = document.querySelector(".nameInput");
@@ -591,7 +592,7 @@ addDentistButton.addEventListener("click", () => {
         invalidLicense.classList.add("invisible")
       }
       let requestBody = {
-        name: "Dr/a" + nameInput.value,
+        name: "Dr/a " + nameInput.value,
         surname: surnameInput.value,
         licenseNumber: licenseInput.value
       };
