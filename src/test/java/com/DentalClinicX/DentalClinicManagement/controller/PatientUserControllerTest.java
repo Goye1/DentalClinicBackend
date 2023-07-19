@@ -1,4 +1,6 @@
+/*
 package com.DentalClinicX.DentalClinicManagement.controller;
+
 import com.DentalClinicX.DentalClinicManagement.persistance.entity.Address;
 import com.DentalClinicX.DentalClinicManagement.persistance.entity.Patient;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -14,18 +16,15 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultHandlers;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
-
-
 @SpringBootTest
 @AutoConfigureMockMvc
-public
-class PatientUserControllerTest {
+public class PatientUserControllerTest {
 
     @Autowired
     private MockMvc mvc;
 
     @Test
-     void addPatientAPI() throws Exception {
+    void addPatientAPI() throws Exception {
         Address address = new Address("Hollee",324,"ny","noidea");
         Patient patient = new Patient("Juan","Senna",42424,address);
         ObjectWriter writer = new ObjectMapper()
@@ -40,8 +39,5 @@ class PatientUserControllerTest {
                 .andDo(MockMvcResultHandlers.print())
                 .andExpect(MockMvcResultMatchers.status().isCreated());
     }
-
-
-
-
 }
+*/

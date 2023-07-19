@@ -245,7 +245,7 @@ window.addEventListener("load", function () {
 
           registerButton.classList.add("is-success");
           sessionStorage.setItem("email",payload.email)
-          setTimeout(() => location.replace("/login.html"),3200)
+          setTimeout(() => location.replace("/login.html"),2200)
         })
         .catch(() => {
           registerButton.classList.remove("is-loading");

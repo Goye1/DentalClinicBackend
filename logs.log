@@ -14442,3 +14442,13 @@ org.hibernate.PropertyValueException: not-null property references a null or tra
 [2023-07-17 22:15:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-17
 [2023-07-17 22:16:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-17T22:16:00.010438800
 [2023-07-17 22:16:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-17
+[2023-07-19 19:23:05] [ INFO ] [LoggerConfig:39] A new dentist named: Dr John Sturgeon has been added.
+[2023-07-19 20:12:24] [ INFO ] [LoggerConfig:39] A new dentist named: Dr John Sturgeon has been added.
+[2023-07-19 20:12:51] [ INFO ] [LoggerConfig:72] A new patient named: afaf faf has been added.
+[2023-07-19 20:13:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T20:13:00.007735300
+[2023-07-19 20:13:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 20:13:45] [ INFO ] [LoggerConfig:117] The patient afafdfafd faf has been modified
+[2023-07-19 20:14:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T20:14:00.006494600
+[2023-07-19 20:14:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 20:47:56] [ INFO ] [LoggerConfig:39] A new dentist named: Dr John Sturgeon has been added.
+[2023-07-19 20:49:55] [ INFO ] [LoggerConfig:39] A new dentist named: Dr John Sturgeon has been added.
