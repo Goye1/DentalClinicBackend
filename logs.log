@@ -14452,3 +14452,6 @@ org.hibernate.PropertyValueException: not-null property references a null or tra
 [2023-07-19 20:14:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
 [2023-07-19 20:47:56] [ INFO ] [LoggerConfig:39] A new dentist named: Dr John Sturgeon has been added.
 [2023-07-19 20:49:55] [ INFO ] [LoggerConfig:39] A new dentist named: Dr John Sturgeon has been added.
+[2023-07-19 22:08:54] [ INFO ] [LoggerConfig:39] A new dentist named: Dr John Sturgeon has been added.
+[2023-07-19 22:09:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T22:09:00.009253700
+[2023-07-19 22:09:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
