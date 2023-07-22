@@ -14455,3 +14455,225 @@ org.hibernate.PropertyValueException: not-null property references a null or tra
 [2023-07-19 22:08:54] [ INFO ] [LoggerConfig:39] A new dentist named: Dr John Sturgeon has been added.
 [2023-07-19 22:09:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T22:09:00.009253700
 [2023-07-19 22:09:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 22:28:33] [ INFO ] [LoggerConfig:39] A new dentist named: Dr John Sturgeon has been added.
+[2023-07-19 22:29:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T22:29:00.009850100
+[2023-07-19 22:29:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 22:34:15] [ INFO ] [LoggerConfig:39] A new dentist named: Dr John Sturgeon has been added.
+[2023-07-19 22:34:35] [ INFO ] [LoggerConfig:39] A new dentist named: Dr/a Juan Goye has been added.
+[2023-07-19 22:35:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T22:35:00.016220500
+[2023-07-19 22:35:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 22:35:45] [ INFO ] [LoggerConfig:72] A new patient named: bfa fkn has been added.
+[2023-07-19 22:36:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T22:36:00.007513600
+[2023-07-19 22:36:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 22:38:28] [ INFO ] [LoggerConfig:39] A new dentist named: Dr/a John Sturgeon has been added.
+[2023-07-19 22:38:45] [ INFO ] [LoggerConfig:72] A new patient named: fa ada has been added.
+[2023-07-19 22:39:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T22:39:00.009614500
+[2023-07-19 22:39:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 22:39:26] [ INFO ] [LoggerConfig:39] A new dentist named: Dr/a Juan Papas has been added.
+[2023-07-19 22:40:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T22:40:00.004199600
+[2023-07-19 22:40:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 22:41:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T22:41:00.005839900
+[2023-07-19 22:41:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 22:42:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T22:42:00.000931400
+[2023-07-19 22:42:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 22:42:32] [ INFO ] [LoggerConfig:39] A new dentist named: Dr/a John Sturgeon has been added.
+[2023-07-19 22:43:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T22:43:00.005313900
+[2023-07-19 22:43:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 22:43:08] [ INFO ] [LoggerConfig:72] A new patient named: rqrn fsn has been added.
+[2023-07-19 22:43:34] [ ERROR] [LoggerConfig:38] 
+[2023-07-19 22:43:38] [ INFO ] [LoggerConfig:39] A new dentist named: Dr/a aafaf fjs has been added.
+[2023-07-19 22:44:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T22:44:00.010054300
+[2023-07-19 22:44:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 22:44:55] [ INFO ] [LoggerConfig:39] A new dentist named: Dr/a John Sturgeon has been added.
+[2023-07-19 22:45:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T22:45:00.008756600
+[2023-07-19 22:45:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 22:45:13] [ INFO ] [LoggerConfig:72] A new patient named: fsfs sdfsfd has been added.
+[2023-07-19 22:45:27] [ INFO ] [LoggerConfig:39] A new dentist named: Dr/a zd fdfds has been added.
+[2023-07-19 22:46:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T22:46:00.010843
+[2023-07-19 22:46:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 22:47:05] [ INFO ] [LoggerConfig:39] A new dentist named: Dr/a John Sturgeon has been added.
+[2023-07-19 22:47:22] [ INFO ] [LoggerConfig:72] A new patient named: fafa afafaf has been added.
+[2023-07-19 22:47:26] [ INFO ] [LoggerConfig:39] A new dentist named: Dr/a faaf afqef has been added.
+[2023-07-19 22:47:29] [ ERROR] [LoggerConfig:27] A dentist with 3123 license number already exists
+[2023-07-19 22:48:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T22:48:00.003784800
+[2023-07-19 22:48:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 22:49:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T22:49:00.005958400
+[2023-07-19 22:49:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 22:50:15] [ INFO ] [LoggerConfig:39] A new dentist named: Dr/a John Sturgeon has been added.
+[2023-07-19 22:51:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T22:51:00.005006100
+[2023-07-19 22:51:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 22:52:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T22:52:00.002985300
+[2023-07-19 22:52:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 22:53:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T22:53:00.004315900
+[2023-07-19 22:53:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 22:54:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T22:54:00.004907
+[2023-07-19 22:54:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 22:55:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T22:55:00.007344400
+[2023-07-19 22:55:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 22:56:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T22:56:00.009857800
+[2023-07-19 22:56:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 22:57:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T22:57:00.014038600
+[2023-07-19 22:57:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 22:58:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T22:58:00.013066700
+[2023-07-19 22:58:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 22:59:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T22:59:00.001123800
+[2023-07-19 22:59:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:00:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:00:00.006369600
+[2023-07-19 23:00:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:01:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:01:00.005106500
+[2023-07-19 23:01:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:02:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:02:00.014573500
+[2023-07-19 23:02:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:02:07] [ INFO ] [LoggerConfig:72] A new patient named: dada da has been added.
+[2023-07-19 23:02:26] [ INFO ] [LoggerConfig:39] A new dentist named: Dr/a fa faaf has been added.
+[2023-07-19 23:03:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:03:00.001677
+[2023-07-19 23:03:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:04:08] [ INFO ] [LoggerConfig:39] A new dentist named: Dr/a John Sturgeon has been added.
+[2023-07-19 23:05:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:05:00.006796100
+[2023-07-19 23:05:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:05:35] [ INFO ] [LoggerConfig:72] A new patient named: dad daad has been added.
+[2023-07-19 23:05:56] [ INFO ] [LoggerConfig:39] A new dentist named: Dr/a fa fa has been added.
+[2023-07-19 23:06:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:06:00.009942600
+[2023-07-19 23:06:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:08:44] [ INFO ] [LoggerConfig:39] A new dentist named: Dr/a John Sturgeon has been added.
+[2023-07-19 23:09:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:09:00.009546600
+[2023-07-19 23:09:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:09:06] [ INFO ] [LoggerConfig:72] A new patient named: Manue Goye has been added.
+[2023-07-19 23:09:19] [ INFO ] [LoggerConfig:39] A new dentist named: Dr/a ad adada has been added.
+[2023-07-19 23:10:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:10:00.002947900
+[2023-07-19 23:10:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:11:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:11:00.004453800
+[2023-07-19 23:11:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:12:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:12:00.015236900
+[2023-07-19 23:12:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:13:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:13:00.005335800
+[2023-07-19 23:13:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:14:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:14:00.002869700
+[2023-07-19 23:14:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:14:59] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:14:59.999825600
+[2023-07-19 23:15:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:16:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:16:00.007922900
+[2023-07-19 23:16:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:17:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:17:00.001119900
+[2023-07-19 23:17:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:18:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:18:00.005310600
+[2023-07-19 23:18:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:19:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:19:00.000024900
+[2023-07-19 23:19:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:20:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:20:00.011218900
+[2023-07-19 23:20:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:21:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:21:00.002902600
+[2023-07-19 23:21:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:22:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:22:00.012715800
+[2023-07-19 23:22:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:23:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:23:00.014782400
+[2023-07-19 23:23:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:24:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:24:00.013377300
+[2023-07-19 23:24:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:25:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:25:00.001391100
+[2023-07-19 23:25:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:26:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:26:00.004213800
+[2023-07-19 23:26:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:26:59] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:26:59.999998
+[2023-07-19 23:27:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:28:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:28:00.010701500
+[2023-07-19 23:28:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:29:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:29:00.003162600
+[2023-07-19 23:29:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:30:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:30:00.008601400
+[2023-07-19 23:30:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:31:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:31:00.012117100
+[2023-07-19 23:31:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:32:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:32:00.006479300
+[2023-07-19 23:32:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:33:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:33:00.010509400
+[2023-07-19 23:33:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:34:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:34:00.015107300
+[2023-07-19 23:34:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:35:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:35:00.008570800
+[2023-07-19 23:35:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:36:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:36:00.006639100
+[2023-07-19 23:36:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:37:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:37:00.003229
+[2023-07-19 23:37:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:38:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:38:00.010070400
+[2023-07-19 23:38:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:39:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:39:00.007911600
+[2023-07-19 23:39:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:40:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:40:00.004534300
+[2023-07-19 23:40:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:41:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:41:00.014936700
+[2023-07-19 23:41:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-19 23:42:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-19T23:42:00.009048
+[2023-07-19 23:42:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-19
+[2023-07-21 21:14:01] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-21T21:14:01.386885900
+[2023-07-21 21:14:01] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-21
+[2023-07-21 21:15:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-21T21:15:00.004525100
+[2023-07-21 21:15:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-21
+[2023-07-21 21:16:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-21T21:16:00.000823
+[2023-07-21 21:16:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-21
+[2023-07-21 21:17:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-21T21:17:00.004035200
+[2023-07-21 21:17:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-21
+[2023-07-21 21:18:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-21T21:18:00.012917100
+[2023-07-21 21:18:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-21
+[2023-07-21 21:19:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-21T21:19:00.010277200
+[2023-07-21 21:19:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-21
+[2023-07-21 21:20:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-21T21:20:00.006027600
+[2023-07-21 21:20:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-21
+[2023-07-21 21:21:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-21T21:21:00.013316300
+[2023-07-21 21:21:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-21
+[2023-07-21 21:30:07] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-21T21:30:07.719164100
+[2023-07-21 21:30:07] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-21
+[2023-07-21 21:31:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-21T21:31:00.006070600
+[2023-07-21 21:31:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-21
+[2023-07-22 18:44:29] [ INFO ] [LoggerConfig:39] A new dentist named: Dr/a John Sturgeon has been added.
+[2023-07-22 18:44:42] [ INFO ] [LoggerConfig:72] A new patient named: Manue Goye has been added.
+[2023-07-22 18:45:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-22T18:45:00.000377600
+[2023-07-22 18:45:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-22
+[2023-07-22 18:45:27] [ INFO ] [LoggerConfig:39] A new dentist named: Dr/a Juan Ferro has been added.
+[2023-07-22 18:46:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-22T18:46:00.010877600
+[2023-07-22 18:46:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-22
+[2023-07-22 18:47:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-22T18:47:00.009109300
+[2023-07-22 18:47:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-22
+[2023-07-22 18:48:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-22T18:48:00.003961900
+[2023-07-22 18:48:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-22
+[2023-07-22 18:49:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-22T18:49:00.010452800
+[2023-07-22 18:49:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-22
+[2023-07-22 18:50:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-22T18:50:00.014696900
+[2023-07-22 18:50:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-22
+[2023-07-22 18:51:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-22T18:51:00.009183500
+[2023-07-22 18:51:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-22
+[2023-07-22 18:52:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-22T18:52:00.013949600
+[2023-07-22 18:52:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-22
+[2023-07-22 18:53:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-22T18:53:00.002259900
+[2023-07-22 18:53:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-22
+[2023-07-22 18:54:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-22T18:54:00.010916700
+[2023-07-22 18:54:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-22
+[2023-07-22 18:55:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-22T18:55:00.014088700
+[2023-07-22 18:55:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-22
+[2023-07-22 18:56:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-22T18:56:00.005799200
+[2023-07-22 18:56:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-22
+[2023-07-22 18:57:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-22T18:57:00.003193700
+[2023-07-22 18:57:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-22
+[2023-07-22 18:58:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-22T18:58:00.007584500
+[2023-07-22 18:58:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-22
+[2023-07-22 18:59:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-22T18:59:00.007498500
+[2023-07-22 18:59:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-22
+[2023-07-22 19:00:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-22T19:00:00.009529700
+[2023-07-22 19:00:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-22
+[2023-07-22 19:01:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-22T19:01:00.015776800
+[2023-07-22 19:01:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-22
+[2023-07-22 19:02:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-22T19:02:00.011072900
+[2023-07-22 19:02:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-22
+[2023-07-22 19:03:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-22T19:03:00.012401200
+[2023-07-22 19:03:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-22
+[2023-07-22 19:04:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-22T19:04:00.010363
+[2023-07-22 19:04:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-22
+[2023-07-22 19:05:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-22T19:05:00.004363500
+[2023-07-22 19:05:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-22
+[2023-07-22 19:06:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-22T19:06:00.005431500
+[2023-07-22 19:06:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-22
+[2023-07-22 19:07:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-22T19:07:00.002454500
+[2023-07-22 19:07:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-22
+[2023-07-22 19:08:00] [ INFO ] [LoggerConfig:31] Processing appointments. 2023-07-22T19:08:00.005010700
+[2023-07-22 19:08:00] [ INFO ] [LoggerConfig:31] processing patients. 2023-07-22

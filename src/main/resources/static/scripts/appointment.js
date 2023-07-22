@@ -45,10 +45,6 @@ window.onload = function(){
   submitButton.classList.add("is-info")
 
 
-
-  selectDentist.addEventListener("click", (e) => {
- 
-
     let dentistOptions = [];
     fetch("http://localhost:8080/patients/listAllDentists", {
       method: "GET",
@@ -75,7 +71,7 @@ window.onload = function(){
           <option>Error trying to get the dentists</option>
           `
       })
-  });
+
   var disabledDates = ["2023-06-15", "2023-06-20", "2023-06-25"];
   var currentDate = new Date();
 
@@ -130,25 +126,13 @@ window.onload = function(){
     }
   }
 
-  function validateSelect(){
-    var selectedValue = selectDentist.options[selectDentist.selectedIndex].value;
-    if (selectedValue != "Select dentist" && selectedValue != "No dentist were found"){
-      invalidDentist.classList.add("invisible");
-      dentistState = true;
-    }else{
-      invalidDentist.classList.remove("invisible");
-      dentistState = false;
-    }
-  }
+  
 
   emailInput.onchange = function () {
     validateEmail(emailInput);
   };
 
   
-  selectDentist.onblur = function(){
-    validateSelect();
-  }
 
   function validateDate(){
       if(actualDate != undefined){
@@ -183,9 +167,8 @@ window.onload = function(){
   submitButton.addEventListener("click", (e) => {
     validateEmail(emailInput);
     valideReason(reasonInput);
-    validateSelect();
     validateDate();
-    
+    dentistState = true;
 
     if (emailState && reasonState && dentistState && dateState) {
       submitButton.classList.add("is-loading");

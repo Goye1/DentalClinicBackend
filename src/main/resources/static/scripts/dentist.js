@@ -31,7 +31,11 @@ const appointmentsContainer = document.querySelector(".appointmentsContainer");
 const addDentistContainer = document.querySelector(".addDentistContainer");
 const informationContainer = document.querySelector(".info");
 
-
+const signout = this.document.querySelector(".sign-out")
+signout.onclick = () => {
+  this.sessionStorage.clear();
+this.location.replace("/login.html")
+}
 
 logoHome.onclick = () => homeButton.click();
 
@@ -541,16 +545,17 @@ addDentistButton.addEventListener("click", () => {
   dentistContainer.classList.add("invisible");
   appointmentsContainer.classList.add("invisible")
   addDentistContainer.classList.remove("invisible");
-
-    let nameInput = document.querySelector(".nameInput");
-    let surnameInput = document.querySelector(".surnameInput");
+  
+  let nameInput = document.querySelector(".nameInput");
+  let surnameInput = document.querySelector(".surnameInput");
     let licenseInput = document.querySelector(".licenseInput");
     const submitButton = document.querySelector(".submitButton");
     const invalidName = document.querySelector(".invalidName");
     const invalidSurname = document.querySelector(".invalidSurname");
     const invalidLicense = document.querySelector(".invalidLicense");
     const alreadyExists = document.querySelector(".alreadyExists");
-
+    
+    submitButton.innerHTML = "Add dentist";
     nameInput.value = "";
     surnameInput.value = "";
     licenseInput.value = "";

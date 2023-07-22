@@ -28,7 +28,7 @@ public class AdminDataLoader implements ApplicationRunner {
                         .password("admin1234")
                         .build());
 
-        dentistService.addDentist(new Dentist("Dr John","Sturgeon",214235));
+        dentistService.addDentist(new Dentist("Dr/a John","Sturgeon",214235));
 
         }
     }
